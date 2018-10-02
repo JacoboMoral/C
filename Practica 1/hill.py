@@ -37,7 +37,7 @@ def main():
     f = open("2018_09_10_12_57_11_jacobo.moral.Hill", "r")
     cypheredText = f.read()
     trigramas = getTrigramas()
-    inverseKey = np.array([[ 5, 7 ,8], [ 2, 16 ,9], [ 4, 15 ,20]])
+    inverseKey = np.array([[5, 7, 8], [2, 16, 9], [4, 15, 20]])
     text = ""
 
     for i in range(0,len(cypheredText),3):
