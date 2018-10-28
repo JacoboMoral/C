@@ -102,6 +102,7 @@ def GF_invers(a):
 def main():
     GF_tables()
 
+    print(GF_generador())
     #GF product p(a,0x02) vs GF product t(a,0x02)
     GF_product_p_x(2)
     GF_product_t_x(2)
