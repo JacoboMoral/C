@@ -1,4 +1,5 @@
 import time
+import random
 
 tableOfExp = [None]*256
 tableOfLog = [None]*256
@@ -70,15 +71,25 @@ def GF_product_t(a, b):
 
 @timing
 def GF_product_p_x(x):
-    for i in range (1,5000000):
+    for i in range (0,5000000):
         GF_product_p(i%256,x)
     return
 
 @timing
 def GF_product_t_x(x):
-    for i in range (1,5000000):
+    for i in range (0,5000000):
         GF_product_t(i%256,x)
     return
+
+@timing
+def GF_product_t_vs():
+    for i in range (0, 5000000):
+        GF_product_t(random.randint(0,255), random.randint(0,255))
+
+@timing
+def GF_product_p_vs():
+    for i in range (0, 5000000):
+        GF_product_t(random.randint(0,255), random.randint(0,255))
 
 
 def GF_generador():
@@ -102,29 +113,35 @@ def GF_invers(a):
 def main():
     GF_tables()
 
-    print(GF_generador())
-    #GF product p(a,0x02) vs GF product t(a,0x02)
+    #print(GF_generador())
+
+    #GF_product_p vs GF_product_t
+    GF_product_p_vs()
+    GF_product_t_vs()
+
+    #GF_product_p(a,0x02) vs GF_product_t(a,0x02)
     GF_product_p_x(2)
     GF_product_t_x(2)
 
-    #GF product p(a,0x03) vs GF product t(a,0x03)
+    #GF_product_p(a,0x03) vs GF_product_t(a,0x03)
     GF_product_p_x(3)
     GF_product_t_x(3)
 
-    #GF product p(a,0x09) vs GF product t(a,0x09)
+    #GF_product_p(a,0x09) vs GF_product_t(a,0x09)
     GF_product_p_x(9)
     GF_product_t_x(9)
 
-    #GF product p(a,0x0B) vs GF product t(a,0x0B)
+    #GF_product_p(a,0x0B) vs GF_product_t(a,0x0B)
     GF_product_p_x(11)
     GF_product_t_x(11)
 
-    #GF product p(a,0x0D) vs GF product t(a,0x0D)
+    #GF_product_p(a,0x0D) vs GF_product_t(a,0x0D)
     GF_product_p_x(13)
     GF_product_t_x(13)
 
-    #GF product p(a,0x0E) vs GF product t(a,0x0E)
+    #GF_product_p(a,0x0E) vs GF_product_t(a,0x0E)
     GF_product_p_x(15)
     GF_product_t_x(15)
+
 
 main()

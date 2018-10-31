@@ -201,7 +201,6 @@ class AES(object):
         assert len(plaintext) == 16
 
         plain_state = bytes2matrix(plaintext)
-
         add_round_key(plain_state, self._key_matrices[0])
 
         for i in range(0, len(plaintext), 16):
@@ -246,18 +245,15 @@ class AES(object):
         assert len(iv) == 16
 
         plaintext = pad(plaintext)
-
         blocks = []
         previous = iv
         # Splits in 16-byte parts.
         for i in range(0, len(plaintext), 16):
             plaintext_block = plaintext[i:i+16]
-            escriuBloc(-1,plaintext_block)
             # CBC mode encrypt: encrypt(plaintext_block XOR previous)
             block = self.encrypt_block(xor_bytes(plaintext_block, previous))
             blocks.append(block)
             previous = block
-            escriuBloc(i,block)
 
         return b''.join(blocks)
 
@@ -312,7 +308,6 @@ def encrypt(key, plaintext, workload=100000):
         key = key.encode('utf-8')
     if isinstance(plaintext, str):
         plaintext = plaintext.encode('utf-8')
-
     salt = os.urandom(SALT_SIZE)
     key, hmac_key, iv = get_key_iv(key, salt, workload)
     ciphertext = AES(key).encrypt_cbc(plaintext, iv)
@@ -349,28 +344,31 @@ def decrypt(key, ciphertext, workload=100000):
     return AES(key).decrypt_cbc(ciphertext, iv)
 
 
-def escriuBlocs(blocs):
-    #blocs es un array de blocs de 16 bytes (128 bits) en format binari
-    for i in range(0, len(blocs)):
-        print(len(blocs))
-        #bloc = blocs(i)
-        #escriuBloc(bloc)
-
-
 def escriuBloc(i, bloc):
     if i >= 0:
         print("Bloc numero: " + str(i//16))
     #bloc es un bloc de 16 bytes (128 bits)
     hexNumber = bloc.hex()
-    i = 1
-    for h in hexNumber:
-        print(h, end='')
-        if (i%2 == 0 and i%8 != 0):
-            print(" ", end='')
-        if(i%8 == 0):
-            print()
-        i = i + 1;
-    print()
+    matriu = [[0 for x in range(4)] for y in range(4)]
+
+    #print(hexNumber)
+    for i in range(4):
+        for j in range(4):
+            matriu[j][i] = hexNumber[i*8+j*2] + hexNumber[i*8+j*2+1];
+
+    #print (matriu)
+    for i in range(4):
+        for j in range(4):
+            print(matriu[i][j], end=' ')
+        print()
+    # for h in hexNumber:
+    #     print(h, end='')
+    #     if (i%2 == 0 and i%8 != 0):
+    #         print(" ", end='')
+    #     if(i%8 == 0):
+    #         print()
+    #     i = i + 1;
+    # print()
     #print(bloc.hex(), end='')
     #print(bloc.hex())
 

@@ -1,5 +1,5 @@
 # source:  https://github.com/boppreh/aes/blob/master/aes.py
-
+from random import randint
 s_box = (
     0x63, 0x7C, 0x77, 0x7B, 0xF2, 0x6B, 0x6F, 0xC5, 0x30, 0x01, 0x67, 0x2B, 0xFE, 0xD7, 0xAB, 0x76,
     0xCA, 0x82, 0xC9, 0x7D, 0xFA, 0x59, 0x47, 0xF0, 0xAD, 0xD4, 0xA2, 0xAF, 0x9C, 0xA4, 0x72, 0xC0,
@@ -153,6 +153,9 @@ class AES(object):
         #9 iteracions + 1 fora en el cas de AES-128
         for i in range(0, self.n_rounds-1, 1):
             sub_bytes(plain_state)
+            #print("matriu estat abans de shift rows:")
+            #escriuBloc(-1,matrix2bytes(plain_state))
+            #print()
             shift_rows(plain_state)
             mix_columns(plain_state)
             add_round_key(plain_state, self._key_matrices[i])
@@ -160,6 +163,7 @@ class AES(object):
         sub_bytes(plain_state)
         shift_rows(plain_state)
         add_round_key(plain_state, self._key_matrices[-1])
+
         return matrix2bytes(plain_state)
 
     def encrypt_cbc(self, plaintext, iv):
@@ -172,7 +176,6 @@ class AES(object):
         plaintext = pad(plaintext)
         blocks = []
         previous = iv
-
         plaintext_block = plaintext[0:16]
         # CBC mode encrypt: encrypt(plaintext_block XOR previous)
         block = self.encrypt_block(xor_bytes(plaintext_block, previous))
@@ -209,12 +212,6 @@ def encrypt(key, plaintext, workload=100000):
     and PBKDF2 to stretch the given key.
     The exact algorithm is specified in the module docstring.
     """
-
-#----------------------------------descomentar per veure com canvia la key o el missatge per cada encrypt -----------
-    #print(bytes2matrix(key))
-    #print(bytes2matrix(plaintext))
-
-
     if isinstance(key, str):
         key = key.encode('utf-8')
     if isinstance(plaintext, str):
@@ -247,97 +244,55 @@ def escriuBloc(i, bloc):
             print(matriu[i][j], end=' ')
         print()
 
+def emplenaRandom(bloc):
+    #nomes emplena blocs de 4x4
+    for i in range(4):
+        bloc[i][0] = randint(0,255)
+        bloc[i][1] = randint(0,255)
+        bloc[i][2] = randint(0,255)
+        bloc[i][3] = randint(0,255)
+
 def canviaLetraString(string, index, lletra):
     string = list(string)
     string[index] = lletra
     return("".join(string))
 
-def countSetBits(n):
-    count = 0
-    while (n):
-        count += n & 1
-        n >>= 1
-    return count
+
+def canviabit(num, index):
+    numBinari = format(num,'08b')
+    b = numBinari[index]
+    if (b == "0"):
+        b = "1"
+    else:
+        b = "0"
+    numeroEnBinari = canviaLetraString(numBinari, index, b)
+    return int(numeroEnBinari,base=2)
+
+def exercici():
+    key = 91988770966827344886319470096581337551
+    key = key.to_bytes(16, byteorder='big', signed=True)
+    missatgeBloc = [[None]*4 for _ in range(4)]
+
+    for l in range(100):
+        emplenaRandom(missatgeBloc)
+        print(missatgeBloc)
+        missatgeBlocOriginal = missatgeBloc
+        encryptedFile = encrypt(key, matrix2bytes(missatgeBloc))
+        for j in range(4):
+            for i in range(4):
+                print("num: " + str(missatgeBloc[i][j]))
+                print(format(missatgeBloc[i][j],'08b'))
+                for k in range(8):
+                    missatgeBloc = missatgeBlocOriginal
+                    num = canviabit(missatgeBloc[i][j],k)
+                    missatgeBloc[i][j] = num
+                    encryptedFile = encrypt(key, matrix2bytes(missatgeBloc))
+                    print("bit: " + str(k))
+                    print(num)
+                    #print("bloc despres de xifrar")
+                    #escriuBloc(-1,encryptedFile)
 
 
-def bitsDifference(bytes1, bytes2):
-    countDifference = 0
-    for i in range(16):
-        num1 = bytes1[i]
-        num2 = bytes2[i]
-        countDifference = countDifference + countSetBits((num1^num2))
-
-    return countDifference
-
-def nombreTotalBitsCanviats(key, missatge):
-#canviarem cadascun dels 128 bits del missatge inicial x vegades i farem la mitjana del nombre
-#de bits que canvien a la sortida per a cadascun d'aquests canvis.
-
-#pre: el missatge ha de ser de 128 de longitut. El format es un array multidimensional 4x4. No es comprova a la funcio
-    matriuMissatge = bytes2matrix(missatge)
-    matriuKey = bytes2matrix(key)
-    histogramaMissatge = [0] * 128
-    histogramaKey = [0] * 128
-    resultatSenseCanvis = encrypt(key, missatge)
-
-    #canviant bit de missatge
-    for j in range(4):
-        for i in range (4):
-            numeroEnBinari = format(matriuMissatge[i][j],'08b')
-            numeroEnBinariOriginal = numeroEnBinari
-            for k in range(8):
-                numeroEnBinari = numeroEnBinariOriginal
-                b = numeroEnBinari[k]
-                if (b == "0"):
-                    b = "1"
-                else:
-                    b = "0"
-                numeroEnBinari = canviaLetraString(numeroEnBinari, k, b)
-
-                #print(int(numeroEnBinariOriginal,base=2) - int(numeroEnBinari,base=2))
-                #comprovacio que nomes canvia 1: el print sempre dona una potencia de 2 perque nomes queda un 1 a la resta
-
-                matriuMissatge[i][j] = int(numeroEnBinari,base=2) #substituim el numero amb el bit canviat a la matriu
-                bitsCanviatsAverage = 0
-                l = 0
-                for l in range (10):
-                    resultatBitCanviat = encrypt(key, matrix2bytes(matriuMissatge))
-                    bitsCanviats = bitsDifference(resultatBitCanviat, resultatSenseCanvis)
-                    bitsCanviatsAverage = bitsCanviatsAverage + bitsCanviats
-                bitsCanviatsAverage = bitsCanviatsAverage/(l+1)
-                numBit = 127-(j*32+i*8+k)
-                #print("bit #" + str(numBit) + ": " + str(bitsCanviatsAverage))
-                histogramaMissatge[numBit] = bitsCanviatsAverage
-
-    #canviant bit de key
-    for j in range(4):
-        for i in range (4):
-            keyEnBinari = format(matriuKey[i][j],'08b')
-            keyEnBinariOriginal = keyEnBinari
-
-            for k in range(8):
-                keyEnBinari = keyEnBinariOriginal
-                b = numeroEnBinari[k]
-                if (b == "0"):
-                    b = "1"
-                else:
-                    b = "0"
-                keyEnBinari = canviaLetraString(keyEnBinari, k, b)
-
-                #print(int(numeroEnBinariOriginal,base=2) - int(numeroEnBinari,base=2))
-                #comprovacio que nomes canvia 1: el print sempre dona una potencia de 2 perque nomes queda un 1 a la resta
-
-                matriuKey[i][j] = int(keyEnBinari,base=2) #substituim el numero amb el bit canviat a la matriu
-                bitsCanviatsAverage = 0
-                for l in range (10):
-                    resultatBitCanviat = encrypt(matrix2bytes(matriuKey), matrix2bytes(matriuMissatge))
-                    bitsCanviats = bitsDifference(resultatBitCanviat, resultatSenseCanvis)
-                    bitsCanviatsAverage = bitsCanviatsAverage + bitsCanviats
-                bitsCanviatsAverage = bitsCanviatsAverage/(l+1)
-                numBit = 127-(j*32+i*8+k)
-                histogramaKey[numBit] = bitsCanviatsAverage
-
-    return histogramaMissatge, histogramaKey
 
 def main():
 
@@ -347,6 +302,8 @@ def main():
     # 6c 75 61 73
     # 61 65 6c 74
     # 'hola que tal est'
+
+    exercici()
     print("bloc de text inicial en bytes:")
     bytesBloc = matrix2bytes(listBloc)
     escriuBloc(-1,bytesBloc)
@@ -354,15 +311,10 @@ def main():
     print()
     key = 91988770966827344886319470096581337551
     key = key.to_bytes(16, byteorder='big', signed=True)
+    encryptedFile = encrypt(key, bytesBloc)
 
-    arrayBitsCanviatsPerMissatge, arrayBitsCanviatsPerKey = nombreTotalBitsCanviats(key, bytesBloc)
-    print("nombre de bits canviats segons el bit canviat (0:127) del missatge original respecte a cap bit canviat:")
-    print(arrayBitsCanviatsPerMissatge)
-    print()
-    print("nombre de bits canviats segons el bit canviat (0:127) de la key original respecte a cap bit canviat:")
-    print(arrayBitsCanviatsPerKey)
-    #encryptedFile = encrypt(key, bytesBloc)
-    #escriuBloc(-1,encryptedFile)
+    print("bloc despres de xifrar")
+    escriuBloc(-1,encryptedFile)
 
 
 main()
