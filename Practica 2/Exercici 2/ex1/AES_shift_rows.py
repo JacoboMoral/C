@@ -25,10 +25,9 @@ def sub_bytes(s):
             s[i][j] = s_box[s[i][j]]
 
 
+#no fa res, deixa el bloc s tal qual estava
 def shift_rows(s):
-    s[0][1], s[1][1], s[2][1], s[3][1] = s[1][1], s[2][1], s[3][1], s[0][1]
-    s[0][2], s[1][2], s[2][2], s[3][2] = s[2][2], s[3][2], s[0][2], s[1][2]
-    s[0][3], s[1][3], s[2][3], s[3][3] = s[3][3], s[0][3], s[1][3], s[2][3]
+    return
 
 
 def add_round_key(s, k):
@@ -153,9 +152,6 @@ class AES(object):
         #9 iteracions + 1 fora en el cas de AES-128
         for i in range(0, self.n_rounds-1, 1):
             sub_bytes(plain_state)
-            #print("matriu estat abans de shift rows:")
-            #escriuBloc(-1,matrix2bytes(plain_state))
-            #print()
             shift_rows(plain_state)
             mix_columns(plain_state)
             add_round_key(plain_state, self._key_matrices[i])
@@ -229,20 +225,34 @@ def encrypt(key, plaintext, workload=100000):
 def escriuBloc(i, bloc):
     if i >= 0:
         print("Bloc numero: " + str(i//16))
+
     #bloc es un bloc de 16 bytes (128 bits)
     hexNumber = bloc.hex()
     matriu = [[0 for x in range(4)] for y in range(4)]
 
-    #print(hexNumber)
     for i in range(4):
         for j in range(4):
             matriu[j][i] = hexNumber[i*8+j*2] + hexNumber[i*8+j*2+1];
 
-    #print (matriu)
     for i in range(4):
         for j in range(4):
             print(matriu[i][j], end=' ')
         print()
+
+def escriuBlocFile(file, bloc, missatge):
+    #bloc es un bloc de 16 bytes (128 bits)
+    hexNumber = bloc.hex()
+    matriu = [[0 for x in range(4)] for y in range(4)]
+
+    for i in range(4):
+        for j in range(4):
+            matriu[j][i] = hexNumber[i*8+j*2] + hexNumber[i*8+j*2+1];
+    file.write(missatge + "\n")
+    for i in range(4):
+        for j in range(4):
+            file.write(str(matriu[i][j]) + " ")
+        file.write("\n")
+    file.write("\n")
 
 def emplenaRandom(bloc):
     #nomes emplena blocs de 4x4
@@ -268,53 +278,35 @@ def canviabit(num, index):
     numeroEnBinari = canviaLetraString(numBinari, index, b)
     return int(numeroEnBinari,base=2)
 
+#Canviem la funcio ShiftRows per la identitat. Quins efectes te aquest canvi al xifrar un bloc?
+#(Xifreu diferents M i els corresponents Mi amb la mateixa clau K i compareu C amb Ci.)
 def exercici():
     key = 91988770966827344886319470096581337551
     key = key.to_bytes(16, byteorder='big', signed=True)
     missatgeBloc = [[None]*4 for _ in range(4)]
+    file = open("shift_rows.txt","w")
+    print("Escrivint ...")
 
-    for l in range(100):
+    #generem 10 missatges aleatoris de mida d'un bloc
+    for l in range(10):
         emplenaRandom(missatgeBloc)
-        print(missatgeBloc)
-        missatgeBlocOriginal = missatgeBloc
         encryptedFile = encrypt(key, matrix2bytes(missatgeBloc))
-        for j in range(4):
-            for i in range(4):
-                print("num: " + str(missatgeBloc[i][j]))
-                print(format(missatgeBloc[i][j],'08b'))
+        escriuBlocFile(file,encryptedFile,"bloc original numero # " + str(l+1) + "encriptat: \n")
+        for i in range(4):
+            for j in range(4):
+                originalValue = missatgeBloc[i][j]
                 for k in range(8):
-                    missatgeBloc = missatgeBlocOriginal
                     num = canviabit(missatgeBloc[i][j],k)
                     missatgeBloc[i][j] = num
                     encryptedFile = encrypt(key, matrix2bytes(missatgeBloc))
-                    print("bit: " + str(k))
-                    print(num)
-                    #print("bloc despres de xifrar")
-                    #escriuBloc(-1,encryptedFile)
+                    missatge = "#"+str(l+1) + " bloc encriptat despres de canviar el bit numero " + str(127-i*32-j*8-k)
+                    escriuBlocFile(file,encryptedFile,missatge+"\n")
+                    missatgeBloc[i][j] = originalValue
 
 
-
+#exercici 2.1.2
 def main():
 
-    listBloc = [[104, 111, 108, 97], [32, 113, 117, 101], [32, 116, 97, 108], [32, 101, 115, 116]]
-    # 68 20 20 20
-    # 6f 71 74 65
-    # 6c 75 61 73
-    # 61 65 6c 74
-    # 'hola que tal est'
-
     exercici()
-    print("bloc de text inicial en bytes:")
-    bytesBloc = matrix2bytes(listBloc)
-    escriuBloc(-1,bytesBloc)
-    print()
-    print()
-    key = 91988770966827344886319470096581337551
-    key = key.to_bytes(16, byteorder='big', signed=True)
-    encryptedFile = encrypt(key, bytesBloc)
-
-    print("bloc despres de xifrar")
-    escriuBloc(-1,encryptedFile)
-
 
 main()
