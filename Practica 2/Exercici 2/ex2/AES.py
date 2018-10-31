@@ -269,8 +269,10 @@ def bitsDifference(bytes1, bytes2):
 
     return countDifference
 
+
+#2.2.1
 def nombreTotalBitsCanviats(key, missatge):
-#canviarem cadascun dels 128 bits del missatge inicial x vegades i farem la mitjana del nombre
+#canviarem cadascun dels 128 bits del missatge inicial (o key) x vegades i farem la mitjana del nombre
 #de bits que canvien a la sortida per a cadascun d'aquests canvis.
 
 #pre: el missatge ha de ser de 128 de longitut. El format es un array multidimensional 4x4. No es comprova a la funcio
@@ -280,7 +282,7 @@ def nombreTotalBitsCanviats(key, missatge):
     histogramaKey = [0] * 128
     resultatSenseCanvis = encrypt(key, missatge)
 
-    #canviant bit de missatge
+    #2.2.1 canviant bit de missatge
     for j in range(4):
         for i in range (4):
             numeroEnBinari = format(matriuMissatge[i][j],'08b')
@@ -305,11 +307,11 @@ def nombreTotalBitsCanviats(key, missatge):
                     bitsCanviats = bitsDifference(resultatBitCanviat, resultatSenseCanvis)
                     bitsCanviatsAverage = bitsCanviatsAverage + bitsCanviats
                 bitsCanviatsAverage = bitsCanviatsAverage/(l+1)
-                numBit = 127-(j*32+i*8+k)
+                numBit = 127-(j*32+i*8+k) #numbit es el numero de bit que hem canviat del missatge/key original
                 #print("bit #" + str(numBit) + ": " + str(bitsCanviatsAverage))
                 histogramaMissatge[numBit] = bitsCanviatsAverage
 
-    #canviant bit de key
+    #2.2.1canviant bit de key
     for j in range(4):
         for i in range (4):
             keyEnBinari = format(matriuKey[i][j],'08b')
@@ -334,9 +336,97 @@ def nombreTotalBitsCanviats(key, missatge):
                     bitsCanviats = bitsDifference(resultatBitCanviat, resultatSenseCanvis)
                     bitsCanviatsAverage = bitsCanviatsAverage + bitsCanviats
                 bitsCanviatsAverage = bitsCanviatsAverage/(l+1)
-                numBit = 127-(j*32+i*8+k)
+                numBit = 127-(j*32+i*8+k) #numbit es el numero de bit que hem canviat del missatge/key original
                 histogramaKey[numBit] = bitsCanviatsAverage
 
+    return histogramaMissatge, histogramaKey
+
+
+def bitsCanviats(bytes1, bytes2):
+    canviats = [0]*128
+    for i in range(16):
+        num1 = bytes1[15-i]
+        num2 = bytes2[15-i]
+        diff = num1^num2
+        bits = format(diff,'08b')
+        for j in range(8):
+            if (bits[j] == '1'):
+                canviats[i*8+(7-j)] = canviats[i]+1
+    return canviats
+
+def addArrays(array1, array2):
+#pre: les dues matrius han de ser de la mateixa mida
+    result = [0]*len(array1)
+    for i in range(len(array1)):
+        result[i] = array1[i] + array2[i]
+    return result
+
+
+#2.2.2
+def quinsBitsCanviats(key, missatge):
+#canviarem cadascun dels 128 bits del missatge inicial (o key) x vegades i mirarem quins son els bits del
+#missatge final que mes vegades canvien
+
+#pre: el missatge ha de ser de 128 de longitut. El format es un array multidimensional 4x4. No es comprova a la funcio
+    matriuMissatge = bytes2matrix(missatge)
+    matriuKey = bytes2matrix(key)
+    histogramaMissatge = [0] * 128
+    histogramaKey = [0] * 128
+    resultatSenseCanvis = encrypt(key, missatge)
+
+    #2.2.2 canviant bit de missatge
+    for j in range(4):
+        for i in range (4):
+            numeroEnBinari = format(matriuMissatge[i][j],'08b')
+            numeroEnBinariOriginal = numeroEnBinari
+            for k in range(8):
+                numeroEnBinari = numeroEnBinariOriginal
+                b = numeroEnBinari[k]
+                if (b == "0"):
+                    b = "1"
+                else:
+                    b = "0"
+                numeroEnBinari = canviaLetraString(numeroEnBinari, k, b)
+
+                #print(int(numeroEnBinariOriginal,base=2) - int(numeroEnBinari,base=2))
+                #comprovacio que nomes canvia 1: el print sempre dona una potencia de 2 perque nomes queda un 1 a la resta
+
+                matriuMissatge[i][j] = int(numeroEnBinari,base=2) #substituim el numero amb el bit canviat a la matriu
+                bitsCanviatsAverage = 0
+                l = 0
+                for l in range (1):
+                    resultatBitCanviat = encrypt(key, matrix2bytes(matriuMissatge))
+                    canviats = bitsCanviats(resultatBitCanviat,resultatSenseCanvis)
+                numBit = 127-(j*32+i*8+k) #numbit es el numero de bit que hem canviat del missatge/key original
+                #print("bit #" + str(numBit) + ": " + str(bitsCanviatsAverage))
+                histogramaMissatge = addArrays(histogramaMissatge,canviats)
+
+    #2.2.2 canviant bit de key
+    for j in range(4):
+        for i in range (4):
+            numeroEnBinari = format(matriuKey[i][j],'08b')
+            numeroEnBinariOriginal = numeroEnBinari
+            for k in range(8):
+                numeroEnBinari = numeroEnBinariOriginal
+                b = numeroEnBinari[k]
+                if (b == "0"):
+                    b = "1"
+                else:
+                    b = "0"
+                numeroEnBinari = canviaLetraString(numeroEnBinari, k, b)
+
+                #print(int(numeroEnBinariOriginal,base=2) - int(numeroEnBinari,base=2))
+                #comprovacio que nomes canvia 1: el print sempre dona una potencia de 2 perque nomes queda un 1 a la resta
+
+                matriuKey[i][j] = int(numeroEnBinari,base=2) #substituim el numero amb el bit canviat a la matriu
+                bitsCanviatsAverage = 0
+                l = 0
+                for l in range (1):
+                    resultatBitCanviat = encrypt(matrix2bytes(matriuKey), matrix2bytes(matriuMissatge))
+                    canviats = bitsCanviats(resultatBitCanviat,resultatSenseCanvis)
+                numBit = 127-(j*32+i*8+k) #numbit es el numero de bit que hem canviat del missatge/key original
+                #print("bit #" + str(numBit) + ": " + str(bitsCanviatsAverage))
+                histogramaKey = addArrays(histogramaKey,canviats)
     return histogramaMissatge, histogramaKey
 
 def main():
@@ -355,14 +445,15 @@ def main():
     key = 91988770966827344886319470096581337551
     key = key.to_bytes(16, byteorder='big', signed=True)
 
-    arrayBitsCanviatsPerMissatge, arrayBitsCanviatsPerKey = nombreTotalBitsCanviats(key, bytesBloc)
-    print("nombre de bits canviats segons el bit canviat (0:127) del missatge original respecte a cap bit canviat:")
-    print(arrayBitsCanviatsPerMissatge)
-    print()
-    print("nombre de bits canviats segons el bit canviat (0:127) de la key original respecte a cap bit canviat:")
-    print(arrayBitsCanviatsPerKey)
-    #encryptedFile = encrypt(key, bytesBloc)
-    #escriuBloc(-1,encryptedFile)
+    # arrayBitsCanviatsPerMissatge, arrayBitsCanviatsPerKey = nombreTotalBitsCanviats(key, bytesBloc)
+    # print("nombre de bits canviats segons el bit canviat (0:127) del missatge original respecte a cap bit canviat:")
+    # print(arrayBitsCanviatsPerMissatge)
+    # print()
+    # print("nombre de bits canviats segons el bit canviat (0:127) de la key original respecte a cap bit canviat:")
+    # print(arrayBitsCanviatsPerKey)
 
+    arrayBitsCanviatsPerMissatge, arrayBitsCanviatsPerKey = quinsBitsCanviats(key, bytesBloc)
+    print(arrayBitsCanviatsPerMissatge)
+    print(arrayBitsCanviatsPerKey)
 
 main()
