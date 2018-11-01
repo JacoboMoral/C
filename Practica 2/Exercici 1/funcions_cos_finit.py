@@ -1,6 +1,7 @@
 import time
 import random
 
+#taules com a variables globals sinizialitzen a GF_tables()
 tableOfExp = [None]*256
 tableOfLog = [None]*256
 
@@ -15,20 +16,17 @@ def timing(f):
 
 
 def GF_product_p(a, b):
-    r = 0
-    raux = 0
-    aaux = 0
-    baux = 0
-    xor = 0
+    result, resultaux, aaux, baux, xor =\
+    0, 0, 0, 0, 0
+
     for i in range(8):
         if b & 1 == 1:
-            raux = r & 255
+            resultaux = result & 255
             aaux = a & 255
-            xor = raux ^ aaux
-            #print ("1raux: " + str(raux))
+            xor = resultaux ^ aaux
             #print ("1aaux: " + str(aaux))
             #print ("1xor: " + str(xor))
-            r = xor
+            result = xor
         msb = a & 128   #128 = 0x80
         aaux = a & 255
         aaux = aaux << 1
@@ -47,13 +45,14 @@ def GF_product_p(a, b):
         #print ("2baux: " + str(baux))
         b = baux
         #print ("1b: " + str(b))
-    return r
+    return result
 
 def GF_tables():
     global tableOfExp
     global tableOfLog
 
     tableOfExp[0] = 1;
+    
     for i in range (1,256):
         tableOfExp[i] = GF_product_p(tableOfExp[i-1], 3) #no fa falta calcular potencies a cada posicio perque basta amb calcular el nombre de la posicio anterior per 3
         tableOfLog[tableOfExp[i-1] & 255] = (i-1)
@@ -62,7 +61,7 @@ def GF_tables():
 def GF_product_t(a, b):
     #print("a&255: " + str(a&255))
     #print("b&255: " + str(b&255))
-    if a == 0 or b == 0:
+    if a == 0 or b == 0:  #qualsevol a o b multiplicat per 0 retorna 0
         return 0
     pos = (tableOfLog[a & 255] & 255) + (tableOfLog[b & 255] & 255)
     if(pos > 255):
