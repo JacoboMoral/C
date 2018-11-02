@@ -19,8 +19,13 @@ s_box = (
     0x8C, 0xA1, 0x89, 0x0D, 0xBF, 0xE6, 0x42, 0x68, 0x41, 0x99, 0x2D, 0x0F, 0xB0, 0x54, 0xBB, 0x16,
 )
 
-def sub_bytes(s):
+def sub_bytes_identitat(s):
     return
+
+def sub_bytes(s):
+    for i in range(4):
+        for j in range(4):
+            s[i][j] = s_box[s[i][j]]
 
 
 def shift_rows(s):
@@ -161,6 +166,29 @@ class AES(object):
 
         return matrix2bytes(plain_state)
 
+    def encrypt_block_byte_sub_identitat(self, plaintext):
+        """
+        Encrypts a single block of 16 byte long plaintext.
+        """
+        assert len(plaintext) == 16
+
+        plain_state = bytes2matrix(plaintext)
+        add_round_key(plain_state, self._key_matrices[0])
+
+        #el codi original nomes feia 1 iteracio en aquest bucle i una altra fora, en comptes de
+        #9 iteracions + 1 fora en el cas de AES-128
+        for i in range(0, self.n_rounds-1, 1):
+            sub_bytes_identitat(plain_state)
+            shift_rows(plain_state)
+            mix_columns(plain_state)
+            add_round_key(plain_state, self._key_matrices[i])
+
+        sub_bytes_identitat(plain_state)
+        shift_rows(plain_state)
+        add_round_key(plain_state, self._key_matrices[-1])
+
+        return matrix2bytes(plain_state)
+
     def encrypt_cbc(self, plaintext, iv):
         """
         Encrypts `plaintext` using CBC mode and PKCS#7 padding, with the given
@@ -174,6 +202,23 @@ class AES(object):
         plaintext_block = plaintext[0:16]
         # CBC mode encrypt: encrypt(plaintext_block XOR previous)
         block = self.encrypt_block(xor_bytes(plaintext_block, previous))
+        blocks.append(block)
+        previous = block
+        return b''.join(blocks)
+
+    def encrypt_cbc_byte_sub_identitat(self, plaintext, iv):
+        """
+        Encrypts `plaintext` using CBC mode and PKCS#7 padding, with the given
+        initialization vector (iv).
+        """
+        assert len(iv) == 16
+
+        plaintext = pad(plaintext)
+        blocks = []
+        previous = iv
+        plaintext_block = plaintext[0:16]
+        # CBC mode encrypt: encrypt(plaintext_block XOR previous)
+        block = self.encrypt_block_byte_sub_identitat(xor_bytes(plaintext_block, previous))
         blocks.append(block)
         previous = block
         return b''.join(blocks)
@@ -326,12 +371,9 @@ def exercici():
         salt = os.urandom(SALT_SIZE)
         key, hmac_key, iv = get_key_iv(key, salt, workload)
         AESObject = AES(key)
-        ciphertext = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
-        #encryptedBlock = encrypt_cbc(key, matrix2bytes(missatgeBloc))
-        encryptedBlock = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
-        print(encryptedBlock)
-        encryptedBlock = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
-        print(encryptedBlock)
+        #encryptedBlock = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+        encryptedBlock_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
+
 
         #escriuBlocFile(file,encryptedFile,"bloc original numero # " + str(l+1) + "encriptat: \n")
         for i in range(4):
@@ -339,29 +381,41 @@ def exercici():
                 originalValue = missatgeBloc[i][j]
                 for k in range(8):
                     for m in range(8):
-                        numi = canviabit(missatgeBloc[i][j],k)
-                        numj = canviabit(missatgeBloc[i][j],m)
-                        numij = canviabits(missatgeBloc[i][j],k,m)
+                        if k == m:
+                            # es queda igual perque es canvia dues vegades.
+                            numi = missatgeBloc[i][j]
+                            numj = missatgeBloc[i][j]
+                            numij = missatgeBloc[i][j]
+                        else:
+                            numi = canviabit(missatgeBloc[i][j],k)
+                            numj = canviabit(missatgeBloc[i][j],m)
+                            numij = canviabits(missatgeBloc[i][j],k,m)
+
                         missatgeBloc[i][j] = numi
-                        encryptedBlocki = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
-                        # print("numi: " + str(numi))
-                        # escriuBloc(-1, matrix2bytes(missatgeBloc))
-                        # print()
+                        #encryptedBlocki = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+                        encryptedBlocki_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
+
                         missatgeBloc[i][j] = originalValue
                         missatgeBloc[i][j] = numj
-                        encryptedBlockj = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+                        #encryptedBlockj = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+                        encryptedBlockj_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
 
-                        xorijBlock = exclusiveOR(bytes2matrix(encryptedBlocki), bytes2matrix(encryptedBlockj))
-                        # print("numj: " + str(numj))
-                        # escriuBloc(-1, matrix2bytes(missatgeBloc))
-                        # print()
                         missatgeBloc[i][j] = originalValue
                         missatgeBloc[i][j] = numij
-                        encryptedBlockij = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
-                        xorijijBlock = exclusiveOR(xorijBlock, bytes2matrix(encryptedBlockij))
-                        print(xorijijBlock)
-                        print(bytes2matrix(encryptedBlock))
-                        print(checkEquals(xorijijBlock, bytes2matrix(encryptedBlock)))
+                        #encryptedBlockij = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+                        encryptedBlockij_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
+
+                        xor_i_j_identitat = exclusiveOR(bytes2matrix(encryptedBlocki_identitat), bytes2matrix(encryptedBlockj_identitat))
+                        xor_i_j_ij_identitat = exclusiveOR(xor_i_j_identitat, bytes2matrix(encryptedBlockij_identitat))
+                        igualtat_sub_bytes_identitat = checkEquals(xor_i_j_ij_identitat, bytes2matrix(encryptedBlock_identitat))
+
+                        # xor_i_j = exclusiveOR(bytes2matrix(encryptedBlocki), bytes2matrix(encryptedBlockj))
+                        # xor_i_j_ij = exclusiveOR(xor_i_j, bytes2matrix(encryptedBlockij))
+                        # igualtat_sub_bytes = checkEquals(xor_i_j_ij, bytes2matrix(encryptedBlock))
+
+                        #print("igualtat original: " + str(igualtat_sub_bytes))
+                        print("igualtat identitat: " + str(igualtat_sub_bytes_identitat))
+
                         # print("numij: " + str(numij))
                         # escriuBloc(-1, matrix2bytes(missatgeBloc))
                         # print(bytes2matrix(encryptedBlockij))
