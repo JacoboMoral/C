@@ -321,7 +321,18 @@ def exercici():
     #generem 10 missatges aleatoris de mida d'un bloc
     for l in range(10):
         emplenaRandom(missatgeBloc)
-        encryptedBlock = encrypt(key, matrix2bytes(missatgeBloc))
+
+        workload=100000
+        salt = os.urandom(SALT_SIZE)
+        key, hmac_key, iv = get_key_iv(key, salt, workload)
+        AESObject = AES(key)
+        ciphertext = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+        #encryptedBlock = encrypt_cbc(key, matrix2bytes(missatgeBloc))
+        encryptedBlock = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+        print(encryptedBlock)
+        encryptedBlock = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+        print(encryptedBlock)
+
         #escriuBlocFile(file,encryptedFile,"bloc original numero # " + str(l+1) + "encriptat: \n")
         for i in range(4):
             for j in range(4):
@@ -332,13 +343,13 @@ def exercici():
                         numj = canviabit(missatgeBloc[i][j],m)
                         numij = canviabits(missatgeBloc[i][j],k,m)
                         missatgeBloc[i][j] = numi
-                        encryptedBlocki = encrypt(key, matrix2bytes(missatgeBloc))
+                        encryptedBlocki = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
                         # print("numi: " + str(numi))
                         # escriuBloc(-1, matrix2bytes(missatgeBloc))
                         # print()
                         missatgeBloc[i][j] = originalValue
                         missatgeBloc[i][j] = numj
-                        encryptedBlockj = encrypt(key, matrix2bytes(missatgeBloc))
+                        encryptedBlockj = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
 
                         xorijBlock = exclusiveOR(bytes2matrix(encryptedBlocki), bytes2matrix(encryptedBlockj))
                         # print("numj: " + str(numj))
@@ -346,7 +357,7 @@ def exercici():
                         # print()
                         missatgeBloc[i][j] = originalValue
                         missatgeBloc[i][j] = numij
-                        encryptedBlockij = encrypt(key, matrix2bytes(missatgeBloc))
+                        encryptedBlockij = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
                         xorijijBlock = exclusiveOR(xorijBlock, bytes2matrix(encryptedBlockij))
                         print(xorijijBlock)
                         print(bytes2matrix(encryptedBlock))
