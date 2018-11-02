@@ -290,15 +290,22 @@ def exercici():
     #generem 10 missatges aleatoris de mida d'un bloc
     for l in range(10):
         emplenaRandom(missatgeBloc)
-        encryptedFile = encrypt(key, matrix2bytes(missatgeBloc))
-        escriuBlocFile(file,encryptedFile,"bloc original numero # " + str(l+1) + "encriptat: \n")
+
+        workload=100000
+        salt = os.urandom(SALT_SIZE)
+        key, hmac_key, iv = get_key_iv(key, salt, workload)
+        AESObject = AES(key)
+        encryptedFile = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+
+        escriuBlocFile(file,encryptedFile,"bloc original numero # " + str(l+1) + " encriptat: \n")
+
         for i in range(4):
             for j in range(4):
                 originalValue = missatgeBloc[i][j]
                 for k in range(8):
                     num = canviabit(missatgeBloc[i][j],k)
                     missatgeBloc[i][j] = num
-                    encryptedFile = encrypt(key, matrix2bytes(missatgeBloc))
+                    encryptedFile = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
                     missatge = "#"+str(l+1) + " bloc encriptat despres de canviar el bit numero " + str(127-i*32-j*8-k)
                     escriuBlocFile(file,encryptedFile,missatge+"\n")
                     missatgeBloc[i][j] = originalValue

@@ -1,9031 +1,2709 @@
-bloc original numero # 1encriptat: 
+bloc original numero # 1 encriptat: 
 
-a0 aa fc 72 
-c7 fc 5d c1 
-7b 50 55 71 
-3c d5 09 54 
+e9 a3 4e dd 
+09 d2 f9 17 
+51 a2 ac b7 
+9f 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 127
 
-72 54 17 0d 
-a3 bb 07 fa 
-8e 9a f2 97 
-df d9 de 34 
+f1 a3 4e dd 
+77 d2 f9 17 
+15 a2 ac b7 
+52 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 126
 
-c9 4b 4b 8a 
-f4 fc c7 0e 
-fc 43 93 e8 
-ba e5 ea 7f 
+8f a3 4e dd 
+27 d2 f9 17 
+c1 a2 ac b7 
+05 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 125
 
-ff 27 e5 98 
-5c 9f f0 fa 
-48 e1 7a d4 
-c2 75 30 99 
+fb a3 4e dd 
+db d2 f9 17 
+0c a2 ac b7 
+61 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 124
 
-0c a9 66 c2 
-7d 5c 87 39 
-e8 e5 8f af 
-f5 e5 54 7a 
+73 a3 4e dd 
+35 d2 f9 17 
+a0 a2 ac b7 
+e3 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 123
 
-f0 35 76 05 
-07 b8 fc 42 
-bf 13 19 8d 
-ca de a6 81 
+94 a3 4e dd 
+a0 d2 f9 17 
+a4 a2 ac b7 
+03 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 122
 
-18 1d b0 7e 
-54 8c 34 df 
-49 99 0c 62 
-3d 1f 19 59 
+c3 a3 4e dd 
+17 d2 f9 17 
+1f a2 ac b7 
+0d 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 121
 
-ab 9f 5c 24 
-fb 0f ba 3e 
-ca c4 18 48 
-8f eb 31 c9 
+29 a3 4e dd 
+50 d2 f9 17 
+8f a2 ac b7 
+cd 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 120
 
-63 04 56 58 
-da fe 6b 61 
-a5 1e af d5 
-47 c2 83 c1 
+af a3 4e dd 
+b1 d2 f9 17 
+39 a2 ac b7 
+be 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 119
 
-a9 f9 bb 53 
-49 d1 53 62 
-74 52 3c 87 
-9f bd f3 d6 
+1f a3 4e dd 
+6e d2 f9 17 
+90 a2 ac b7 
+9a 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 118
 
-7b ce 6f db 
-4d ab 9e f4 
-58 9d 6f b1 
-9c 37 cf 81 
+7a a3 4e dd 
+86 d2 f9 17 
+65 a2 ac b7 
+dc 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 117
 
-25 46 0f 78 
-1a eb 5e 0b 
-eb 57 45 ab 
-0b 45 b2 17 
+5c a3 4e dd 
+7c d2 f9 17 
+2a a2 ac b7 
+02 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 116
 
-81 2a 45 ed 
-1f 07 7b 08 
-f0 d7 00 49 
-77 8a 7e 51 
+4e a3 4e dd 
+c4 d2 f9 17 
+d9 a2 ac b7 
+94 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 115
 
-4c d6 1f 5f 
-7a 9a b5 0e 
-d7 dc 60 ee 
-7d bb 09 bd 
+a3 a3 4e dd 
+18 d2 f9 17 
+be a2 ac b7 
+6c 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 114
 
-10 18 10 41 
-b2 85 dd 89 
-b2 b5 57 6c 
-10 62 c6 66 
+c9 a3 4e dd 
+73 d2 f9 17 
+37 a2 ac b7 
+51 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 113
 
-f6 1d c4 ab 
-92 bf 71 21 
-55 00 10 67 
-2c 1b d1 bd 
+b1 a3 4e dd 
+df d2 f9 17 
+e2 a2 ac b7 
+ef 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 112
 
-11 5e 75 df 
-8b 67 fb b5 
-6b 58 9a db 
-01 73 61 a7 
+43 a3 4e dd 
+75 d2 f9 17 
+88 a2 ac b7 
+84 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 111
 
-b6 d1 78 d1 
-72 c9 d0 68 
-49 72 a0 87 
-5e d1 b9 46 
+16 a3 4e dd 
+71 d2 f9 17 
+ee a2 ac b7 
+7e 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 110
 
-7d 9b f5 e0 
-d3 30 e8 60 
-f9 d9 a0 88 
-3f 1b fb 60 
+7a a3 4e dd 
+22 d2 f9 17 
+65 a2 ac b7 
+0b 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 109
 
-20 5f 98 eb 
-35 c7 5f 01 
-7f 6a 7a 58 
-18 f3 89 e8 
+fe a3 4e dd 
+47 d2 f9 17 
+bc a2 ac b7 
+29 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 108
 
-ce 02 9d ef 
-c7 96 c1 b6 
-eb 49 ab 12 
-39 5f f5 95 
+aa a3 4e dd 
+ab d2 f9 17 
+65 a2 ac b7 
+c4 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 107
 
-25 8b e0 a1 
-63 54 20 bb 
-5e 97 2f fa 
-61 2f 38 ba 
+26 a3 4e dd 
+29 d2 f9 17 
+8e a2 ac b7 
+7b 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 106
 
-e3 9b 0e 8b 
-30 3b 1e 56 
-37 f4 62 b0 
-0d 72 05 89 
+d0 a3 4e dd 
+05 d2 f9 17 
+60 a2 ac b7 
+b9 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 105
 
-a4 de a1 23 
-a6 98 14 79 
-cb 70 00 57 
-af 40 12 6f 
+ad a3 4e dd 
+77 d2 f9 17 
+60 a2 ac b7 
+94 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 104
 
-2f 61 e2 6a 
-9e ba ac 66 
-d3 7f 52 f1 
-48 75 33 66 
+cf a3 4e dd 
+23 d2 f9 17 
+34 a2 ac b7 
+4f 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 103
 
-49 2e e9 06 
-79 aa 7f 14 
-e8 9f 27 88 
-3c af d3 ba 
+68 a3 4e dd 
+2a d2 f9 17 
+23 a2 ac b7 
+87 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 102
 
-be a2 ea 99 
-ff 40 13 49 
-ac 69 66 18 
-98 7d 68 83 
+f0 a3 4e dd 
+46 d2 f9 17 
+55 a2 ac b7 
+5b 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 101
 
-bf 2f ae 04 
-e7 cc 69 b0 
-7d 7c 83 a6 
-1d f2 06 d7 
+9e a3 4e dd 
+0c d2 f9 17 
+fb a2 ac b7 
+32 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 100
 
-c2 98 bc 36 
-a3 b4 10 87 
-ec ab 9c bb 
-30 80 48 fa 
+60 a3 4e dd 
+53 d2 f9 17 
+08 a2 ac b7 
+c0 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 99
 
-d9 4c 55 0c 
-70 5d 0d 93 
-6b 99 c4 4d 
-6e c1 2c 8a 
+9a a3 4e dd 
+53 d2 f9 17 
+0a a2 ac b7 
+1c 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 98
 
-d0 b5 a2 80 
-95 b3 7c e6 
-f8 40 67 74 
-cb bf 62 2e 
+76 a3 4e dd 
+df d2 f9 17 
+9d a2 ac b7 
+a2 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 97
 
-9b 14 09 e8 
-76 b1 0f c6 
-00 30 7e 89 
-c5 e3 c7 93 
+6a a3 4e dd 
+c2 d2 f9 17 
+f3 a2 ac b7 
+50 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 96
 
-e2 e8 0c 0d 
-34 ce 8a 44 
-57 b7 56 db 
-89 2b 4d e2 
+4d a3 4e dd 
+f7 d2 f9 17 
+32 a2 ac b7 
+e7 3b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 95
 
-e1 16 db 0e 
-40 97 0a 4b 
-b4 1f 89 bc 
-4b d1 bd 91 
+e9 d3 4e dd 
+09 15 f9 17 
+51 24 ac b7 
+9f 4b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 94
 
-e6 2b 01 99 
-da 7a d1 3f 
-00 5e c6 55 
-15 6e 35 9b 
+e9 5b 4e dd 
+09 76 f9 17 
+51 14 ac b7 
+9f 8e f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 93
 
-d7 e7 55 3b 
-a8 33 c1 33 
-f0 00 2e 97 
-bc e4 25 f5 
+e9 c1 4e dd 
+09 d3 f9 17 
+51 f1 ac b7 
+9f bb f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 92
 
-9b 17 07 d3 
-d1 2c 34 7e 
-8c 21 90 e6 
-cb f3 99 ff 
+e9 1e 4e dd 
+09 31 f9 17 
+51 e9 ac b7 
+9f 9c f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 91
 
-a1 20 7b 4b 
-26 9f fd 5b 
-45 d0 b7 9d 
-6a 83 57 33 
+e9 83 4e dd 
+09 d3 f9 17 
+51 80 ac b7 
+9f 91 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 90
 
-c6 80 14 a9 
-c8 85 db 54 
-83 5c 80 38 
-ee c1 e7 a3 
+e9 ba 4e dd 
+09 f2 f9 17 
+51 39 ac b7 
+9f 16 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 89
 
-07 c9 cc 3e 
-7b 3f ff 0c 
-f5 a9 bd fc 
-0f df 75 39 
+e9 2f 4e dd 
+09 98 f9 17 
+51 fa ac b7 
+9f c1 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 88
 
-a1 86 31 fa 
-77 40 3b 08 
-8e e0 2d 1a 
-35 07 97 61 
+e9 f2 4e dd 
+09 2e f9 17 
+51 71 ac b7 
+9f 7f f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 87
 
-10 2e 13 8f 
-23 d9 db 11 
-ba df 66 a3 
-d3 33 4c 2f 
+e9 82 4e dd 
+09 3c f9 17 
+51 38 ac b7 
+9f 55 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 86
 
-d6 aa 2f 08 
-9a 84 ab 65 
-31 d5 a2 44 
-70 96 47 cc 
+e9 1e 4e dd 
+09 58 f9 17 
+51 94 ac b7 
+9f bc f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 85
 
-c9 81 74 1d 
-8b 48 cd 24 
-d0 40 31 1a 
-76 c3 71 4a 
+e9 61 4e dd 
+09 d1 f9 17 
+51 d3 ac b7 
+9f 4f f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 84
 
-c0 5e 19 ae 
-02 2c 27 7a 
-a4 87 8c ae 
-f5 42 7e f3 
+e9 d5 4e dd 
+09 38 f9 17 
+51 55 ac b7 
+9f 45 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 83
 
-c5 ab 06 bf 
-45 e3 96 5e 
-be ca b2 c3 
-03 03 81 cb 
+e9 f6 4e dd 
+09 d7 f9 17 
+51 4b ac b7 
+9f 61 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 82
 
-21 53 24 f8 
-0e 66 c8 5e 
-86 63 7b 68 
-f0 96 4c 92 
+e9 ad 4e dd 
+09 ea f9 17 
+51 a3 ac b7 
+9f 19 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 81
 
-55 10 e0 d4 
-b9 47 57 d1 
-5d d3 14 f9 
-e3 c6 8b a8 
+e9 6e 4e dd 
+09 74 f9 17 
+51 d1 ac b7 
+9f 48 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 80
 
-f5 2c 51 6a 
-ea 42 3d 5a 
-b5 f0 3e 76 
-ae cb a5 99 
+e9 5e 4e dd 
+09 b7 f9 17 
+51 93 ac b7 
+9f 42 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 79
 
-39 15 14 b6 
-f0 1c a3 8d 
-62 26 56 1c 
-65 b8 9b 5f 
+e9 1c 4e dd 
+09 91 f9 17 
+51 8e ac b7 
+9f 5b f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 78
 
-00 47 23 e1 
-89 95 8e 3c 
-5b ce 0f cc 
-e7 a3 6e f5 
+e9 93 4e dd 
+09 7c f9 17 
+51 af ac b7 
+9f 3e f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 77
 
-7f ed 1d 2f 
-e1 fc 4c 66 
-e3 6e b7 a4 
-c5 db 97 11 
+e9 0b 4e dd 
+09 00 f9 17 
+51 37 ac b7 
+9f e6 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 76
 
-5e 86 62 5a 
-30 ac 2c 5f 
-53 73 c9 23 
-a2 30 9a 2b 
+e9 d1 4e dd 
+09 31 f9 17 
+51 60 ac b7 
+9f c6 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 75
 
-27 43 9a 53 
-0d 9f cc 18 
-b5 34 d9 48 
-8d fc cc cd 
+e9 a2 4e dd 
+09 f7 f9 17 
+51 db ac b7 
+9f b4 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 74
 
-ba 3d c9 e0 
-23 82 43 9c 
-e5 c8 63 bd 
-0a 6e e9 5c 
+e9 49 4e dd 
+09 9e f9 17 
+51 1a ac b7 
+9f ed f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 73
 
-cc 80 c5 17 
-d2 c4 5b e5 
-28 d6 e6 84 
-1a b9 ab 12 
+e9 dc 4e dd 
+09 b4 f9 17 
+51 d4 ac b7 
+9f a9 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 72
 
-bc 9c 0d 29 
-b1 59 3a 7e 
-0a 1f 15 1e 
-46 ed 4e b9 
+e9 ba 4e dd 
+09 ba f9 17 
+51 b4 ac b7 
+9f 71 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 71
 
-51 ff bb 94 
-e4 d5 66 be 
-c1 0a cb ea 
-13 fe c8 6f 
+e9 21 4e dd 
+09 51 f9 17 
+51 a4 ac b7 
+9f 70 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 70
 
-cb db a7 6a 
-fa 3d 2e db 
-d8 c1 5b 82 
-b5 0e 14 cf 
+e9 93 4e dd 
+09 17 f9 17 
+51 4e ac b7 
+9f a1 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 69
 
-e8 b5 97 a6 
-93 36 9b ca 
-cb 1f a4 09 
-3a 9b 05 0b 
+e9 56 4e dd 
+09 d0 f9 17 
+51 b0 ac b7 
+9f eb f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 68
 
-8b b5 f2 a7 
-5c 3a e5 9c 
-b7 05 6e 89 
-5c bd b2 e1 
+e9 70 4e dd 
+09 07 f9 17 
+51 40 ac b7 
+9f 27 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 67
 
-2b c6 0e 4e 
-16 6f e1 06 
-ae dd 8a 97 
-20 cd 81 29 
+e9 08 4e dd 
+09 4c f9 17 
+51 20 ac b7 
+9f 43 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 66
 
-7f 6d 1d ec 
-f3 4a f3 f2 
-ec b2 49 87 
-66 61 3e 2a 
+e9 78 4e dd 
+09 2e f9 17 
+51 cb ac b7 
+9f 46 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 65
 
-de 4b 87 36 
-c7 7b 68 30 
-1c 2e e5 c5 
-ae 9a 29 e5 
+e9 b0 4e dd 
+09 46 f9 17 
+51 9e ac b7 
+9f a5 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 64
 
-7f d1 95 9d 
-0d 37 c3 1a 
-e4 a3 56 db 
-3a 3e f4 05 
+e9 72 4e dd 
+09 bd f9 17 
+51 5f ac b7 
+9f d9 f9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 63
 
-05 77 32 fb 
-5b 08 20 31 
-79 73 21 25 
-84 3f a5 fe 
+e9 a3 a6 dd 
+09 d2 46 17 
+51 a2 63 b7 
+9f 3b b6 29 
 
 #1 bloc encriptat despres de canviar el bit numero 62
 
-b7 0e 28 53 
-82 e5 82 42 
-aa c2 d3 65 
-4b e9 68 aa 
+e9 a3 b4 dd 
+09 d2 0c 17 
+51 a2 72 b7 
+9f 3b 3b 29 
 
 #1 bloc encriptat despres de canviar el bit numero 61
 
-85 ba 2c 7f 
-7b dc ac 73 
-a4 cf cc 2a 
-5c c2 74 eb 
+e9 a3 b8 dd 
+09 d2 f8 17 
+51 a2 1f b7 
+9f 3b 68 29 
 
 #1 bloc encriptat despres de canviar el bit numero 60
 
-3f de 09 fb 
-d4 e7 4f ca 
-f1 51 f9 e6 
-76 43 dc 52 
+e9 a3 50 dd 
+09 d2 e0 17 
+51 a2 15 b7 
+9f 3b c0 29 
 
 #1 bloc encriptat despres de canviar el bit numero 59
 
-a0 59 15 d1 
-47 93 4c d8 
-05 78 b0 8b 
-c4 da 14 a4 
+e9 a3 b7 dd 
+09 d2 8d 17 
+51 a2 72 b7 
+9f 3b ad 29 
 
 #1 bloc encriptat despres de canviar el bit numero 58
 
-0a cd b7 29 
-ef 38 16 d3 
-04 9b 4b c8 
-ba a5 14 11 
+e9 a3 70 dd 
+09 d2 60 17 
+51 a2 ed b7 
+9f 3b 1d 29 
 
 #1 bloc encriptat despres de canviar el bit numero 57
 
-0a 3c 7f 03 
-2e 69 ba 42 
-68 a5 6c 94 
-57 e9 70 22 
+e9 a3 62 dd 
+09 d2 56 17 
+51 a2 57 b7 
+9f 3b 2b 29 
 
 #1 bloc encriptat despres de canviar el bit numero 56
 
-ae 57 a1 42 
-86 4b 3b 4b 
-a6 c7 57 d4 
-7f c1 4e 70 
+e9 a3 47 dd 
+09 d2 9d 17 
+51 a2 a9 b7 
+9f 3b ff 29 
 
 #1 bloc encriptat despres de canviar el bit numero 55
 
-93 09 25 f6 
-a7 3b e2 61 
-d5 d4 d7 14 
-44 65 7b d9 
+e9 a3 59 dd 
+09 d2 e2 17 
+51 a2 c5 b7 
+9f 3b 2a 29 
 
 #1 bloc encriptat despres de canviar el bit numero 54
 
-dc 02 5c 2f 
-7d 1d c5 05 
-2c 83 5c 5b 
-f7 a9 61 7c 
+e9 a3 fe dd 
+09 d2 ac 17 
+51 a2 e8 b7 
+9f 3b e6 29 
 
 #1 bloc encriptat despres de canviar el bit numero 53
 
-c8 01 75 5a 
-c1 8c 20 32 
-a1 d1 be 50 
-34 0c b4 28 
+e9 a3 40 dd 
+09 d2 54 17 
+51 a2 42 b7 
+9f 3b 92 29 
 
 #1 bloc encriptat despres de canviar el bit numero 52
 
-c4 05 1f 9a 
-e6 5c 78 fd 
-df 4c 4c e2 
-e2 47 fd fc 
+e9 a3 3a dd 
+09 d2 8c 17 
+51 a2 06 b7 
+9f 3b 7c 29 
 
 #1 bloc encriptat despres de canviar el bit numero 51
 
-69 6a 52 2b 
-7e f1 47 fe 
-47 b4 df 6c 
-4a e4 68 0c 
+e9 a3 40 dd 
+09 d2 43 17 
+51 a2 0e b7 
+9f 3b ec 29 
 
 #1 bloc encriptat despres de canviar el bit numero 50
 
-91 94 ff 85 
-e9 7a 1c fd 
-58 d2 18 63 
-16 a0 08 b6 
+e9 a3 81 dd 
+09 d2 3d 17 
+51 a2 35 b7 
+9f 3b e9 29 
 
 #1 bloc encriptat despres de canviar el bit numero 49
 
-f6 e7 01 ce 
-b0 bb 3f fd 
-64 54 2e 3f 
-85 c8 0d 7c 
+e9 a3 d2 dd 
+09 d2 3c 17 
+51 a2 28 b7 
+9f 3b 92 29 
 
 #1 bloc encriptat despres de canviar el bit numero 48
 
-de 66 0f eb 
-a9 8f 37 a6 
-e1 2b 9a ad 
-4e eb 17 f7 
+e9 a3 4e dd 
+09 d2 c7 17 
+51 a2 5a b7 
+9f 3b 52 29 
 
 #1 bloc encriptat despres de canviar el bit numero 47
 
-1f 2c de e5 
-89 61 f7 41 
-a1 38 66 17 
-83 87 35 7a 
+e9 a3 e4 dd 
+09 d2 56 17 
+51 a2 d8 b7 
+9f 3b c5 29 
 
 #1 bloc encriptat despres de canviar el bit numero 46
 
-1a 90 bb e4 
-2c 53 11 0c 
-e4 67 50 c8 
-91 a9 31 b4 
+e9 a3 d9 dd 
+09 d2 71 17 
+51 a2 df b7 
+9f 3b 12 29 
 
 #1 bloc encriptat despres de canviar el bit numero 45
 
-b6 d3 fe a7 
-59 eb fe 04 
-4d 3a e7 d2 
-00 d4 11 87 
+e9 a3 d9 dd 
+09 d2 0c 17 
+51 a2 17 b7 
+9f 3b 6a 29 
 
 #1 bloc encriptat despres de canviar el bit numero 44
 
-19 e7 f9 19 
-f9 6b 77 49 
-93 38 62 49 
-30 d4 f6 2d 
+e9 a3 4d dd 
+09 d2 aa 17 
+51 a2 c2 b7 
+9f 3b 35 29 
 
 #1 bloc encriptat despres de canviar el bit numero 43
 
-54 bd 2a fb 
-35 88 4f 96 
-0b 8f 62 d8 
-ec b3 4d 62 
+e9 a3 8b dd 
+09 d2 e8 17 
+51 a2 f0 b7 
+9f 3b f6 29 
 
 #1 bloc encriptat despres de canviar el bit numero 42
 
-8b 89 b4 4c 
-e7 52 95 47 
-b9 8b ef 0c 
-27 22 ac 69 
+e9 a3 4e dd 
+09 d2 ab 17 
+51 a2 f6 b7 
+9f 3b b5 29 
 
 #1 bloc encriptat despres de canviar el bit numero 41
 
-6d 8f 08 08 
-c7 3e 03 78 
-87 29 26 2f 
-e2 71 ca 31 
+e9 a3 66 dd 
+09 d2 95 17 
+51 a2 86 b7 
+9f 3b cb 29 
 
 #1 bloc encriptat despres de canviar el bit numero 40
 
-e4 3f 74 87 
-7a a1 0e 45 
-6a 65 0c 4a 
-7d fe 98 a6 
+e9 a3 68 dd 
+09 d2 33 17 
+51 a2 ce b7 
+9f 3b 60 29 
 
 #1 bloc encriptat despres de canviar el bit numero 39
 
-d7 b7 df 26 
-6d e0 0b 50 
-bd 66 57 73 
-0a 78 0d 95 
+e9 a3 4c dd 
+09 d2 53 17 
+51 a2 d5 b7 
+9f 3b 14 29 
 
 #1 bloc encriptat despres de canviar el bit numero 38
 
-55 7c c9 75 
-69 ac 00 0a 
-7c 10 a6 0e 
-e1 db 07 0d 
+e9 a3 50 dd 
+09 d2 17 17 
+51 a2 bd b7 
+9f 3b e6 29 
 
 #1 bloc encriptat despres de canviar el bit numero 37
 
-00 ac e0 83 
-17 9a 91 e8 
-f1 f6 da ae 
-e5 60 1b 60 
+e9 a3 73 dd 
+09 d2 db 17 
+51 a2 b2 b7 
+9f 3b 2e 29 
 
 #1 bloc encriptat despres de canviar el bit numero 36
 
-97 10 af cd 
-4d 1b f0 51 
-94 81 6e 33 
-63 c6 93 c9 
+e9 a3 3a dd 
+09 d2 de 17 
+51 a2 e2 b7 
+9f 3b 4c 29 
 
 #1 bloc encriptat despres de canviar el bit numero 35
 
-10 0c ae e7 
-3c e7 44 cf 
-63 c6 33 73 
-f5 4c 6d 3a 
+e9 a3 22 dd 
+09 d2 0c 17 
+51 a2 fa b7 
+9f 3b 9e 29 
 
 #1 bloc encriptat despres de canviar el bit numero 34
 
-73 17 fa c8 
-3d fc 1b 4c 
-ad 72 5d 5b 
-91 dc 0c 4c 
+e9 a3 25 dd 
+09 d2 fc 17 
+51 a2 2f b7 
+9f 3b 01 29 
 
 #1 bloc encriptat despres de canviar el bit numero 33
 
-a2 2b 53 4d 
-f0 f3 3e 8f 
-17 54 cc a3 
-48 e7 08 32 
+e9 a3 cc dd 
+09 d2 2e 17 
+51 a2 50 b7 
+9f 3b 21 29 
 
 #1 bloc encriptat despres de canviar el bit numero 32
 
-d4 a4 e2 1a 
-52 0d 0c b1 
-96 51 b1 e3 
-12 0c e6 d3 
+e9 a3 75 dd 
+09 d2 7a 17 
+51 a2 1e b7 
+9f 3b e5 29 
 
 #1 bloc encriptat despres de canviar el bit numero 31
 
-b7 b8 5e e8 
-f6 40 ff 82 
-6f 7d d9 21 
-3c 16 67 83 
+e9 a3 4e c8 
+09 d2 f9 5e 
+51 a2 ac 1a 
+9f 3b f9 e3 
 
 #1 bloc encriptat despres de canviar el bit numero 30
 
-61 58 12 2b 
-69 c9 9f a9 
-30 04 69 05 
-0f 5f 55 6a 
+e9 a3 4e 08 
+09 d2 f9 84 
+51 a2 ac ed 
+9f 3b f9 30 
 
 #1 bloc encriptat despres de canviar el bit numero 29
 
-c4 76 4d a1 
-07 95 01 00 
-e0 a4 40 91 
-0c 02 0e 0b 
+e9 a3 4e b0 
+09 d2 f9 96 
+51 a2 ac b3 
+9f 3b f9 95 
 
 #1 bloc encriptat despres de canviar el bit numero 28
 
-9f fa d3 e1 
-75 eb 00 85 
-13 8c 7f e1 
-64 0b 50 ca 
+e9 a3 4e b4 
+09 d2 f9 8b 
+51 a2 ac a4 
+9f 3b f9 dc 
 
 #1 bloc encriptat despres de canviar el bit numero 27
 
-19 0a 36 f4 
-14 20 01 fa 
-3d 71 d8 8d 
-78 b4 a7 ce 
+e9 a3 4e 2a 
+09 d2 f9 ad 
+51 a2 ac 54 
+9f 3b f9 b6 
 
 #1 bloc encriptat despres de canviar el bit numero 26
 
-d7 23 ab a3 
-eb b2 99 99 
-ea 93 e3 d5 
-38 35 e2 93 
+e9 a3 4e 1b 
+09 d2 f9 02 
+51 a2 ac 99 
+9f 3b f9 cc 
 
 #1 bloc encriptat despres de canviar el bit numero 25
 
-40 83 94 2f 
-e4 cc 57 cd 
-e2 65 ce 04 
-f5 b4 54 be 
+e9 a3 4e 99 
+09 d2 f9 68 
+51 a2 ac 6e 
+9f 3b f9 21 
 
 #1 bloc encriptat despres de canviar el bit numero 24
 
-6b f9 f7 7b 
-a7 cb d7 9f 
-c2 68 da 13 
-f0 8a e5 4e 
+e9 a3 4e 78 
+09 d2 f9 66 
+51 a2 ac 9d 
+9f 3b f9 2e 
 
 #1 bloc encriptat despres de canviar el bit numero 23
 
-d5 9d 84 74 
-b6 c8 be b0 
-e3 89 63 52 
-17 30 f5 0f 
+e9 a3 4e 4a 
+09 d2 f9 b3 
+51 a2 ac 27 
+9f 3b f9 91 
 
 #1 bloc encriptat despres de canviar el bit numero 22
 
-3b 86 ad bb 
-02 3a c8 a4 
-03 e3 57 a6 
-94 a3 8f 36 
+e9 a3 4e 45 
+09 d2 f9 b1 
+51 a2 ac 7d 
+9f 3b f9 8a 
 
 #1 bloc encriptat despres de canviar el bit numero 21
 
-50 c9 b0 15 
-95 c1 b8 3a 
-73 f3 f7 e2 
-ae 0f cf 00 
+e9 a3 4e 0b 
+09 d2 f9 22 
+51 a2 ac 1a 
+9f 3b f9 b9 
 
 #1 bloc encriptat despres de canviar el bit numero 20
 
-25 ca d5 1f 
-4e 7b 5f 87 
-b4 f4 6c e3 
-88 bd 9b 0e 
+e9 a3 4e 94 
+09 d2 f9 24 
+51 a2 ac 36 
+9f 3b f9 dc 
 
 #1 bloc encriptat despres de canviar el bit numero 19
 
-19 ea f3 d5 
-51 98 98 0b 
-b8 89 6b 90 
-d5 87 fb 9a 
+e9 a3 4e d1 
+09 d2 f9 d0 
+51 a2 ac d1 
+9f 3b f9 85 
 
 #1 bloc encriptat despres de canviar el bit numero 18
 
-ce 4d 06 0c 
-82 4b 42 e6 
-f9 bc b1 9e 
-bb b4 a0 10 
+e9 a3 4e b7 
+09 d2 f9 3d 
+51 a2 ac ae 
+9f 3b f9 03 
 
 #1 bloc encriptat despres de canviar el bit numero 17
 
-46 32 1a 22 
-7f a4 2f a5 
-99 9b e3 dc 
-fa 33 fe 08 
+e9 a3 4e 99 
+09 d2 f9 3c 
+51 a2 ac c2 
+9f 3b f9 d0 
 
 #1 bloc encriptat despres de canviar el bit numero 16
 
-82 f2 12 76 
-96 28 df bb 
-67 92 15 da 
-60 93 76 70 
+e9 a3 4e f8 
+09 d2 f9 f6 
+51 a2 ac 0e 
+9f 3b f9 76 
 
 #1 bloc encriptat despres de canviar el bit numero 15
 
-7d 50 47 8d 
-cd 95 88 77 
-44 31 f7 46 
-e2 81 53 eb 
+e9 a3 4e 26 
+09 d2 f9 bd 
+51 a2 ac 97 
+9f 3b f9 c8 
 
 #1 bloc encriptat despres de canviar el bit numero 14
 
-f1 e6 a7 1f 
-8a c1 ca 8c 
-60 e2 cc 91 
-07 02 46 c9 
+e9 a3 4e 40 
+09 d2 f9 85 
+51 a2 ac e6 
+9f 3b f9 f0 
 
 #1 bloc encriptat despres de canviar el bit numero 13
 
-94 1b b7 1a 
-f5 f6 fc 2d 
-d6 dd b3 ca 
-54 83 42 07 
+e9 a3 4e 1e 
+09 d2 f9 0d 
+51 a2 ac b9 
+9f 3b f9 49 
 
 #1 bloc encriptat despres de canviar el bit numero 12
 
-83 15 a2 71 
-f9 1a 49 d8 
-29 b5 53 28 
-2e 57 18 48 
+e9 a3 4e a2 
+09 d2 f9 5d 
+51 a2 ac 1a 
+9f 3b f9 5e 
 
 #1 bloc encriptat despres de canviar el bit numero 11
 
-4d fe b9 de 
-63 7f 58 0d 
-2e a1 5d 72 
-0c e2 72 44 
+e9 a3 4e 35 
+09 d2 f9 a4 
+51 a2 ac 9a 
+9f 3b f9 6f 
 
 #1 bloc encriptat despres de canviar el bit numero 10
 
-01 7c b0 e0 
-f6 ea 91 e2 
-67 18 d9 0a 
-f7 59 81 a0 
+e9 a3 4e 47 
+09 d2 f9 61 
+51 a2 ac dc 
+9f 3b f9 aa 
 
 #1 bloc encriptat despres de canviar el bit numero 9
 
-f9 19 a5 4f 
-a0 9f f6 2d 
-a2 c4 d3 4b 
-af 61 96 ff 
+e9 a3 4e d8 
+09 d2 f9 58 
+51 a2 ac 94 
+9f 3b f9 2f 
 
 #1 bloc encriptat despres de canviar el bit numero 8
 
-08 64 8e 0b 
-19 d5 b8 d5 
-52 47 1b 67 
-21 f6 0c ec 
+e9 a3 4e c8 
+09 d2 f9 fe 
+51 a2 ac ca 
+9f 3b f9 ae 
 
 #1 bloc encriptat despres de canviar el bit numero 7
 
-64 1d b1 23 
-18 52 ff ce 
-43 6c c7 40 
-d6 37 ec ca 
+e9 a3 4e c9 
+09 d2 f9 a7 
+51 a2 ac 6a 
+9f 3b f9 7e 
 
 #1 bloc encriptat despres de canviar el bit numero 6
 
-d1 84 aa c0 
-5b 89 c3 d3 
-b5 55 32 0b 
-f5 da 6b 7f 
+e9 a3 4e 9f 
+09 d2 f9 55 
+51 a2 ac 46 
+9f 3b f9 5f 
 
 #1 bloc encriptat despres de canviar el bit numero 5
 
-d3 71 ce f6 
-d0 cc ed 3e 
-c3 cc 2b 47 
-1f 09 14 92 
+e9 a3 4e bb 
+09 d2 f9 53 
+51 a2 ac 6e 
+9f 3b f9 c4 
 
 #1 bloc encriptat despres de canviar el bit numero 4
 
-6e 6b ce 91 
-66 1b fc 80 
-04 d9 ce e2 
-4f 38 c0 d8 
+e9 a3 4e 8d 
+09 d2 f9 87 
+51 a2 ac e1 
+9f 3b f9 18 
 
 #1 bloc encriptat despres de canviar el bit numero 3
 
-d5 59 fb 11 
-a8 8a c9 46 
-23 3f a7 73 
-3e a3 4a ea 
+e9 a3 4e ff 
+09 d2 f9 58 
+51 a2 ac 2f 
+9f 3b f9 c5 
 
 #1 bloc encriptat despres de canviar el bit numero 2
 
-64 97 c1 9b 
-7c 64 20 83 
-a4 da 66 45 
-ad 73 af 3a 
+e9 a3 4e ae 
+09 d2 f9 af 
+51 a2 ac 6a 
+9f 3b f9 0c 
 
 #1 bloc encriptat despres de canviar el bit numero 1
 
-bb ed 9f 89 
-7f ee 31 78 
-fb 05 5e 1e 
-3f 9b 91 8f 
+e9 a3 4e 7c 
+09 d2 f9 bf 
+51 a2 ac 58 
+9f 3b f9 d6 
 
 #1 bloc encriptat despres de canviar el bit numero 0
 
-b2 ee 62 80 
-0e fc 96 c2 
-df 63 66 1c 
-9c 37 95 65 
+e9 a3 4e a0 
+09 d2 f9 ff 
+51 a2 ac 3e 
+9f 3b f9 a6 
 
-bloc original numero # 2encriptat: 
+bloc original numero # 2 encriptat: 
 
-88 ec c7 48 
-cb 84 04 37 
-37 08 af 2a 
-7e 1c 94 05 
+a2 63 e3 24 
+db d6 93 65 
+fd 13 25 d8 
+43 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 127
 
-9c 5b d9 ea 
-a9 38 e6 83 
-f2 12 9f 1b 
-f9 ed de 5b 
+be 63 e3 24 
+01 d6 93 65 
+9b 13 25 d8 
+13 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 126
 
-69 27 2d d5 
-3b 56 48 1f 
-21 61 45 f3 
-6c 73 40 38 
+86 63 e3 24 
+c4 d6 93 65 
+63 13 25 d8 
+dd 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 125
 
-2b 1c 62 37 
-4e 6d 22 4b 
-86 52 b5 ed 
-f6 52 ff 31 
+a1 63 e3 24 
+31 d6 93 65 
+0d 13 25 d8 
+56 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 124
 
-de 37 f5 68 
-07 8a bc ef 
-66 9c 7e 9b 
-3f 76 88 3b 
+77 63 e3 24 
+34 d6 93 65 
+fe 13 25 d8 
+a5 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 123
 
-b5 dc 66 e9 
-43 5f 44 39 
-e1 71 b4 b9 
-19 42 a6 43 
+65 63 e3 24 
+21 d6 93 65 
+0b 13 25 d8 
+58 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 122
 
-e9 44 0c 5c 
-bb 56 a9 fe 
-61 6d 2c c2 
-30 46 55 1b 
+a6 63 e3 24 
+24 d6 93 65 
+72 13 25 d8 
+d9 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 121
 
-ce c6 ea 72 
-78 a6 bc 0c 
-41 bc f4 51 
-41 1e f6 f4 
+c3 63 e3 24 
+3a d6 93 65 
+d0 13 25 d8 
+66 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 120
 
-cf fb b0 37 
-fb 52 69 40 
-65 55 a8 71 
-64 8a 20 1c 
+5c 63 e3 24 
+ad d6 93 65 
+4c 13 25 d8 
+9d 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 119
 
-46 b9 0a d7 
-70 c6 9c 12 
-23 8b 7f 8e 
-7b d0 d2 4f 
+23 63 e3 24 
+7d d6 93 65 
+0c 13 25 d8 
+f9 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 118
 
-cb d3 b8 2e 
-b8 a3 4d 62 
-a8 86 04 8e 
-e9 b7 d8 8d 
+1e 63 e3 24 
+9f d6 93 65 
+55 13 25 d8 
+af 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 117
 
-98 6c 12 d4 
-fe 28 96 b3 
-6a 5e a6 a4 
-48 a8 21 3b 
+19 63 e3 24 
+87 d6 93 65 
+a4 13 25 d8 
+42 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 116
 
-37 5e fe 80 
-13 80 75 0f 
-b4 0e 60 79 
-47 f7 68 bd 
+7b 63 e3 24 
+14 d6 93 65 
+34 13 25 d8 
+54 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 115
 
-34 f5 13 60 
-f7 42 fa 3d 
-8d 40 68 06 
-e4 80 27 63 
+cc 63 e3 24 
+46 d6 93 65 
+9e 13 25 d8 
+98 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 114
 
-0d 0d d0 39 
-c5 33 70 c0 
-8d 9b 98 7a 
-3f 10 1b 2c 
+b7 63 e3 24 
+be d6 93 65 
+11 13 25 d8 
+5d 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 113
 
-dd 23 42 0b 
-35 11 7d 0d 
-ac 03 94 07 
-23 29 e2 85 
+fd 63 e3 24 
+9a d6 93 65 
+4c 13 25 d8 
+73 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 112
 
-8f 07 4e 36 
-60 1a ae 1d 
-f7 46 ac d9 
-19 f8 63 16 
+99 63 e3 24 
+5e d6 93 65 
+47 13 25 d8 
+38 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 111
 
-d5 aa ff 6a 
-0c 5e c3 de 
-d9 45 94 46 
-43 87 18 53 
+4e 63 e3 24 
+be d6 93 65 
+f7 13 25 d8 
+0b 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 110
 
-db c5 69 d0 
-a2 e2 86 71 
-ab 08 76 2a 
-54 4e ce cd 
+da 63 e3 24 
+b9 d6 93 65 
+5c 13 25 d8 
+67 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 109
 
-ef af c3 5f 
-ed 3d 2b 2d 
-57 2f f1 64 
-b8 e8 95 bb 
+37 63 e3 24 
+95 d6 93 65 
+01 13 25 d8 
+ad 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 108
 
-cd e9 68 fc 
-d6 e6 ae 7e 
-61 7e 38 fc 
-62 e9 89 41 
+c6 63 e3 24 
+b1 d6 93 65 
+2f 13 25 d8 
+8e 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 107
 
-70 ad d4 a4 
-f1 4e 47 03 
-ac 07 16 2c 
-41 dc a4 0c 
+53 63 e3 24 
+ef d6 93 65 
+a3 13 25 d8 
+a9 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 106
 
-0e 10 c2 7f 
-8d 00 be 4b 
-6c 96 5d fc 
-3f 64 a1 15 
+6c 63 e3 24 
+57 d6 93 65 
+be 13 25 d8 
+e5 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 105
 
-e7 7e 4e 1d 
-b3 6f ac fd 
-6e 31 34 89 
-73 46 48 a8 
+cf 63 e3 24 
+8b d6 93 65 
+d4 13 25 d8 
+bd 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 104
 
-8a 7f b7 d8 
-7a 28 3e b1 
-68 87 43 84 
-a5 83 51 3c 
+23 63 e3 24 
+61 d6 93 65 
+87 13 25 d8 
+f8 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 103
 
-31 25 89 0b 
-1f 2f d4 28 
-49 15 18 c3 
-e7 56 e7 3a 
+20 63 e3 24 
+81 d6 93 65 
+bf 13 25 d8 
+fb 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 102
 
-df 83 c2 aa 
-a9 04 2c f7 
-02 2d f9 72 
-ba ab 5d 54 
+7f 63 e3 24 
+d3 d6 93 65 
+cf 13 25 d8 
+1a 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 101
 
-b6 c0 f0 dc 
-85 01 1e 6c 
-0e 39 61 83 
-47 55 f8 3c 
+5a 63 e3 24 
+df d6 93 65 
+30 13 25 d8 
+ac 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 100
 
-42 e0 36 e0 
-43 78 15 9f 
-5d 06 aa 6c 
-69 bd 38 2d 
+3b 63 e3 24 
+4b d6 93 65 
+d4 13 25 d8 
+51 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 99
 
-63 59 77 7f 
-3c f6 ff 58 
-0b 5a cb 6b 
-d7 42 2f b7 
+ff 63 e3 24 
+c7 d6 93 65 
+c7 13 25 d8 
+e5 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 98
 
-51 d4 d3 10 
-6c 39 c1 e5 
-b3 9c 35 27 
-c6 61 6f cc 
+70 63 e3 24 
+7b d6 93 65 
+ad 13 25 d8 
+b6 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 97
 
-a3 96 9d 42 
-99 99 b6 4e 
-83 b7 75 92 
-67 4b f0 7d 
+7e 63 e3 24 
+48 d6 93 65 
+6d 13 25 d8 
+9a 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 96
 
-73 9b 13 75 
-ff 0a 78 46 
-c7 34 b6 86 
-8c bd ab 17 
+b6 63 e3 24 
+84 d6 93 65 
+98 13 25 d8 
+28 14 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 95
 
-fe eb 0f af 
-3d f5 cf 2e 
-da 25 43 5b 
-e8 4b 5d d8 
+a2 fd e3 24 
+db 4f 93 65 
+fd eb 25 d8 
+43 ff a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 94
 
-fe 43 c3 cb 
-19 83 29 bf 
-c9 dd ea f0 
-78 2a 22 2b 
+a2 e6 e3 24 
+db 00 93 65 
+fd b5 25 d8 
+43 ec a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 93
 
-ee 12 3f b0 
-bc 61 56 31 
-a4 9c 1a de 
-73 ab 23 cb 
+a2 0e e3 24 
+db fa 93 65 
+fd d1 25 d8 
+43 d1 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 92
 
-c7 53 e7 c5 
-05 61 fc e7 
-ec 91 d6 a4 
-9d d8 4a f3 
+a2 1a e3 24 
+db 5c 93 65 
+fd 9f 25 d8 
+43 8b a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 91
 
-e6 90 3f 52 
-0a 2a 5d 4f 
-52 75 d0 f3 
-62 26 e0 ce 
+a2 80 e3 24 
+db 91 93 65 
+fd 15 25 d8 
+43 9e a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 90
 
-c1 94 b6 17 
-d0 ad 60 84 
-0a de c1 77 
-55 f4 5f 2e 
+a2 2b e3 24 
+db 70 93 65 
+fd c2 25 d8 
+43 9c a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 89
 
-5c 19 57 4e 
-a4 0f a8 4a 
-98 d7 c0 d5 
-f4 a7 f2 b5 
+a2 b3 e3 24 
+db cb 93 65 
+fd f7 25 d8 
+43 70 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 88
 
-63 bd 66 f9 
-54 3f a3 a9 
-33 95 3f 00 
-99 90 55 f2 
+a2 ab e3 24 
+db 60 93 65 
+fd 8f 25 d8 
+43 11 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 87
 
-73 cb bd 9d 
-39 5c b4 75 
-b2 57 06 f0 
-1e 65 0a d3 
+a2 ba e3 24 
+db 74 93 65 
+fd 76 25 d8 
+43 8d a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 86
 
-4d 27 d4 1e 
-0f 2d 4a 37 
-d9 3a ef 3d 
-20 d2 a0 2c 
+a2 6d e3 24 
+db f3 93 65 
+fd 28 25 d8 
+43 f6 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 85
 
-b7 51 76 7f 
-4f d3 d9 68 
-4c 95 54 dd 
-25 db 35 fd 
+a2 5f e3 24 
+db a3 93 65 
+fd cd 25 d8 
+43 17 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 84
 
-bc 78 3e 50 
-6e c3 60 4c 
-4d 09 db 56 
-32 30 44 5c 
+a2 7a e3 24 
+db f2 93 65 
+fd 28 25 d8 
+43 ae a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 83
 
-01 91 87 10 
-a2 05 5f be 
-fd f1 2d 6b 
-47 f7 40 bf 
+a2 a7 e3 24 
+db 95 93 65 
+fd c5 25 d8 
+43 90 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 82
 
-9c b8 45 2f 
-21 d0 3e 46 
-c7 55 3e bc 
-b2 0b f3 c0 
+a2 11 e3 24 
+db 32 93 65 
+fd b9 25 d8 
+43 b0 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 81
 
-66 b4 51 f8 
-d1 99 1d 68 
-0a 70 28 b1 
-86 de d5 24 
+a2 7f e3 24 
+db b9 93 65 
+fd fc 25 d8 
+43 d2 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 80
 
-db 0a a4 b6 
-ea a0 f0 10 
-30 36 36 e6 
-6d 44 8b f0 
+a2 9a e3 24 
+db da 93 65 
+fd 0e 25 d8 
+43 dd a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 79
 
-ed 37 2a 4b 
-43 df d7 ef 
-42 42 51 59 
-68 46 c0 d1 
+a2 f2 e3 24 
+db 29 93 65 
+fd aa 25 d8 
+43 63 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 78
 
-ba 4d 0d 48 
-2f 21 22 5e 
-6e 3d 80 7c 
-6d 41 49 a8 
+a2 1f e3 24 
+db 7c 93 65 
+fd 17 25 d8 
+43 b0 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 77
 
-52 ab 78 1d 
-4e 9f c8 3e 
-5a 9b 0a eb 
-56 09 d1 d1 
+a2 60 e3 24 
+db ef 93 65 
+fd a1 25 d8 
+43 1b a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 76
 
-df 89 4d 5b 
-8c 82 aa bd 
-eb 2f d9 34 
-57 2f 83 d1 
+a2 0a e3 24 
+db 71 93 65 
+fd ee 25 d8 
+43 42 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 75
 
-81 ab 9d 42 
-de 13 28 ab 
-d7 86 ca db 
-25 64 cc bd 
+a2 ed e3 24 
+db e9 93 65 
+fd 51 25 d8 
+43 1b a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 74
 
-30 e0 22 45 
-a2 f3 75 e5 
-9b b4 30 ba 
-d5 85 26 a4 
+a2 7c e3 24 
+db 29 93 65 
+fd 91 25 d8 
+43 28 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 73
 
-86 af 7b 55 
-5f a8 77 e0 
-82 51 33 4c 
-b9 0b 9d 8e 
+a2 2d e3 24 
+db fe 93 65 
+fd 4a 25 d8 
+43 20 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 72
 
-46 a3 42 a8 
-10 d0 20 e3 
-c2 33 cd 35 
-17 39 94 50 
+a2 cb e3 24 
+db ec 93 65 
+fd 4e 25 d8 
+43 d1 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 71
 
-14 70 a6 a8 
-16 a1 26 ea 
-ea ad 77 17 
-2d 79 67 78 
+a2 60 e3 24 
+db 06 93 65 
+fd bf 25 d8 
+43 2c a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 70
 
-9b bb a3 38 
-75 df 36 5e 
-b2 e6 0a b3 
-e0 1d 3a 4a 
+a2 17 e3 24 
+db f3 93 65 
+fd 37 25 d8 
+43 01 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 69
 
-37 df 03 c6 
-71 b2 81 fe 
-b9 0f e9 5e 
-46 bc f5 7d 
+a2 91 e3 24 
+db a0 93 65 
+fd 61 25 d8 
+43 82 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 68
 
-f0 d4 48 76 
-ae f6 82 fe 
-94 15 8c 79 
-54 e3 b3 73 
+a2 6a e3 24 
+db aa 93 65 
+fd f7 25 d8 
+43 24 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 67
 
-59 88 64 dd 
-3d 66 a8 be 
-13 5c cc 04 
-3a eb 6e a9 
+a2 f0 e3 24 
+db fa 93 65 
+fd c8 25 d8 
+43 42 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 66
 
-17 5e 08 ac 
-c4 b9 c2 70 
-32 9e 44 0e 
-de 1d 44 c6 
+a2 65 e3 24 
+db 5c 93 65 
+fd 78 25 d8 
+43 61 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 65
 
-da 1e 09 38 
-e5 32 66 00 
-4b 08 0c 3b 
-7e 50 48 1a 
+a2 70 e3 24 
+db c4 93 65 
+fd 9b 25 d8 
+43 fa a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 64
 
-b4 c4 f4 b1 
-c0 3e 51 86 
-a1 5e 1e f9 
-0a 86 60 7f 
+a2 2f e3 24 
+db cc 93 65 
+fd cd 25 d8 
+43 f6 a0 50 
 
 #2 bloc encriptat despres de canviar el bit numero 63
 
-0f fe 21 09 
-47 39 7f 38 
-d5 ae 27 80 
-bd 33 5a 32 
+a2 63 96 24 
+db d6 0f 65 
+fd 13 59 d8 
+43 14 92 50 
 
 #2 bloc encriptat despres de canviar el bit numero 62
 
-31 b1 77 ac 
-c1 bd 67 21 
-a8 43 a9 3c 
-10 8e 8d 03 
+a2 63 ba 24 
+db d6 b8 65 
+fd 13 4f d8 
+43 14 3e 50 
 
 #2 bloc encriptat despres de canviar el bit numero 61
 
-51 dd 14 60 
-a3 f6 8f 54 
-69 30 e9 9d 
-1a c2 f9 61 
+a2 63 68 24 
+db d6 23 65 
+fd 13 f3 d8 
+43 14 6a 50 
 
 #2 bloc encriptat despres de canviar el bit numero 60
 
-3d 54 b0 bb 
-4d cc 24 5c 
-4d fe 1a 3f 
-ee be bc b6 
+a2 63 78 24 
+db d6 9f 65 
+fd 13 2c d8 
+43 14 7e 50 
 
 #2 bloc encriptat despres de canviar el bit numero 59
 
-10 7b 9f d9 
-44 c6 16 ff 
-c9 3a 40 41 
-11 2f 52 a4 
+a2 63 ac 24 
+db d6 1e 65 
+fd 13 72 d8 
+43 14 0f 50 
 
 #2 bloc encriptat despres de canviar el bit numero 58
 
-7a 8c 77 26 
-bf 6f 7c d3 
-d0 e1 da a7 
-ab 67 83 a1 
+a2 63 7f 24 
+db d6 6f 65 
+fd 13 38 d8 
+43 14 77 50 
 
 #2 bloc encriptat despres de canviar el bit numero 57
 
-88 77 94 09 
-b8 ba 0c f7 
-cc 66 91 08 
-ab 64 e6 b5 
+a2 63 f6 24 
+db d6 33 65 
+fd 13 76 d8 
+43 14 7a 50 
 
 #2 bloc encriptat despres de canviar el bit numero 56
 
-b9 1c 5e 27 
-ee fc 7b 7a 
-ca 31 90 89 
-e9 fd 2d c7 
+a2 63 63 24 
+db d6 a5 65 
+fd 13 70 d8 
+43 14 f6 50 
 
 #2 bloc encriptat despres de canviar el bit numero 55
 
-36 7a d2 3b 
-cb 49 c0 42 
-98 06 ce e6 
-d1 e9 b3 46 
+a2 63 b9 24 
+db d6 23 65 
+fd 13 45 d8 
+43 14 7a 50 
 
 #2 bloc encriptat despres de canviar el bit numero 54
 
-b1 70 11 df 
-95 93 b9 c1 
-40 5d 68 4c 
-43 e2 a1 e7 
+a2 63 8e 24 
+db d6 1e 65 
+fd 13 06 d8 
+43 14 fc 50 
 
 #2 bloc encriptat despres de canviar el bit numero 53
 
-2d bb 1c e9 
-6d 6a 5e 1e 
-4e 78 d4 49 
-c5 23 a6 03 
+a2 63 24 24 
+db d6 a7 65 
+fd 13 08 d8 
+43 14 ed 50 
 
 #2 bloc encriptat despres de canviar el bit numero 52
 
-26 06 c0 b3 
-94 1a e6 ca 
-fa 63 33 b1 
-22 90 46 f1 
+a2 63 a0 24 
+db d6 4c 65 
+fd 13 9d d8 
+43 14 61 50 
 
 #2 bloc encriptat despres de canviar el bit numero 51
 
-3a ea e9 1f 
-ec 09 93 f8 
-07 88 3c 80 
-66 ef 91 f3 
+a2 63 37 24 
+db d6 f0 65 
+fd 13 6c d8 
+43 14 4d 50 
 
 #2 bloc encriptat despres de canviar el bit numero 50
 
-aa 9e 0a c4 
-3e e0 f9 b0 
-c3 a0 1c 0a 
-7b 1c 9d a1 
+a2 63 9e 24 
+db d6 68 65 
+fd 13 97 d8 
+43 14 c7 50 
 
 #2 bloc encriptat despres de canviar el bit numero 49
 
-5d d9 96 97 
-28 c6 9d bc 
-2a 4d 3b fc 
-d0 a7 4f 22 
+a2 63 a9 24 
+db d6 ae 65 
+fd 13 dc d8 
+43 14 86 50 
 
 #2 bloc encriptat despres de canviar el bit numero 48
 
-be 54 ec c0 
-8c 3e 3d 89 
-b5 91 76 b8 
-f2 d6 d5 02 
+a2 63 31 24 
+db d6 a6 65 
+fd 13 59 d8 
+43 14 20 50 
 
 #2 bloc encriptat despres de canviar el bit numero 47
 
-f7 be 85 77 
-fe 38 b9 95 
-f3 45 79 dd 
-d4 1b a8 7b 
+a2 63 1e 24 
+db d6 29 65 
+fd 13 59 d8 
+43 14 80 50 
 
 #2 bloc encriptat despres de canviar el bit numero 46
 
-2e f9 38 09 
-65 28 45 49 
-91 c6 01 4b 
-43 b4 eb ac 
+a2 63 13 24 
+db d6 dc 65 
+fd 13 b3 d8 
+43 14 79 50 
 
 #2 bloc encriptat despres de canviar el bit numero 45
 
-8d 60 27 9d 
-4a 15 70 12 
-cf cc d6 bf 
-b8 44 28 91 
+a2 63 5f 24 
+db d6 eb 65 
+fd 13 31 d8 
+43 14 2f 50 
 
 #2 bloc encriptat despres de canviar el bit numero 44
 
-32 45 2e 01 
-1e d1 13 0c 
-9b 41 8a 1b 
-ed 6f 24 e7 
+a2 63 47 24 
+db d6 7c 65 
+fd 13 2b d8 
+43 14 db 50 
 
 #2 bloc encriptat despres de canviar el bit numero 43
 
-76 c7 17 c7 
-b5 1e b7 a0 
-53 ba 6f 56 
-d4 18 48 82 
+a2 63 2a 24 
+db d6 79 65 
+fd 13 be d8 
+43 14 95 50 
 
 #2 bloc encriptat despres de canviar el bit numero 42
 
-8d bd 37 98 
-1f fe b4 d2 
-b0 71 f6 4a 
-67 93 a7 26 
+a2 63 3f 24 
+db d6 22 65 
+fd 13 c7 d8 
+43 14 1c 50 
 
 #2 bloc encriptat despres de canviar el bit numero 41
 
-4c 46 24 70 
-66 43 0e f0 
-87 b0 e3 e9 
-ad d4 55 f5 
+a2 63 d5 24 
+db d6 78 65 
+fd 13 87 d8 
+43 14 80 50 
 
 #2 bloc encriptat despres de canviar el bit numero 40
 
-ed df ce 9f 
-3d 60 4b 5a 
-91 d3 23 67 
-8c e3 cc 83 
+a2 63 85 24 
+db d6 c7 65 
+fd 13 99 d8 
+43 14 72 50 
 
 #2 bloc encriptat despres de canviar el bit numero 39
 
-5f 1e 5b 2a 
-55 d1 cc 67 
-26 df 2d 32 
-d2 e0 c4 87 
+a2 63 3e 24 
+db d6 63 65 
+fd 13 43 d8 
+43 14 61 50 
 
 #2 bloc encriptat despres de canviar el bit numero 38
 
-89 95 cd 8e 
-5d 03 34 75 
-75 4b d6 1a 
-3e c8 87 9d 
+a2 63 fe 24 
+db d6 7f 65 
+fd 13 13 d8 
+43 14 10 50 
 
 #2 bloc encriptat despres de canviar el bit numero 37
 
-b0 d1 d8 9a 
-13 ee 37 cd 
-b2 63 7f 3f 
-83 3a 1a 39 
+a2 63 1d 24 
+db d6 19 65 
+fd 13 ad d8 
+43 14 a7 50 
 
 #2 bloc encriptat despres de canviar el bit numero 36
 
-0a 89 13 1d 
-af b8 70 71 
-2c 86 ff 4d 
-78 84 7a 29 
+a2 63 cb 24 
+db d6 d9 65 
+fd 13 ef d8 
+43 14 59 50 
 
 #2 bloc encriptat despres de canviar el bit numero 35
 
-ef c1 dd 03 
-f5 d3 0a 59 
-e4 12 ac 9e 
-a2 c0 e9 8a 
+a2 63 b0 24 
+db d6 b6 65 
+fd 13 f8 d8 
+43 14 d9 50 
 
 #2 bloc encriptat despres de canviar el bit numero 34
 
-c2 fe 51 18 
-61 cd 36 a1 
-77 3d ac b1 
-e6 ce d8 71 
+a2 63 29 24 
+db d6 21 65 
+fd 13 b6 d8 
+43 14 90 50 
 
 #2 bloc encriptat despres de canviar el bit numero 33
 
-72 54 9a 94 
-13 56 41 78 
-03 5f e7 cb 
-cd 8b d5 4f 
+a2 63 b0 24 
+db d6 5e 65 
+fd 13 41 d8 
+43 14 a9 50 
 
 #2 bloc encriptat despres de canviar el bit numero 32
 
-a7 14 a6 ed 
-e9 d1 b0 93 
-05 9d f2 66 
-67 db c7 f6 
+a2 63 49 24 
+db d6 96 65 
+fd 13 c8 d8 
+43 14 fd 50 
 
 #2 bloc encriptat despres de canviar el bit numero 31
 
-e0 cb a5 40 
-4e 24 52 a1 
-7e 75 b6 8d 
-7d ab 50 80 
+a2 63 e3 28 
+db d6 93 a8 
+fd 13 25 dd 
+43 14 a0 bf 
 
 #2 bloc encriptat despres de canviar el bit numero 30
 
-ae 57 38 7b 
-67 86 8f 97 
-91 37 1a 18 
-07 2d da 45 
+a2 63 e3 2f 
+db d6 93 46 
+fd 13 25 6b 
+43 14 a0 5b 
 
 #2 bloc encriptat despres de canviar el bit numero 29
 
-fe 00 0e 46 
-1c 0e 9b 62 
-c4 28 3b a9 
-47 58 26 13 
+a2 63 e3 81 
+db d6 93 f0 
+fd 13 25 bc 
+43 14 a0 d2 
 
 #2 bloc encriptat despres de canviar el bit numero 28
 
-45 20 82 bc 
-ac 74 4c ad 
-7c 9c c5 52 
-97 48 75 80 
+a2 63 e3 c2 
+db d6 93 d4 
+fd 13 25 2f 
+43 14 a0 49 
 
 #2 bloc encriptat despres de canviar el bit numero 27
 
-ab f0 bd ad 
-92 bf c4 ef 
-49 55 4e 8e 
-6b 5e 2f 41 
+a2 63 e3 4b 
+db d6 93 89 
+fd 13 25 ac 
+43 14 a0 7c 
 
 #2 bloc encriptat despres de canviar el bit numero 26
 
-e5 8d c7 4b 
-83 8e 71 6e 
-0a 37 f1 fb 
-fd 15 df a4 
+a2 63 e3 43 
+db d6 93 10 
+fd 13 25 b9 
+43 14 a0 17 
 
 #2 bloc encriptat despres de canviar el bit numero 25
 
-f1 24 99 a4 
-cf de 9b a8 
-7d 51 05 43 
-f8 f0 91 39 
+a2 63 e3 cd 
+db d6 93 88 
+fd 13 25 a4 
+43 14 a0 73 
 
 #2 bloc encriptat despres de canviar el bit numero 24
 
-d7 d9 35 89 
-07 38 c5 34 
-85 c6 40 bb 
-de 9b a0 3d 
+a2 63 e3 98 
+db d6 93 6d 
+fd 13 25 7a 
+43 14 a0 77 
 
 #2 bloc encriptat despres de canviar el bit numero 23
 
-31 28 18 0e 
-cf 34 8c 1f 
-89 9e aa 8d 
-3f 8f 5e e0 
+a2 63 e3 1d 
+db d6 93 18 
+fd 13 25 20 
+43 14 a0 5c 
 
 #2 bloc encriptat despres de canviar el bit numero 22
 
-6f 49 ad f2 
-98 5c 2a 31 
-b7 92 37 66 
-5a c0 62 5c 
+a2 63 e3 11 
+db d6 93 fe 
+fd 13 25 b2 
+43 14 a0 e9 
 
 #2 bloc encriptat despres de canviar el bit numero 21
 
-37 28 43 7c 
-32 49 9d ec 
-92 fa 93 02 
-0c 69 0a 7d 
+a2 63 e3 0d 
+db d6 93 b9 
+fd 13 25 c3 
+43 14 a0 68 
 
 #2 bloc encriptat despres de canviar el bit numero 20
 
-a1 18 fa 37 
-72 2b c8 91 
-c4 bc c6 61 
-cc 18 f9 0d 
+a2 63 e3 0e 
+db d6 93 00 
+fd 13 25 d7 
+43 14 a0 da 
 
 #2 bloc encriptat despres de canviar el bit numero 19
 
-88 5e 8a 52 
-0c 0e 4e d5 
-fb f7 4c 19 
-99 c3 26 da 
+a2 63 e3 c4 
+db d6 93 33 
+fd 13 25 19 
+43 14 a0 6a 
 
 #2 bloc encriptat despres de canviar el bit numero 18
 
-4c 90 16 a0 
-7e 86 1a c0 
-34 e0 89 25 
-c2 37 e3 07 
+a2 63 e3 61 
+db d6 93 27 
+fd 13 25 db 
+43 14 a0 61 
 
 #2 bloc encriptat despres de canviar el bit numero 17
 
-6e 64 d2 7c 
-63 c9 7f 5f 
-80 d6 04 82 
-68 40 1c f4 
+a2 63 e3 a3 
+db d6 93 4f 
+fd 13 25 24 
+43 14 a0 c3 
 
 #2 bloc encriptat despres de canviar el bit numero 16
 
-15 e7 57 f1 
-3e b7 ce 00 
-41 98 a8 24 
-73 c8 cb 13 
+a2 63 e3 b9 
+db d6 93 72 
+fd 13 25 a1 
+43 14 a0 b0 
 
 #2 bloc encriptat despres de canviar el bit numero 15
 
-23 c8 2c cf 
-54 06 cc 07 
-e1 97 9c 35 
-fa f5 d8 ba 
+a2 63 e3 09 
+db d6 93 cd 
+fd 13 25 4a 
+43 14 a0 4e 
 
 #2 bloc encriptat despres de canviar el bit numero 14
 
-c6 90 26 38 
-5e f7 fb c8 
-2e 56 d2 84 
-37 d9 11 ff 
+a2 63 e3 25 
+db d6 93 e7 
+fd 13 25 a1 
+43 14 a0 e4 
 
 #2 bloc encriptat despres de canviar el bit numero 13
 
-0a 68 c1 90 
-f1 03 ac c1 
-1f 9a fc 67 
-99 a7 88 20 
+a2 63 e3 e4 
+db d6 93 38 
+fd 13 25 d0 
+43 14 a0 a9 
 
 #2 bloc encriptat despres de canviar el bit numero 12
 
-ea cc 8b ad 
-fa 3f 34 c1 
-d3 6d 3b f2 
-f3 8f 39 63 
+a2 63 e3 eb 
+db d6 93 6d 
+fd 13 25 f9 
+43 14 a0 2a 
 
 #2 bloc encriptat despres de canviar el bit numero 11
 
-43 0d 2f 38 
-0d 87 cb d8 
-3b 9a cf ae 
-96 8c ae 7a 
+a2 63 e3 00 
+db d6 93 54 
+fd 13 25 62 
+43 14 a0 af 
 
 #2 bloc encriptat despres de canviar el bit numero 10
 
-ec 22 dd 73 
-02 0b 67 76 
-d2 6a 71 0d 
-01 2b cb 0a 
+a2 63 e3 4b 
+db d6 93 5b 
+fd 13 25 34 
+43 14 a0 4f 
 
 #2 bloc encriptat despres de canviar el bit numero 9
 
-fb 7f 48 38 
-94 6c e2 9b 
-49 ff c3 15 
-39 27 57 25 
+a2 63 e3 68 
+db d6 93 00 
+fd 13 25 2a 
+43 14 a0 23 
 
 #2 bloc encriptat despres de canviar el bit numero 8
 
-e2 1b bb fd 
-5c 7e 32 4d 
-a7 56 ec 7f 
-05 10 8d 24 
+a2 63 e3 0f 
+db d6 93 7f 
+fd 13 25 e7 
+43 14 a0 12 
 
 #2 bloc encriptat despres de canviar el bit numero 7
 
-7f 36 75 82 
-8d 17 ac de 
-a6 82 07 be 
-8d de c6 51 
+a2 63 e3 41 
+db d6 93 fd 
+fd 13 25 a9 
+43 14 a0 e9 
 
 #2 bloc encriptat despres de canviar el bit numero 6
 
-fa 41 6a e3 
-2a 8e c6 27 
-2a 90 ac 2e 
-63 1d 88 4b 
+a2 63 e3 2a 
+db d6 93 68 
+fd 13 25 08 
+43 14 a0 be 
 
 #2 bloc encriptat despres de canviar el bit numero 5
 
-18 d9 6d e5 
-ff ba c8 9e 
-24 37 5d d7 
-14 28 e9 30 
+a2 63 e3 0f 
+db d6 93 3c 
+fd 13 25 82 
+43 14 a0 19 
 
 #2 bloc encriptat despres de canviar el bit numero 4
 
-da 96 56 1c 
-71 04 85 12 
-d8 96 14 84 
-41 e8 a5 a0 
+a2 63 e3 08 
+db d6 93 30 
+fd 13 25 28 
+43 14 a0 79 
 
 #2 bloc encriptat despres de canviar el bit numero 3
 
-16 02 cd c5 
-2b 36 c5 1c 
-9d bf af cb 
-bc ad 65 e2 
+a2 63 e3 b3 
+db d6 93 4c 
+fd 13 25 4c 
+43 14 a0 bc 
 
 #2 bloc encriptat despres de canviar el bit numero 2
 
-9d 40 81 b0 
-9a b4 fd d0 
-f4 2d 8f b7 
-ec 9e c1 1e 
+a2 63 e3 de 
+db d6 93 2e 
+fd 13 25 01 
+43 14 a0 3e 
 
 #2 bloc encriptat despres de canviar el bit numero 1
 
-df 49 59 5d 
-b6 ec 9e d0 
-17 7a 6b 51 
-fc 8d 59 3c 
+a2 63 e3 e7 
+db d6 93 85 
+fd 13 25 58 
+43 14 a0 76 
 
 #2 bloc encriptat despres de canviar el bit numero 0
 
-c3 af 8f e6 
-bc d3 17 60 
-b2 9b 2f 60 
-35 21 56 ee 
+a2 63 e3 7c 
+db d6 93 30 
+fd 13 25 98 
+43 14 a0 06 
 
-bloc original numero # 3encriptat: 
+bloc original numero # 3 encriptat: 
 
-f8 4f a1 f0 
-c5 c2 62 f0 
-f9 28 68 a7 
-3a 36 40 d0 
+2e 7b f4 d1 
+52 91 08 2f 
+d3 e0 e9 54 
+2e 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 127
 
-6b 7d f8 39 
-f6 74 93 8b 
-1d df fe 62 
-00 32 e6 38 
+5d 7b f4 d1 
+0f 91 08 2f 
+fe e0 e9 54 
+ed 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 126
 
-d3 ec 0a e0 
-8a 05 f5 17 
-3b 97 dd 6c 
-21 b5 46 bc 
+92 7b f4 d1 
+1b 91 08 2f 
+d1 e0 e9 54 
+68 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 125
 
-e5 ad d7 51 
-68 e9 96 f8 
-43 9d b6 12 
-67 4e 47 12 
+ac 7b f4 d1 
+9b 91 08 2f 
+bb e0 e9 54 
+c8 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 124
 
-c7 73 c1 b1 
-5f 60 9e 84 
-a4 95 f4 6b 
-68 95 4f 98 
+44 7b f4 d1 
+b9 91 08 2f 
+e1 e0 e9 54 
+e0 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 123
 
-73 a6 10 1d 
-e7 9f 7d 61 
-29 8b 49 21 
-58 44 7b 90 
+bb 7b f4 d1 
+ef 91 08 2f 
+8e e0 e9 54 
+08 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 122
 
-d6 d9 d6 a9 
-4b 4c 8a 99 
-59 e6 78 be 
-6f 83 63 b9 
+35 7b f4 d1 
+86 91 08 2f 
+cd e0 e9 54 
+86 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 121
 
-e0 f8 b0 e3 
-63 b9 56 6c 
-61 7e ed 7c 
-94 0f 51 df 
+9c 7b f4 d1 
+6a 91 08 2f 
+7a e0 e9 54 
+f1 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 120
 
-94 dd 07 03 
-f0 95 0a 75 
-30 81 09 d4 
-5c 42 02 e6 
+e1 7b f4 d1 
+3c 91 08 2f 
+65 e0 e9 54 
+ea 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 119
 
-a3 47 2c 49 
-ce d9 fd 9e 
-1a 2e aa 8e 
-df 58 70 36 
+b0 7b f4 d1 
+73 91 08 2f 
+17 e0 e9 54 
+29 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 118
 
-81 b0 55 c4 
-cc ae be e0 
-2b 84 c0 f1 
-0b d5 80 dc 
+08 7b f4 d1 
+d8 91 08 2f 
+bc e0 e9 54 
+a1 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 117
 
-2e 86 c0 0b 
-52 48 d9 e1 
-42 92 a4 7b 
-6d 95 72 9c 
+00 7b f4 d1 
+4c 91 08 2f 
+b9 e0 e9 54 
+7e 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 116
 
-75 e1 6a 05 
-11 e4 89 72 
-31 2e 9e 77 
-97 14 a2 29 
+ab 7b f4 d1 
+7f 91 08 2f 
+db e0 e9 54 
+41 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 115
 
-38 17 00 17 
-2c 26 a0 60 
-d9 ac ab 93 
-6e ee 22 3e 
+c8 7b f4 d1 
+e2 91 08 2f 
+0a e0 e9 54 
+bd 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 114
 
-d1 a6 5f 99 
-eb 07 25 b9 
-a2 a5 f8 ee 
-64 c4 71 71 
+ea 7b f4 d1 
+c5 91 08 2f 
+8f e0 e9 54 
+6b 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 113
 
-a5 26 62 1e 
-13 0b 20 cd 
-ed 9b 94 3b 
-36 af 27 d6 
+f4 7b f4 d1 
+a0 91 08 2f 
+f1 e0 e9 54 
+74 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 112
 
-a2 a7 de 5f 
-df b5 01 c9 
-7e 62 4a b5 
-68 c6 b7 c3 
+bb 7b f4 d1 
+73 91 08 2f 
+a4 e0 e9 54 
+28 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 111
 
-3c 1e 41 97 
-61 71 d6 49 
-4f 26 84 65 
-58 39 3d 13 
+b8 7b f4 d1 
+5e 91 08 2f 
+91 e0 e9 54 
+3f 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 110
 
-37 64 bc c6 
-9f 11 ec e7 
-a3 49 de 95 
-9e 21 ad f2 
+e5 7b f4 d1 
+6e 91 08 2f 
+3a e0 e9 54 
+2b 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 109
 
-7c 98 19 94 
-f6 a9 f9 0f 
-e9 a1 70 51 
-1f 47 89 a3 
+33 7b f4 d1 
+a6 91 08 2f 
+07 e0 e9 54 
+de 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 108
 
-e8 44 52 9e 
-52 99 c2 f2 
-1d e4 50 58 
-fd 75 e4 c7 
+ca 7b f4 d1 
+21 91 08 2f 
+f7 e0 e9 54 
+f3 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 107
 
-4b f4 ab 5b 
-43 95 8f ca 
-10 1f 8b eb 
-70 f8 3f 7a 
+44 7b f4 d1 
+bb 91 08 2f 
+d2 e0 e9 54 
+86 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 106
 
-83 04 8b f9 
-58 7f 2f d6 
-fb 0c 97 04 
-d8 12 46 55 
+84 7b f4 d1 
+6b 91 08 2f 
+b0 e0 e9 54 
+a2 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 105
 
-e3 28 cc 80 
-a4 41 6f bf 
-f1 38 9a 60 
-b7 54 eb 92 
+73 7b f4 d1 
+b6 91 08 2f 
+bb e0 e9 54 
+fa 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 104
 
-2c 44 a3 8d 
-f2 af 2f 21 
-06 d7 dc 6e 
-5f 18 b2 f8 
+53 7b f4 d1 
+99 91 08 2f 
+db e0 e9 54 
+d2 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 103
 
-49 32 c7 f0 
-e9 bf a7 68 
-85 b3 db 63 
-85 2f c3 22 
+70 7b f4 d1 
+d1 91 08 2f 
+eb e0 e9 54 
+de 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 102
 
-ef 67 4d a7 
-f8 08 dc 59 
-dc 0c 71 4b 
-54 70 27 f7 
+91 7b f4 d1 
+20 91 08 2f 
+4b e0 e9 54 
+49 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 101
 
-bd 85 0c 44 
-6c bb 5a b2 
-3f a4 38 b5 
-8d c7 43 01 
+0d 7b f4 d1 
+b1 91 08 2f 
+aa e0 e9 54 
+1c 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 100
 
-73 ad d2 49 
-56 32 74 5b 
-ff f8 67 e0 
-6a b5 e9 55 
+c1 7b f4 d1 
+b7 91 08 2f 
+15 e0 e9 54 
+7e 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 99
 
-0e d0 08 b2 
-ce 4d 09 3b 
-13 e9 50 d4 
-d1 ec 71 bc 
+b6 7b f4 d1 
+85 91 08 2f 
+ee e0 e9 54 
+6c 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 98
 
-4b 90 35 5b 
-d2 41 d1 2d 
-68 e9 9e 15 
-79 e5 48 fa 
+69 7b f4 d1 
+2c 91 08 2f 
+4a e0 e9 54 
+76 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 97
 
-3d 66 04 ce 
-1c 31 b0 de 
-b3 ec c1 a6 
-c2 ac 19 e8 
+d7 7b f4 d1 
+b3 91 08 2f 
+92 e0 e9 54 
+55 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 96
 
-7c 10 5f ed 
-6b a1 54 31 
-98 c5 74 64 
-a6 2b c5 ca 
+b2 7b f4 d1 
+23 91 08 2f 
+6a e0 e9 54 
+b1 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 95
 
-b9 b6 e9 85 
-1f 0b f0 3e 
-b9 cf 49 8b 
-d4 a5 da 8f 
+2e c4 f4 d1 
+52 f3 08 2f 
+d3 56 e9 54 
+2e b1 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 94
 
-de 8b 32 a4 
-92 07 b6 ea 
-a2 b3 94 48 
-e1 d3 4b 3d 
+2e 6b f4 d1 
+52 6f 08 2f 
+d3 14 e9 54 
+2e ed 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 93
 
-86 f5 9e f3 
-73 7b 92 de 
-89 31 d3 ce 
-54 db a8 83 
+2e ab f4 d1 
+52 83 08 2f 
+d3 d1 e9 54 
+2e 89 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 92
 
-6d e1 89 d8 
-87 0e 23 dd 
-8e 50 b5 23 
-d7 7e 03 e1 
+2e f6 f4 d1 
+52 61 08 2f 
+d3 3b e9 54 
+2e 5e 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 91
 
-b2 73 e3 b5 
-e0 bb c6 c2 
-e3 d5 63 1a 
-66 b2 36 4f 
+2e 41 f4 d1 
+52 c5 08 2f 
+d3 08 e9 54 
+2e a2 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 90
 
-e6 9b 94 1b 
-d8 34 e0 68 
-66 a7 eb 64 
-c1 d1 b1 2e 
+2e 99 f4 d1 
+52 c7 08 2f 
+d3 2e e9 54 
+2e 32 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 89
 
-08 34 aa 45 
-0f 90 42 00 
-5f 9c 00 f8 
-92 74 74 d1 
+2e fd f4 d1 
+52 1f 08 2f 
+d3 f2 e9 54 
+2e 28 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 88
 
-67 e1 1c 25 
-51 2b 64 ba 
-04 be 42 9e 
-e9 bc 38 c4 
+2e 62 f4 d1 
+52 3a 08 2f 
+d3 be e9 54 
+2e 09 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 87
 
-38 0a bb c0 
-2b 9e 18 2e 
-b2 d2 a5 8c 
-12 28 91 7c 
+2e a5 f4 d1 
+52 3c 08 2f 
+d3 00 e9 54 
+2e ec 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 86
 
-5d 1d 6e 71 
-da e9 37 13 
-12 d9 22 e4 
-89 1c 7e d4 
+2e 2a f4 d1 
+52 74 08 2f 
+d3 89 e9 54 
+2e 05 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 85
 
-f5 b1 bb 43 
-87 c5 bc 90 
-a1 af 72 c6 
-64 46 75 cb 
+2e 64 f4 d1 
+52 e1 08 2f 
+d3 6c e9 54 
+2e 84 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 84
 
-1c e9 43 1d 
-88 44 3e ac 
-fb a8 83 42 
-29 0d 1c 9b 
+2e f0 f4 d1 
+52 9b 08 2f 
+d3 64 e9 54 
+2e 73 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 83
 
-eb 69 84 5e 
-89 27 f5 be 
-f1 3c d1 c3 
-11 f3 f3 f2 
+2e 96 f4 d1 
+52 96 08 2f 
+d3 97 e9 54 
+2e 91 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 82
 
-11 73 82 6a 
-a1 f1 08 8c 
-b6 52 a3 c4 
-f1 2f 16 88 
+2e 79 f4 d1 
+52 3b 08 2f 
+d3 af e9 54 
+2e 63 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 81
 
-02 a9 c9 14 
-09 2c 3c 5d 
-93 c8 f4 66 
-d2 b2 39 c4 
+2e 7f f4 d1 
+52 bf 08 2f 
+d3 b4 e9 54 
+2e eb 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 80
 
-0a 8b 9c 61 
-78 63 66 cb 
-fb 4a 24 d8 
-a0 b3 94 ac 
+2e 74 f4 d1 
+52 10 08 2f 
+d3 22 e9 54 
+2e 67 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 79
 
-cd d6 6c 29 
-df 7e 9d 9a 
-3d 89 61 0c 
-aa ab 28 95 
+2e 57 f4 d1 
+52 cc 08 2f 
+d3 0c e9 54 
+2e 3f 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 78
 
-b1 53 48 d6 
-d5 80 ec 07 
-1b ee 78 23 
-01 dd de e9 
+2e a3 f4 d1 
+52 4d 08 2f 
+d3 33 e9 54 
+2e 72 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 77
 
-f3 13 09 48 
-5a fa 73 17 
-3b 5f 4d 86 
-37 5f dc a2 
+2e 8b f4 d1 
+52 cf 08 2f 
+d3 45 e9 54 
+2e f5 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 76
 
-e8 d9 17 f9 
-ad 50 ab 06 
-03 ec 20 b6 
-9c 6c 4a 9a 
+2e ed f4 d1 
+52 e6 08 2f 
+d3 30 e9 54 
+2e 48 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 75
 
-1a 7e 76 b0 
-a2 ac 72 2d 
-4b 63 d5 e8 
-92 76 ba 27 
+2e c0 f4 d1 
+52 1f 08 2f 
+d3 be e9 54 
+2e 3a 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 74
 
-60 98 37 e3 
-71 4c ad 7d 
-2e 5a 43 cc 
-e4 0b eb d6 
+2e ee f4 d1 
+52 8f 08 2f 
+d3 c9 e9 54 
+2e 9a 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 73
 
-72 ec c7 a4 
-7f c5 32 c8 
-f5 e2 63 d0 
-ae 31 68 de 
+2e 68 f4 d1 
+52 ae 08 2f 
+d3 68 e9 54 
+2e 95 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 72
 
-e9 98 50 60 
-48 7c 5d 5f 
-ea 40 86 c9 
-0b 83 0d f7 
+2e 8f f4 d1 
+52 68 08 2f 
+d3 4b e9 54 
+2e 32 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 71
 
-45 35 b6 e8 
-28 c4 17 76 
-1b 67 bb e3 
-a1 10 6b 07 
+2e fb f4 d1 
+52 c2 08 2f 
+d3 93 e9 54 
+2e c8 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 70
 
-89 81 8d aa 
-a8 e8 5e 61 
-27 25 15 2a 
-58 b2 cc 7f 
+2e aa f4 d1 
+52 38 08 2f 
+d3 aa e9 54 
+2e 0f 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 69
 
-05 65 0a 5b 
-88 fa 9f aa 
-73 f6 1e 23 
-61 bd c2 d7 
+2e 47 f4 d1 
+52 ef 08 2f 
+d3 01 e9 54 
+2e fb 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 68
 
-e7 4c e8 6c 
-67 0b 38 a0 
-2f e5 29 47 
-d5 e9 c7 25 
+2e 75 f4 d1 
+52 34 08 2f 
+d3 9d e9 54 
+2e 3b 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 67
 
-f2 84 a9 37 
-85 d6 cf 1a 
-84 ee fa 5c 
-12 a0 1d f3 
+2e 2e f4 d1 
+52 94 08 2f 
+d3 b3 e9 54 
+2e 8a 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 66
 
-1a a2 e9 b2 
-41 03 d8 b9 
-ca d9 25 0b 
-53 83 17 49 
+2e 8a f4 d1 
+52 01 08 2f 
+d3 ae e9 54 
+2e 28 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 65
 
-c1 49 23 48 
-c4 b4 bf 82 
-7a 4f c6 03 
-87 60 b9 5c 
+2e 75 f4 d1 
+52 c7 08 2f 
+d3 7d e9 54 
+2e 0d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 64
 
-12 73 15 d4 
-76 6f 99 e6 
-42 c8 b4 f3 
-3e 60 1c 16 
+2e 31 f4 d1 
+52 69 08 2f 
+d3 4f e9 54 
+2e 63 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 63
 
-92 19 32 bc 
-ad b4 93 34 
-e6 6e 01 07 
-33 d6 6a 12 
+2e 7b 7b d1 
+52 91 d2 2f 
+d3 e0 c1 54 
+2e 1d f3 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 62
 
-a3 2d 44 13 
-4c 40 30 19 
-65 e8 26 40 
-e0 54 61 c0 
+2e 7b 76 d1 
+52 91 1c 2f 
+d3 e0 5b 54 
+2e 1d d1 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 61
 
-69 58 bb d0 
-a2 d0 b0 bf 
-54 2e f1 1c 
-07 7d 6e d9 
+2e 7b c4 d1 
+52 91 8a 2f 
+d3 e0 c3 54 
+2e 1d 28 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 60
 
-2f fd 47 11 
-80 9a c9 52 
-d8 53 1d 63 
-c1 38 db 5a 
+2e 7b e0 d1 
+52 91 9e 2f 
+d3 e0 20 54 
+2e 1d df b7 
 
 #3 bloc encriptat despres de canviar el bit numero 59
 
-b6 7b e2 79 
-a3 4d 49 9d 
-d8 47 a9 87 
-d8 9f f6 2d 
+2e 7b fc d1 
+52 91 10 2f 
+d3 e0 57 54 
+2e 1d 8d b7 
 
 #3 bloc encriptat despres de canviar el bit numero 58
 
-25 d6 9f a3 
-0b 76 1e 8b 
-00 81 3b c8 
-0e 68 22 c6 
+2e 7b 27 d1 
+52 91 ce 2f 
+d3 e0 59 54 
+2e 1d a7 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 57
 
-0d a6 be af 
-42 cd 71 4b 
-f1 18 bf a0 
-ec b8 b7 f6 
+2e 7b ea d1 
+52 91 3b 2f 
+d3 e0 d0 54 
+2e 1d 51 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 56
 
-08 a8 89 aa 
-a2 8d 16 55 
-12 23 d5 c8 
-8c 80 5c 94 
+2e 7b c6 d1 
+52 91 a0 2f 
+d3 e0 6a 54 
+2e 1d 66 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 55
 
-1f 39 36 51 
-01 39 be 5a 
-66 62 ab f2 
-44 25 32 41 
+2e 7b 58 d1 
+52 91 f4 2f 
+d3 e0 f4 54 
+2e 1d 2a b7 
 
 #3 bloc encriptat despres de canviar el bit numero 54
 
-61 70 e1 c1 
-e0 ed 00 c5 
-5b af 6c b7 
-1a 61 4f 50 
+2e 7b 9f d1 
+52 91 9c 2f 
+d3 e0 1e 54 
+2e 1d ab b7 
 
 #3 bloc encriptat despres de canviar el bit numero 53
 
-8f d9 fe 55 
-f7 f4 10 ff 
-22 8f 37 a0 
-cd ad f9 7a 
+2e 7b 87 d1 
+52 91 07 2f 
+d3 e0 13 54 
+2e 1d c9 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 52
 
-58 a9 f4 25 
-d0 d6 e4 de 
-07 1d af d8 
-6b c2 c9 a0 
+2e 7b f0 d1 
+52 91 fa 2f 
+d3 e0 47 54 
+2e 1d 08 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 51
 
-b6 d4 9b 83 
-67 f5 3a 74 
-6c 70 23 c9 
-fa 29 52 3c 
+2e 7b 82 d1 
+52 91 8a 2f 
+d3 e0 a5 54 
+2e 1d 78 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 50
 
-bc 7e eb 0b 
-05 a0 fc 00 
-c8 fa 53 90 
-2d 09 07 c4 
+2e 7b 91 d1 
+52 91 6b 2f 
+d3 e0 35 54 
+2e 1d 32 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 49
 
-20 6b cd 36 
-27 8e 6d 5e 
-15 3d f3 80 
-e2 e5 6a 0f 
+2e 7b b2 d1 
+52 91 15 2f 
+d3 e0 c1 54 
+2e 1d 22 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 48
 
-1e f9 46 92 
-70 74 20 fc 
-fb 9f ff 98 
-52 e0 92 e3 
+2e 7b c1 d1 
+52 91 31 2f 
+d3 e0 a3 54 
+2e 1d ab b7 
 
 #3 bloc encriptat despres de canviar el bit numero 47
 
-83 bf b7 3c 
-dd 36 80 c4 
-7b 47 78 12 
-39 0b e7 bc 
+2e 7b d7 d1 
+52 91 c3 2f 
+d3 e0 f1 54 
+2e 1d 40 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 46
 
-16 9c 14 86 
-2b 7b 10 c3 
-7a 7c 71 1b 
-41 59 e6 70 
+2e 7b eb d1 
+52 91 22 2f 
+d3 e0 7b 54 
+2e 1d d6 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 45
 
-76 8b 15 a2 
-c7 a8 0e 01 
-dd 4f d7 cc 
-24 e5 ad c5 
+2e 7b 85 d1 
+52 91 16 2f 
+d3 e0 8d 54 
+2e 1d 6a b7 
 
 #3 bloc encriptat despres de canviar el bit numero 44
 
-ff d5 d7 45 
-0d 5a cc e2 
-6b 00 ad de 
-3d 2f df eb 
+2e 7b d2 d1 
+52 91 13 2f 
+d3 e0 21 54 
+2e 1d b6 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 43
 
-4b a2 4b c6 
-7b bb a1 97 
-29 8b 4b cb 
-c9 1f 77 3d 
+2e 7b 18 d1 
+52 91 94 2f 
+d3 e0 72 54 
+2e 1d 38 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 42
 
-df 8b 1d 7c 
-24 c6 2b bf 
-5f 35 72 bc 
-87 00 c9 99 
+2e 7b fc d1 
+52 91 5c 2f 
+d3 e0 68 54 
+2e 1d a6 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 41
 
-69 ac 65 bd 
-53 3a f3 20 
-01 e2 37 c0 
-d9 8a 46 81 
+2e 7b 60 d1 
+52 91 77 2f 
+d3 e0 e8 54 
+2e 1d 86 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 40
 
-9d ee 20 d3 
-0e 12 77 52 
-23 48 01 ef 
-b7 8b 4b b5 
+2e 7b 4e d1 
+52 91 e1 2f 
+d3 e0 f1 54 
+2e 1d 09 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 39
 
-d8 7d ea fd 
-40 9e 3b b1 
-01 84 4a 67 
-f9 25 38 a2 
+2e 7b ed d1 
+52 91 35 2f 
+d3 e0 4e 54 
+2e 1d a3 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 38
 
-3a ed 27 e1 
-d3 3f dd 55 
-db 70 a9 31 
-b7 2e 7c e0 
+2e 7b 42 d1 
+52 91 69 2f 
+d3 e0 12 54 
+2e 1d 23 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 37
 
-38 8d 63 2d 
-c0 64 8f 84 
-89 ae 9f 7e 
-f3 35 6a 7f 
+2e 7b df d1 
+52 91 ef 2f 
+d3 e0 3e 54 
+2e 1d 6f b7 
 
 #3 bloc encriptat despres de canviar el bit numero 36
 
-be 21 37 fe 
-1c 6d 2f ac 
-04 ed 1f 20 
-90 4e 38 a5 
+2e 7b ac d1 
+52 91 1c 2f 
+d3 e0 73 54 
+2e 1d 08 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 35
 
-31 e1 7b 1d 
-4f b0 18 5e 
-e7 d0 75 3f 
-fe 6b 72 26 
+2e 7b 91 d1 
+52 91 bd 2f 
+d3 e0 9b 54 
+2e 1d 98 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 34
 
-7f 1d 53 e2 
-eb 12 99 75 
-1e e9 c0 71 
-0d 77 6f ef 
+2e 7b 55 d1 
+52 91 7e 2f 
+d3 e0 76 54 
+2e 1d 03 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 33
 
-1e c3 30 4d 
-de 47 4d 8f 
-88 c5 62 ba 
-ca 2f 6b b4 
+2e 7b e0 d1 
+52 91 c5 2f 
+d3 e0 e4 54 
+2e 1d 59 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 32
 
-ca dd b6 da 
-22 18 db df 
-2b 81 27 d8 
-fd 23 88 f8 
+2e 7b 50 d1 
+52 91 da 2f 
+d3 e0 1b 54 
+2e 1d 70 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 31
 
-5c c9 d1 e0 
-b4 1c d6 fb 
-a9 46 0e d8 
-cb 5b 9f 69 
+2e 7b f4 26 
+52 91 08 64 
+d3 e0 e9 b5 
+2e 1d 11 23 
 
 #3 bloc encriptat despres de canviar el bit numero 30
 
-06 5e 3a 33 
-2f bc f7 a9 
-92 8e c4 b7 
-36 b4 4b a4 
+2e 7b f4 9e 
+52 91 08 16 
+d3 e0 e9 4e 
+2e 1d 11 37 
 
 #3 bloc encriptat despres de canviar el bit numero 29
 
-c9 33 79 24 
-5b 36 a1 86 
-68 b4 ff ff 
-22 3b 92 ef 
+2e 7b f4 ef 
+52 91 08 8e 
+d3 e0 e9 f6 
+2e 1d 11 ba 
 
 #3 bloc encriptat despres de canviar el bit numero 28
 
-67 72 03 db 
-9b 4d 64 e6 
-1d b9 5d 14 
-41 de 09 a5 
+2e 7b f4 01 
+52 91 08 ae 
+d3 e0 e9 bc 
+2e 1d 11 a9 
 
 #3 bloc encriptat despres de canviar el bit numero 27
 
-59 0c 65 c3 
-d0 4e 96 12 
-a5 b4 90 38 
-c1 1d 99 94 
+2e 7b f4 82 
+52 91 08 2f 
+d3 e0 e9 6c 
+2e 1d 11 10 
 
 #3 bloc encriptat despres de canviar el bit numero 26
 
-8a 42 d1 34 
-06 90 08 1c 
-83 a8 32 94 
-ca b6 40 11 
+2e 7b f4 80 
+52 91 08 0d 
+d3 e0 e9 aa 
+2e 1d 11 d9 
 
 #3 bloc encriptat despres de canviar el bit numero 25
 
-22 30 08 59 
-23 c8 de 9d 
-21 5f 3d 86 
-2a 81 e4 7c 
+2e 7b f4 d2 
+52 91 08 90 
+d3 e0 e9 b4 
+2e 1d 11 3a 
 
 #3 bloc encriptat despres de canviar el bit numero 24
 
-8c bb d6 95 
-52 ab 75 a7 
-78 ab b0 02 
-e2 34 8e c6 
+2e 7b f4 ca 
+52 91 08 f0 
+d3 e0 e9 49 
+2e 1d 11 60 
 
 #3 bloc encriptat despres de canviar el bit numero 23
 
-84 50 79 99 
-66 a6 92 31 
-6b 9c a5 87 
-16 ca 10 ce 
+2e 7b f4 94 
+52 91 08 c1 
+d3 e0 e9 92 
+2e 1d 11 08 
 
 #3 bloc encriptat despres de canviar el bit numero 22
 
-53 75 76 77 
-a7 84 6f 9f 
-1f 3b 43 8c 
-25 b9 94 96 
+2e 7b f4 34 
+52 91 08 06 
+d3 e0 e9 9d 
+2e 1d 11 03 
 
 #3 bloc encriptat despres de canviar el bit numero 21
 
-82 4f 1b f7 
-8e 32 35 40 
-7b c3 40 10 
-57 5a e2 b2 
+2e 7b f4 a8 
+52 91 08 ed 
+d3 e0 e9 ea 
+2e 1d 11 a1 
 
 #3 bloc encriptat despres de canviar el bit numero 20
 
-d3 5f a1 97 
-47 6c 5d c6 
-3b 18 67 64 
-16 48 27 d7 
+2e 7b f4 a4 
+52 91 08 bd 
+d3 e0 e9 94 
+2e 1d 11 8c 
 
 #3 bloc encriptat despres de canviar el bit numero 19
 
-b7 16 ad b3 
-8c fe 2d dc 
-c5 5a c4 15 
-97 15 4f c9 
+2e 7b f4 b1 
+52 91 08 20 
+d3 e0 e9 c0 
+2e 1d 11 ca 
 
 #3 bloc encriptat despres de canviar el bit numero 18
 
-b4 31 f6 b7 
-4d 9a 84 97 
-2d 2c 6a fa 
-86 90 00 a1 
+2e 7b f4 07 
+52 91 08 ac 
+d3 e0 e9 30 
+2e 1d 11 8f 
 
 #3 bloc encriptat despres de canviar el bit numero 17
 
-e3 b6 5d e9 
-fe 97 25 53 
-0e ce 61 eb 
-92 33 d7 b2 
+2e 7b f4 0a 
+52 91 08 41 
+d3 e0 e9 4f 
+2e 1d 11 24 
 
 #3 bloc encriptat despres de canviar el bit numero 16
 
-e2 0b d6 82 
-04 f0 cc e9 
-ca 49 d4 d6 
-93 f1 63 65 
+2e 7b f4 b2 
+52 91 08 13 
+d3 e0 e9 29 
+2e 1d 11 eb 
 
 #3 bloc encriptat despres de canviar el bit numero 15
 
-3a d5 47 b3 
-55 8c 74 a5 
-8d 48 97 a8 
-0e b1 f7 ce 
+2e 7b f4 3d 
+52 91 08 a3 
+d3 e0 e9 bd 
+2e 1d 11 60 
 
 #3 bloc encriptat despres de canviar el bit numero 14
 
-07 00 84 3f 
-36 91 c0 9d 
-3f d9 9d 63 
-d6 58 65 32 
+2e 7b f4 fc 
+52 91 08 0e 
+d3 e0 e9 94 
+2e 1d 11 b7 
 
 #3 bloc encriptat despres de canviar el bit numero 13
 
-40 5f 2f 9c 
-84 89 1b ce 
-70 c2 26 58 
-84 21 8c 24 
+2e 7b f4 ac 
+52 91 08 a4 
+d3 e0 e9 09 
+2e 1d 11 a5 
 
 #3 bloc encriptat despres de canviar el bit numero 12
 
-92 67 57 45 
-b1 e2 8f b5 
-57 86 d6 14 
-55 d9 0c a5 
+2e 7b f4 4e 
+52 91 08 db 
+d3 e0 e9 f7 
+2e 1d 11 1e 
 
 #3 bloc encriptat despres de canviar el bit numero 11
 
-9c 54 52 61 
-22 fd 2f 61 
-94 3a c3 d3 
-cb 29 2a c9 
+2e 7b f4 ac 
+52 91 08 0f 
+d3 e0 e9 58 
+2e 1d 11 ce 
 
 #3 bloc encriptat despres de canviar el bit numero 10
 
-90 2d cd 27 
-f2 80 6b 3e 
-83 0f fd 8a 
-38 60 7b ba 
+2e 7b f4 b0 
+52 91 08 91 
+d3 e0 e9 f8 
+2e 1d 11 9d 
 
 #3 bloc encriptat despres de canviar el bit numero 9
 
-0a e5 d4 ed 
-e2 92 d2 5a 
-a7 5f bd fa 
-5b 14 e5 a5 
+2e 7b f4 b8 
+52 91 08 ed 
+d3 e0 e9 19 
+2e 1d 11 92 
 
 #3 bloc encriptat despres de canviar el bit numero 8
 
-a0 65 c0 7e 
-a5 fd 4c 6f 
-1a 23 93 a8 
-2a e3 ef 5f 
+2e 7b f4 92 
+52 91 08 b6 
+d3 e0 e9 6e 
+2e 1d 11 76 
 
 #3 bloc encriptat despres de canviar el bit numero 7
 
-f0 1c f1 45 
-f8 fa 15 25 
-b2 22 08 17 
-d0 7f 6e 9d 
+2e 7b f4 43 
+52 91 08 37 
+d3 e0 e9 4f 
+2e 1d 11 39 
 
 #3 bloc encriptat despres de canviar el bit numero 6
 
-39 3d 84 9b 
-8a 06 81 f3 
-34 3b 1b 3d 
-46 b4 ae 90 
+2e 7b f4 56 
+52 91 08 ab 
+d3 e0 e9 46 
+2e 1d 11 c1 
 
 #3 bloc encriptat despres de canviar el bit numero 5
 
-2a 48 30 c7 
-dc 83 a4 80 
-99 18 fc fb 
-cc b9 c2 79 
+2e 7b f4 71 
+52 91 08 c8 
+d3 e0 e9 ea 
+2e 1d 11 0c 
 
 #3 bloc encriptat despres de canviar el bit numero 4
 
-1c ac cb 3f 
-81 3e 68 58 
-76 f4 26 c2 
-aa 26 bb 0e 
+2e 7b f4 ae 
+52 91 08 3f 
+d3 e0 e9 a9 
+2e 1d 11 f0 
 
 #3 bloc encriptat despres de canviar el bit numero 3
 
-91 c7 2f 32 
-d4 3c 32 ac 
-37 c6 2a 74 
-11 1e b1 27 
+2e 7b f4 1f 
+52 91 08 a4 
+d3 e0 e9 54 
+2e 1d 11 e4 
 
 #3 bloc encriptat despres de canviar el bit numero 2
 
-d7 41 4d b7 
-b8 80 c0 0c 
-d1 87 f8 3a 
-9b 1b dc a0 
+2e 7b f4 8e 
+52 91 08 b9 
+d3 e0 e9 c6 
+2e 1d 11 1d 
 
 #3 bloc encriptat despres de canviar el bit numero 1
 
-9f ad df dc 
-88 a0 21 26 
-47 6f b1 1a 
-6f af 0b 3a 
+2e 7b f4 eb 
+52 91 08 67 
+d3 e0 e9 44 
+2e 1d 11 9a 
 
 #3 bloc encriptat despres de canviar el bit numero 0
 
-d9 d0 33 9b 
-16 49 87 c8 
-c0 8f 69 31 
-57 b0 63 1f 
+2e 7b f4 8f 
+52 91 08 09 
+d3 e0 e9 a2 
+2e 1d 11 70 
 
-bloc original numero # 4encriptat: 
-
-09 b7 cc 8c 
-54 d3 14 6c 
-c2 f7 6a d8 
-18 71 b4 da 
-
-#4 bloc encriptat despres de canviar el bit numero 127
-
-81 7a e4 17 
-a6 c7 39 65 
-95 e5 42 66 
-5b 65 a0 31 
-
-#4 bloc encriptat despres de canviar el bit numero 126
-
-53 3e 15 e2 
-33 67 f0 55 
-67 ca 93 e8 
-00 2c 9c d2 
-
-#4 bloc encriptat despres de canviar el bit numero 125
-
-27 47 c5 b6 
-a0 9c 02 b8 
-d1 40 c1 f5 
-91 43 f2 ca 
-
-#4 bloc encriptat despres de canviar el bit numero 124
-
-52 62 0a df 
-8c d2 97 98 
-d5 07 e0 fc 
-73 68 21 b2 
-
-#4 bloc encriptat despres de canviar el bit numero 123
-
-27 ab 46 50 
-30 82 ab 9f 
-af 09 1b 98 
-4a bd a5 cc 
-
-#4 bloc encriptat despres de canviar el bit numero 122
-
-64 98 b8 ee 
-07 17 a2 94 
-85 de 36 b9 
-8b 6b a9 bf 
-
-#4 bloc encriptat despres de canviar el bit numero 121
-
-1a e9 df fd 
-fd b3 6b 19 
-88 db d3 3c 
-0a 5c f6 be 
-
-#4 bloc encriptat despres de canviar el bit numero 120
-
-3b c0 8a 5a 
-3b e5 50 1a 
-9d ac 6b c7 
-50 e5 90 c1 
-
-#4 bloc encriptat despres de canviar el bit numero 119
-
-3b f4 e3 2c 
-31 00 11 88 
-c2 52 bd 2c 
-a8 97 56 39 
-
-#4 bloc encriptat despres de canviar el bit numero 118
-
-23 ed d3 7c 
-14 2f f7 84 
-07 08 33 a8 
-b3 e8 15 62 
-
-#4 bloc encriptat despres de canviar el bit numero 117
-
-24 f2 d0 47 
-45 23 d9 1f 
-a5 93 41 99 
-89 c5 a4 f6 
-
-#4 bloc encriptat despres de canviar el bit numero 116
-
-e4 e0 88 59 
-18 e3 47 2e 
-d2 08 b8 c2 
-8a 89 fa dd 
-
-#4 bloc encriptat despres de canviar el bit numero 115
-
-fd 38 4c 21 
-4d 3a b7 3e 
-7b ec cd 7d 
-a5 f5 a4 9c 
-
-#4 bloc encriptat despres de canviar el bit numero 114
-
-7f e5 41 cc 
-9a 0c 0e fc 
-d6 fc 16 bf 
-4d 08 69 77 
-
-#4 bloc encriptat despres de canviar el bit numero 113
-
-33 29 31 df 
-2e 4f d0 2c 
-59 ff c6 d3 
-e5 4d 50 43 
-
-#4 bloc encriptat despres de canviar el bit numero 112
-
-5e 4f 8e ff 
-45 70 07 c9 
-47 c7 92 ca 
-c2 51 0f 77 
-
-#4 bloc encriptat despres de canviar el bit numero 111
-
-84 81 1e 05 
-77 0a f2 ce 
-2e 94 2a a8 
-b2 41 b7 a6 
-
-#4 bloc encriptat despres de canviar el bit numero 110
-
-ae 9c d4 ff 
-a1 41 5c fb 
-dd 70 cf 81 
-1c 72 87 11 
-
-#4 bloc encriptat despres de canviar el bit numero 109
-
-e6 06 0f 6e 
-91 68 81 de 
-ba 48 bc f4 
-00 b4 c1 e8 
-
-#4 bloc encriptat despres de canviar el bit numero 108
-
-94 08 1e 7c 
-3b 81 0e ce 
-52 04 47 0b 
-50 3e 2f c0 
-
-#4 bloc encriptat despres de canviar el bit numero 107
-
-1f 7f 97 a5 
-e5 79 8b 7f 
-af 19 9e b3 
-f5 66 1b 56 
-
-#4 bloc encriptat despres de canviar el bit numero 106
-
-b8 59 39 2b 
-40 bb 62 27 
-0d 4e 6a a4 
-f0 83 92 78 
-
-#4 bloc encriptat despres de canviar el bit numero 105
-
-48 05 86 41 
-e8 93 29 a1 
-da 06 5f 6d 
-fa 29 ba 3c 
-
-#4 bloc encriptat despres de canviar el bit numero 104
-
-09 ef 48 44 
-1b af 01 32 
-d8 32 34 9a 
-8f ff 05 e0 
-
-#4 bloc encriptat despres de canviar el bit numero 103
-
-4f e8 15 e2 
-f2 43 82 57 
-4c 4f 72 83 
-a2 2d 83 ac 
-
-#4 bloc encriptat despres de canviar el bit numero 102
-
-9a ba bf cd 
-56 e9 cd 19 
-3e 7f f5 4a 
-5c 27 fa 5e 
-
-#4 bloc encriptat despres de canviar el bit numero 101
-
-2d 20 3b 40 
-3d 4e 31 84 
-74 9b d6 bf 
-6d d5 e4 21 
-
-#4 bloc encriptat despres de canviar el bit numero 100
-
-35 47 1e a6 
-ee 6f bd 84 
-c1 aa d4 52 
-e0 a9 ed e4 
-
-#4 bloc encriptat despres de canviar el bit numero 99
-
-8b 3b 58 47 
-6c 05 f0 1d 
-4b db 23 44 
-4d f8 8a 16 
-
-#4 bloc encriptat despres de canviar el bit numero 98
-
-5e a5 08 af 
-25 6d 73 ae 
-16 df 38 5f 
-a7 19 93 8e 
-
-#4 bloc encriptat despres de canviar el bit numero 97
-
-21 30 9c e4 
-9b 71 0d ad 
-58 e5 06 d4 
-7c f4 9a d7 
-
-#4 bloc encriptat despres de canviar el bit numero 96
-
-d4 5b 31 c9 
-c9 c8 30 5d 
-6a cd 25 eb 
-d6 53 2f 97 
-
-#4 bloc encriptat despres de canviar el bit numero 95
-
-49 86 0a c2 
-aa bb c6 27 
-60 5a 42 4a 
-37 f4 52 d1 
-
-#4 bloc encriptat despres de canviar el bit numero 94
-
-3d 07 52 8d 
-25 21 53 1c 
-5e ed 88 03 
-62 a8 40 fc 
-
-#4 bloc encriptat despres de canviar el bit numero 93
-
-1a 98 40 f1 
-02 5e c4 af 
-c0 73 77 92 
-a9 ea 80 46 
-
-#4 bloc encriptat despres de canviar el bit numero 92
-
-e5 75 cb 95 
-f5 79 e1 b1 
-4f d0 bb 60 
-48 03 59 41 
-
-#4 bloc encriptat despres de canviar el bit numero 91
-
-c4 c0 8a bb 
-50 4c d4 23 
-dd 43 78 68 
-21 75 97 14 
-
-#4 bloc encriptat despres de canviar el bit numero 90
-
-ef 88 ea 3a 
-d5 31 f8 9a 
-9d ca 0e 05 
-3c 20 0c 34 
-
-#4 bloc encriptat despres de canviar el bit numero 89
-
-75 32 1a d5 
-62 4e e1 bb 
-cb 95 8b 83 
-56 f9 2b 87 
-
-#4 bloc encriptat despres de canviar el bit numero 88
-
-e2 25 d7 a8 
-3c f1 d7 20 
-27 08 6f c1 
-4f 64 ef 5d 
-
-#4 bloc encriptat despres de canviar el bit numero 87
-
-45 3b b8 02 
-21 5d 02 bf 
-e3 2f 92 a7 
-8b 20 fb 6e 
-
-#4 bloc encriptat despres de canviar el bit numero 86
-
-41 a2 41 48 
-91 38 03 37 
-66 a0 a3 b4 
-8d 44 b8 61 
-
-#4 bloc encriptat despres de canviar el bit numero 85
-
-2d d9 d8 26 
-ed be 01 9b 
-b2 ee 67 68 
-84 2d 8b 71 
-
-#4 bloc encriptat despres de canviar el bit numero 84
-
-d4 8a f8 8f 
-89 6a 93 be 
-20 e5 d7 fb 
-bd 72 eb c4 
-
-#4 bloc encriptat despres de canviar el bit numero 83
-
-3f a7 4f 54 
-9c 46 00 68 
-f0 c8 fc 97 
-d6 c3 eb ef 
-
-#4 bloc encriptat despres de canviar el bit numero 82
-
-f7 61 30 ca 
-3f ba 4e dd 
-3e db 0d 7c 
-e3 c3 d4 b3 
-
-#4 bloc encriptat despres de canviar el bit numero 81
-
-4d 51 0f 89 
-9d 69 54 58 
-f3 1c 9a 15 
-37 8d 9c 23 
-
-#4 bloc encriptat despres de canviar el bit numero 80
-
-bc b1 ec 94 
-36 7a 90 63 
-91 c2 84 f3 
-1e 98 cf 23 
-
-#4 bloc encriptat despres de canviar el bit numero 79
-
-88 92 f3 1a 
-0e 3e e4 7c 
-42 f9 8a 33 
-54 c8 5e 4a 
-
-#4 bloc encriptat despres de canviar el bit numero 78
-
-16 6b 73 99 
-92 ec 3f c4 
-63 01 7e 7e 
-62 4c 20 67 
-
-#4 bloc encriptat despres de canviar el bit numero 77
-
-07 aa 6f fe 
-b6 90 68 7c 
-00 2d 48 b1 
-0d 22 a2 74 
-
-#4 bloc encriptat despres de canviar el bit numero 76
-
-9d 78 f2 4d 
-ee 64 cf 68 
-3a 64 1c a7 
-cf f1 73 55 
-
-#4 bloc encriptat despres de canviar el bit numero 75
-
-8a a6 c0 41 
-85 e7 13 96 
-f6 81 09 7d 
-09 f8 9f ee 
-
-#4 bloc encriptat despres de canviar el bit numero 74
-
-fc d6 21 a4 
-c4 7a 5e c6 
-72 75 b3 3f 
-99 90 d7 4f 
-
-#4 bloc encriptat despres de canviar el bit numero 73
-
-31 6c e4 93 
-ef a2 5e c4 
-da f6 ed a0 
-75 41 ac 5d 
-
-#4 bloc encriptat despres de canviar el bit numero 72
-
-1f fc 8e 51 
-f8 2f 91 d0 
-8c 35 3e 38 
-16 6b fd a0 
-
-#4 bloc encriptat despres de canviar el bit numero 71
-
-ee 5f 38 d2 
-24 2d e4 4a 
-30 dd 00 37 
-7e a4 c7 e1 
-
-#4 bloc encriptat despres de canviar el bit numero 70
-
-98 bb 87 81 
-c5 d5 fd f7 
-c0 bc dc eb 
-e0 62 2d 12 
-
-#4 bloc encriptat despres de canviar el bit numero 69
-
-84 2b f7 cd 
-fb bc b8 d2 
-89 1a 57 10 
-ec 45 43 59 
-
-#4 bloc encriptat despres de canviar el bit numero 68
-
-7d e7 ac f8 
-3b 90 dc 0b 
-52 05 11 20 
-92 a7 10 4f 
-
-#4 bloc encriptat despres de canviar el bit numero 67
-
-1b 12 a2 32 
-58 ae ac 3c 
-7c 92 75 1f 
-3d 85 62 ca 
-
-#4 bloc encriptat despres de canviar el bit numero 66
-
-6a 6e 5d d5 
-36 9f 5b 2a 
-da b8 02 72 
-c2 dc 89 28 
-
-#4 bloc encriptat despres de canviar el bit numero 65
-
-18 ed 93 53 
-69 a1 4b ed 
-64 df 86 eb 
-e6 ef eb 1d 
-
-#4 bloc encriptat despres de canviar el bit numero 64
-
-eb ed 08 f7 
-68 d3 af fc 
-8b 97 8d 0a 
-7e a0 b4 5a 
-
-#4 bloc encriptat despres de canviar el bit numero 63
-
-25 7b 7d 47 
-0a 91 dc c5 
-9c af 71 a2 
-4f 6c 2d 82 
-
-#4 bloc encriptat despres de canviar el bit numero 62
-
-1e b9 19 c7 
-39 78 04 d7 
-1f 74 1d b5 
-26 ec 11 73 
-
-#4 bloc encriptat despres de canviar el bit numero 61
-
-d2 e1 9f dd 
-dc a7 49 7a 
-0f a3 bb e5 
-6b b1 21 6f 
-
-#4 bloc encriptat despres de canviar el bit numero 60
-
-df 0c ec 41 
-75 7a a7 66 
-55 a9 b1 aa 
-17 8a ed 7a 
-
-#4 bloc encriptat despres de canviar el bit numero 59
-
-2f 60 d2 8c 
-e9 45 18 c4 
-64 b9 df cb 
-2d ac 4d b0 
-
-#4 bloc encriptat despres de canviar el bit numero 58
-
-bb 40 c6 96 
-c8 60 04 6c 
-a4 57 1d 4d 
-4b 25 dc a8 
-
-#4 bloc encriptat despres de canviar el bit numero 57
-
-8a 4a d6 37 
-2d 90 53 e8 
-fe 95 32 a0 
-cf 3c 68 3a 
-
-#4 bloc encriptat despres de canviar el bit numero 56
-
-93 44 b3 6f 
-35 eb 4e f0 
-38 af 20 41 
-c7 72 0e c1 
-
-#4 bloc encriptat despres de canviar el bit numero 55
-
-a1 d0 5c 51 
-3a 50 44 64 
-00 74 3b c5 
-93 04 1b 39 
-
-#4 bloc encriptat despres de canviar el bit numero 54
-
-05 c2 d7 a4 
-f5 a7 58 5a 
-88 40 75 c8 
-63 05 00 52 
-
-#4 bloc encriptat despres de canviar el bit numero 53
-
-4f 11 11 4d 
-2f 91 c9 4a 
-8b 55 5b 47 
-de e1 e9 86 
-
-#4 bloc encriptat despres de canviar el bit numero 52
-
-76 b3 34 f0 
-8c b8 0e b3 
-c1 2d f1 27 
-ef f8 d3 67 
-
-#4 bloc encriptat despres de canviar el bit numero 51
-
-98 cb 42 54 
-c2 04 6e 97 
-0a 0c 8c 6b 
-1a c0 12 aa 
-
-#4 bloc encriptat despres de canviar el bit numero 50
-
-43 3a 9a 8b 
-4a b8 99 8f 
-5c 18 8f 3f 
-bb 49 44 a8 
-
-#4 bloc encriptat despres de canviar el bit numero 49
-
-2e 06 ef 4f 
-2b 17 78 71 
-38 1c 9e 20 
-56 fc 67 5e 
-
-#4 bloc encriptat despres de canviar el bit numero 48
-
-eb ef c7 59 
-5f fb b6 cf 
-a7 ea 6e 66 
-fd 0e 70 4c 
-
-#4 bloc encriptat despres de canviar el bit numero 47
-
-57 d1 35 93 
-a4 01 97 f0 
-e4 c3 b0 53 
-7f 73 96 05 
-
-#4 bloc encriptat despres de canviar el bit numero 46
-
-e6 8a 2e d1 
-74 a5 13 31 
-c2 04 1c c5 
-28 16 a7 00 
-
-#4 bloc encriptat despres de canviar el bit numero 45
-
-75 31 a0 15 
-03 7c f7 18 
-7c bf cc 7b 
-69 3f ea 20 
-
-#4 bloc encriptat despres de canviar el bit numero 44
-
-1e d6 df 88 
-5c 89 33 f0 
-2d aa 15 d4 
-03 8c da c9 
-
-#4 bloc encriptat despres de canviar el bit numero 43
-
-ed 0a 29 d7 
-3f 7e 29 1b 
-1a a9 d6 2d 
-81 c1 63 56 
-
-#4 bloc encriptat despres de canviar el bit numero 42
-
-91 f8 71 d2 
-a6 2a c2 e8 
-58 9b 8f 60 
-a3 ab 39 5b 
-
-#4 bloc encriptat despres de canviar el bit numero 41
-
-30 d7 90 d7 
-39 06 a6 55 
-97 6c 66 ee 
-68 83 ac f1 
-
-#4 bloc encriptat despres de canviar el bit numero 40
-
-05 be f7 de 
-72 fd d4 35 
-60 5a cb 0e 
-ed 41 bd f3 
-
-#4 bloc encriptat despres de canviar el bit numero 39
-
-21 c7 70 c2 
-10 ab 4e 5b 
-d2 c3 1a 61 
-51 c5 fd e8 
-
-#4 bloc encriptat despres de canviar el bit numero 38
-
-f1 42 3c a2 
-a7 51 6d be 
-3f d1 12 a8 
-a0 01 72 54 
-
-#4 bloc encriptat despres de canviar el bit numero 37
-
-15 89 c3 e8 
-1a 6b a9 b2 
-d2 8b f0 47 
-31 02 5d 85 
-
-#4 bloc encriptat despres de canviar el bit numero 36
-
-5e 65 37 4c 
-31 7a 7e ee 
-36 20 3e 05 
-72 08 b8 76 
-
-#4 bloc encriptat despres de canviar el bit numero 35
-
-5c 49 8f 7b 
-01 4c 16 7e 
-c9 de 60 50 
-8f 44 a8 d6 
-
-#4 bloc encriptat despres de canviar el bit numero 34
-
-91 94 7b 9a 
-5a cb 82 fc 
-bf 40 57 c3 
-5c 95 87 e0 
-
-#4 bloc encriptat despres de canviar el bit numero 33
-
-f7 2b 60 e0 
-13 0c 8b e7 
-95 f4 c3 48 
-97 d3 f6 10 
-
-#4 bloc encriptat despres de canviar el bit numero 32
-
-d5 bd 8b 0b 
-d1 77 e5 37 
-b9 fe a7 dc 
-c0 f5 a9 fb 
-
-#4 bloc encriptat despres de canviar el bit numero 31
-
-e2 73 76 8f 
-bf 58 79 da 
-43 14 3c 2e 
-b5 97 a9 56 
-
-#4 bloc encriptat despres de canviar el bit numero 30
-
-9d fd c7 6e 
-a1 b0 ec 0e 
-a0 db 1e 00 
-b9 c1 04 37 
-
-#4 bloc encriptat despres de canviar el bit numero 29
-
-96 f8 2a 82 
-f3 39 7f 4e 
-ab c9 fc 57 
-52 f0 f0 6e 
-
-#4 bloc encriptat despres de canviar el bit numero 28
-
-19 17 90 5d 
-05 6d 31 40 
-40 c3 5d 81 
-73 b2 3f b5 
-
-#4 bloc encriptat despres de canviar el bit numero 27
-
-41 b7 d4 b9 
-aa cf ba ed 
-9e 02 ee 99 
-70 09 9c f3 
-
-#4 bloc encriptat despres de canviar el bit numero 26
-
-12 54 f4 91 
-dd ed 8d 54 
-75 63 ca d8 
-d8 13 04 c2 
-
-#4 bloc encriptat despres de canviar el bit numero 25
-
-e0 0b 8c 8d 
-43 16 a9 b0 
-5f 19 fe d0 
-f2 a1 94 43 
-
-#4 bloc encriptat despres de canviar el bit numero 24
-
-c8 27 86 94 
-10 56 75 a7 
-86 c7 a6 0f 
-89 a4 ca 72 
-
-#4 bloc encriptat despres de canviar el bit numero 23
-
-a6 8e e0 38 
-81 ad 5f cf 
-89 e4 0b 5c 
-5e 64 7f 7e 
-
-#4 bloc encriptat despres de canviar el bit numero 22
-
-3c 42 26 62 
-23 0d 6c 4e 
-a3 8a ad 71 
-fa 28 f8 af 
-
-#4 bloc encriptat despres de canviar el bit numero 21
-
-3d 69 29 9c 
-93 95 6f d6 
-22 dd 7e 44 
-05 91 e2 43 
-
-#4 bloc encriptat despres de canviar el bit numero 20
-
-a9 96 e5 11 
-55 9e a0 bb 
-0a 7a 78 10 
-3c 33 fe 8c 
-
-#4 bloc encriptat despres de canviar el bit numero 19
-
-55 69 0e b2 
-03 28 0b 6b 
-c5 16 96 b5 
-48 33 bf 08 
-
-#4 bloc encriptat despres de canviar el bit numero 18
-
-4b fa 1f 2e 
-34 83 04 f2 
-7a ad 32 12 
-6d e2 75 d1 
-
-#4 bloc encriptat despres de canviar el bit numero 17
-
-22 5e ef 2c 
-fa 50 a5 a3 
-cf f3 cd 5c 
-cc d8 68 92 
-
-#4 bloc encriptat despres de canviar el bit numero 16
-
-29 06 2b 25 
-76 9e e5 5f 
-19 e5 0e 18 
-a9 71 aa a2 
-
-#4 bloc encriptat despres de canviar el bit numero 15
-
-11 2e 15 f1 
-b9 f0 f9 71 
-12 e0 c2 04 
-c1 d9 e0 36 
-
-#4 bloc encriptat despres de canviar el bit numero 14
-
-d1 c1 26 2f 
-82 a4 e8 03 
-45 b9 cf 8c 
-8c 58 44 b1 
-
-#4 bloc encriptat despres de canviar el bit numero 13
-
-7d ae 64 b9 
-34 d6 ab 60 
-0b b0 b6 69 
-3b 2f d9 84 
-
-#4 bloc encriptat despres de canviar el bit numero 12
-
-1b 0d 38 5a 
-b2 aa 13 3b 
-74 f0 dc 44 
-44 c4 96 d6 
-
-#4 bloc encriptat despres de canviar el bit numero 11
-
-27 72 c1 b0 
-a3 6e ae 45 
-3c c2 8c c8 
-cd 9f 49 7a 
-
-#4 bloc encriptat despres de canviar el bit numero 10
-
-4d 25 a9 d5 
-ec 1a c2 f4 
-55 d0 71 cc 
-64 89 76 91 
-
-#4 bloc encriptat despres de canviar el bit numero 9
-
-9d af 41 7f 
-25 96 48 de 
-69 21 35 36 
-a1 85 6d f2 
-
-#4 bloc encriptat despres de canviar el bit numero 8
-
-1a 2c 83 92 
-bf 7b 92 60 
-bf ef 2c d0 
-7f 28 80 b8 
-
-#4 bloc encriptat despres de canviar el bit numero 7
-
-d1 9a eb da 
-ab c8 93 af 
-ec 2c cf 9c 
-62 e2 b1 e7 
-
-#4 bloc encriptat despres de canviar el bit numero 6
-
-38 3a 1d 6f 
-87 01 4b 13 
-2c 16 5e 8d 
-37 72 0a 66 
-
-#4 bloc encriptat despres de canviar el bit numero 5
-
-6a 0a 7d 3f 
-b8 12 3d 3a 
-c0 8a 46 5c 
-c4 41 7b db 
-
-#4 bloc encriptat despres de canviar el bit numero 4
-
-05 9c 0b 04 
-f1 a1 c6 3a 
-7a da 11 18 
-ed 5c 0f 74 
-
-#4 bloc encriptat despres de canviar el bit numero 3
-
-80 ab 53 93 
-18 db 84 38 
-6e 1c 67 21 
-0e b3 41 8b 
-
-#4 bloc encriptat despres de canviar el bit numero 2
-
-2c fb 04 50 
-d2 0e 48 fc 
-ae 9d c4 77 
-c8 7f 46 c1 
-
-#4 bloc encriptat despres de canviar el bit numero 1
-
-50 09 b3 9b 
-34 c1 bc f6 
-30 c5 5a 69 
-11 b9 75 19 
-
-#4 bloc encriptat despres de canviar el bit numero 0
-
-56 a2 af a2 
-19 62 72 db 
-99 a3 ea d4 
-02 54 45 de 
-
-bloc original numero # 5encriptat: 
-
-f9 e8 d2 d3 
-4b c6 09 4a 
-55 cb 43 69 
-4b 49 1a 13 
-
-#5 bloc encriptat despres de canviar el bit numero 127
-
-d2 2e 89 6e 
-55 e8 b1 e8 
-82 b3 4e d8 
-8f 5e 6e 75 
-
-#5 bloc encriptat despres de canviar el bit numero 126
-
-49 60 06 83 
-e3 14 86 23 
-99 a3 e9 b2 
-76 1d 61 fb 
-
-#5 bloc encriptat despres de canviar el bit numero 125
-
-f0 06 4a 8b 
-03 8e 02 53 
-d1 4e c9 9a 
-4b a5 d5 ba 
-
-#5 bloc encriptat despres de canviar el bit numero 124
-
-4e 21 6f 5e 
-32 3f d1 f4 
-5a 43 ce 0e 
-cf 69 80 86 
-
-#5 bloc encriptat despres de canviar el bit numero 123
-
-bb 6a 78 18 
-9d 25 df 84 
-ad 22 1d e3 
-93 2d 1e ca 
-
-#5 bloc encriptat despres de canviar el bit numero 122
-
-4c b2 ce e3 
-fa 94 47 67 
-d9 d8 b2 2e 
-20 39 41 66 
-
-#5 bloc encriptat despres de canviar el bit numero 121
-
-21 3a 90 c2 
-86 d7 fd 33 
-0b b6 d5 60 
-54 2a cc 10 
-
-#5 bloc encriptat despres de canviar el bit numero 120
-
-dc ae 84 ae 
-a9 45 9b b7 
-40 cc 81 64 
-19 e6 ea 3b 
-
-#5 bloc encriptat despres de canviar el bit numero 119
-
-a6 dc a9 84 
-96 0a 4d 4a 
-c1 11 98 31 
-8d 2f c3 56 
-
-#5 bloc encriptat despres de canviar el bit numero 118
-
-12 70 8f d6 
-21 ec 9f 49 
-8d c7 53 7e 
-0a 9e 50 df 
-
-#5 bloc encriptat despres de canviar el bit numero 117
-
-0e 13 08 46 
-ab ad 5e 1d 
-c4 0e de 08 
-e2 6e 71 9d 
-
-#5 bloc encriptat despres de canviar el bit numero 116
-
-2d 1c 5c 3a 
-95 1e f4 31 
-4a 60 e5 9e 
-19 9e e9 0d 
-
-#5 bloc encriptat despres de canviar el bit numero 115
-
-36 9c c3 44 
-b7 a2 cb ae 
-56 9d 7f ab 
-be 0c 01 3e 
-
-#5 bloc encriptat despres de canviar el bit numero 114
-
-2e 42 6b aa 
-97 80 d2 f8 
-5f 67 ec 20 
-19 93 25 1d 
-
-#5 bloc encriptat despres de canviar el bit numero 113
-
-25 ad 35 b1 
-84 f9 9b cb 
-fc 21 55 4b 
-8c 25 03 2d 
-
-#5 bloc encriptat despres de canviar el bit numero 112
-
-ac 5f 01 86 
-ad 04 2c f6 
-44 f6 65 38 
-63 31 65 ef 
-
-#5 bloc encriptat despres de canviar el bit numero 111
-
-f0 51 d1 e2 
-59 c0 b1 27 
-e8 40 0c f1 
-e4 f1 aa 5c 
-
-#5 bloc encriptat despres de canviar el bit numero 110
-
-c2 79 6a 14 
-ee 8e bd 88 
-27 94 18 11 
-9b 35 1a f3 
-
-#5 bloc encriptat despres de canviar el bit numero 109
-
-f4 3c c9 5b 
-d4 09 61 bd 
-9b d1 62 9e 
-99 16 be 1b 
-
-#5 bloc encriptat despres de canviar el bit numero 108
-
-de af 0f dc 
-13 0a a2 64 
-3a ee 37 5f 
-b9 80 42 53 
-
-#5 bloc encriptat despres de canviar el bit numero 107
-
-df 5e ea e7 
-2c dd 97 b6 
-37 92 32 03 
-20 37 f6 17 
-
-#5 bloc encriptat despres de canviar el bit numero 106
-
-65 1b 5a 43 
-f1 47 73 22 
-71 31 04 41 
-31 81 91 7a 
-
-#5 bloc encriptat despres de canviar el bit numero 105
-
-48 61 ac 18 
-c3 d9 b8 59 
-8a 7c e0 b5 
-22 a1 7b 23 
-
-#5 bloc encriptat despres de canviar el bit numero 104
-
-0d 64 95 39 
-f4 70 e5 67 
-90 f6 c4 30 
-a3 e2 2a 4e 
-
-#5 bloc encriptat despres de canviar el bit numero 103
-
-35 7f 26 9f 
-09 2f 6f a9 
-21 a7 1d 99 
-38 a0 6c eb 
-
-#5 bloc encriptat despres de canviar el bit numero 102
-
-d2 26 2b 4d 
-89 55 99 46 
-f6 71 8a b7 
-1c e2 ce 4a 
-
-#5 bloc encriptat despres de canviar el bit numero 101
-
-b6 a8 f2 cd 
-96 4b 1a e0 
-ae 90 9d 71 
-52 02 52 2f 
-
-#5 bloc encriptat despres de canviar el bit numero 100
-
-48 73 ee 68 
-b3 cf 0d 00 
-b7 e3 e2 1b 
-1d 2b 37 2d 
-
-#5 bloc encriptat despres de canviar el bit numero 99
-
-03 1c a7 cb 
-b6 84 33 cf 
-78 a4 f8 f8 
-8e e0 bc 65 
-
-#5 bloc encriptat despres de canviar el bit numero 98
-
-0b cd 9b 3b 
-6d bb 0c f4 
-45 0b 24 f8 
-e0 80 45 c8 
-
-#5 bloc encriptat despres de canviar el bit numero 97
-
-c4 27 b2 29 
-bc c9 4f 87 
-74 87 6f 66 
-42 43 7a f3 
-
-#5 bloc encriptat despres de canviar el bit numero 96
-
-8e a3 70 24 
-56 7f d8 da 
-c2 8c 7c dd 
-32 92 ed f2 
-
-#5 bloc encriptat despres de canviar el bit numero 95
-
-e2 ad 60 ca 
-8b 90 41 e1 
-65 c0 f0 b8 
-35 57 28 b3 
-
-#5 bloc encriptat despres de canviar el bit numero 94
-
-01 f6 aa 1e 
-99 95 18 33 
-df 38 94 87 
-ce a5 1e cc 
-
-#5 bloc encriptat despres de canviar el bit numero 93
-
-e8 96 37 04 
-df 5d 77 2f 
-b9 72 1e 37 
-aa c4 c1 25 
-
-#5 bloc encriptat despres de canviar el bit numero 92
-
-76 90 cb ea 
-40 a2 97 18 
-cb 57 5f 44 
-89 89 18 e2 
-
-#5 bloc encriptat despres de canviar el bit numero 91
-
-ec bb c9 09 
-9b 6f 5c 8e 
-89 56 2f c6 
-7c b7 d3 d1 
-
-#5 bloc encriptat despres de canviar el bit numero 90
-
-0d fc 56 8c 
-ae 1a b1 ed 
-71 4d 87 40 
-f3 54 f9 f8 
-
-#5 bloc encriptat despres de canviar el bit numero 89
-
-80 9b 7c c8 
-ae fe 1d 7a 
-50 4e 3d ba 
-8e 38 d6 d7 
-
-#5 bloc encriptat despres de canviar el bit numero 88
-
-1c 49 46 57 
-52 85 d3 7b 
-1f 91 59 51 
-5b fd c8 dd 
-
-#5 bloc encriptat despres de canviar el bit numero 87
-
-63 a5 aa 7b 
-27 d5 aa e0 
-50 ee 2e c5 
-3d 6c a3 17 
-
-#5 bloc encriptat despres de canviar el bit numero 86
-
-7a 67 d9 79 
-6e 7c 18 97 
-6d 4e eb 35 
-c0 96 d0 99 
-
-#5 bloc encriptat despres de canviar el bit numero 85
-
-fa ea a8 e8 
-b7 81 b2 9e 
-1c 31 ef 37 
-53 e3 e1 c3 
-
-#5 bloc encriptat despres de canviar el bit numero 84
-
-d0 64 d7 07 
-a1 ef 40 29 
-48 69 b9 73 
-bc 0a 20 d3 
-
-#5 bloc encriptat despres de canviar el bit numero 83
-
-b0 4d 78 7f 
-35 63 b0 e5 
-c3 ed fc 36 
-de 9c bb e5 
-
-#5 bloc encriptat despres de canviar el bit numero 82
-
-96 1d 67 88 
-87 0e c8 de 
-e5 9d ef 60 
-33 ee f1 18 
-
-#5 bloc encriptat despres de canviar el bit numero 81
-
-90 03 6a 56 
-2b cc 32 9d 
-da c2 a2 4b 
-29 30 04 db 
-
-#5 bloc encriptat despres de canviar el bit numero 80
-
-d2 a9 91 93 
-0d 26 86 4d 
-ff 9d 7c f7 
-f3 6c a5 0a 
-
-#5 bloc encriptat despres de canviar el bit numero 79
-
-7b cc 5b 6c 
-09 b9 2c bf 
-37 1d 41 91 
-59 3a b7 02 
-
-#5 bloc encriptat despres de canviar el bit numero 78
-
-43 d5 f7 53 
-45 de 5d 0d 
-4f 6a a8 7f 
-dd 54 cc 5b 
-
-#5 bloc encriptat despres de canviar el bit numero 77
-
-cb 08 da 9d 
-49 1e 6e 04 
-b6 b1 be f1 
-ab 8d 73 7a 
-
-#5 bloc encriptat despres de canviar el bit numero 76
-
-52 e1 ba de 
-01 88 dd d8 
-28 42 06 29 
-bf 64 f5 b0 
-
-#5 bloc encriptat despres de canviar el bit numero 75
-
-37 fd 57 2f 
-22 fb 97 26 
-99 9b 43 8c 
-0a fb 1c 65 
-
-#5 bloc encriptat despres de canviar el bit numero 74
-
-d1 35 54 5f 
-ec 73 ca 75 
-58 9d cf 70 
-6a 61 70 cb 
-
-#5 bloc encriptat despres de canviar el bit numero 73
-
-51 cc 8c 6f 
-3a 25 e8 b3 
-31 35 fa d9 
-f6 f7 0d d4 
-
-#5 bloc encriptat despres de canviar el bit numero 72
-
-34 0e f5 b0 
-45 18 ce 55 
-56 e7 dd 13 
-5b 2c 2d 82 
-
-#5 bloc encriptat despres de canviar el bit numero 71
-
-65 6f 12 81 
-f4 b5 79 15 
-f6 29 ef 00 
-ae 3a 28 72 
-
-#5 bloc encriptat despres de canviar el bit numero 70
-
-1b c0 a8 f4 
-80 f9 50 14 
-94 63 ad fd 
-2a 5e d3 ff 
-
-#5 bloc encriptat despres de canviar el bit numero 69
-
-ef 23 17 66 
-64 a6 9b db 
-e3 40 47 3d 
-a9 b1 51 a1 
-
-#5 bloc encriptat despres de canviar el bit numero 68
-
-17 3c a6 e5 
-0c 27 a3 68 
-2b eb cf fe 
-a2 1c 62 49 
-
-#5 bloc encriptat despres de canviar el bit numero 67
-
-6c c4 29 23 
-06 ad 0a 5a 
-4b 8d 01 cc 
-7d 92 8c 18 
-
-#5 bloc encriptat despres de canviar el bit numero 66
-
-59 63 c8 8a 
-64 5a 0c 46 
-4d 57 da b7 
-e2 3e f8 c3 
-
-#5 bloc encriptat despres de canviar el bit numero 65
-
-82 65 07 b1 
-21 21 59 58 
-e8 e4 f4 2a 
-d5 94 e0 e5 
-
-#5 bloc encriptat despres de canviar el bit numero 64
-
-8d 6e 41 88 
-9e ba 68 55 
-03 73 76 79 
-50 13 a2 37 
-
-#5 bloc encriptat despres de canviar el bit numero 63
-
-23 ba 97 63 
-b6 b8 92 ba 
-cf 68 fc db 
-ac e7 37 5b 
-
-#5 bloc encriptat despres de canviar el bit numero 62
-
-46 ff c3 33 
-ef d7 ca be 
-fa 0a 8f b9 
-5a 11 ff cc 
-
-#5 bloc encriptat despres de canviar el bit numero 61
-
-db 2b 08 37 
-49 cb 1e a0 
-f5 68 96 18 
-d8 26 f6 7a 
-
-#5 bloc encriptat despres de canviar el bit numero 60
-
-de 78 a3 23 
-00 d5 ec 57 
-97 71 05 a6 
-88 82 54 a3 
-
-#5 bloc encriptat despres de canviar el bit numero 59
-
-74 2a eb a2 
-b5 c9 ba 44 
-04 4c a9 57 
-84 44 2c f3 
-
-#5 bloc encriptat despres de canviar el bit numero 58
-
-ff 4d 7b 67 
-1d 31 d0 54 
-1b 2b c1 4b 
-f7 d6 ff e4 
-
-#5 bloc encriptat despres de canviar el bit numero 57
-
-32 0b 0d 71 
-3d 44 5b d4 
-e7 8b 54 56 
-8d 52 46 12 
-
-#5 bloc encriptat despres de canviar el bit numero 56
-
-cf 64 b6 6b 
-bf ec d4 f8 
-8a cb 21 04 
-18 9c fd da 
-
-#5 bloc encriptat despres de canviar el bit numero 55
-
-e3 7a 94 06 
-aa c9 36 49 
-62 3a 0b 2a 
-16 34 5b 2c 
-
-#5 bloc encriptat despres de canviar el bit numero 54
-
-ff ad 6c 4d 
-78 62 6a ab 
-96 b0 78 0d 
-dc 3c 06 75 
-
-#5 bloc encriptat despres de canviar el bit numero 53
-
-67 75 97 73 
-15 f7 7b da 
-3e 67 8b 50 
-6c 6c 6e b6 
-
-#5 bloc encriptat despres de canviar el bit numero 52
-
-d9 d4 64 c9 
-fb 8a bf b2 
-bd 03 d7 77 
-4b db f2 05 
-
-#5 bloc encriptat despres de canviar el bit numero 51
-
-89 f7 f0 b7 
-1d 6d d1 c3 
-8a a4 8e 8f 
-31 6a bf c8 
-
-#5 bloc encriptat despres de canviar el bit numero 50
-
-dc 3b 8e 2e 
-e2 91 b5 58 
-fc eb de 2b 
-59 cb c1 c7 
-
-#5 bloc encriptat despres de canviar el bit numero 49
-
-9a b3 86 66 
-4f 2b 09 ab 
-2b 72 01 c4 
-11 91 56 9d 
-
-#5 bloc encriptat despres de canviar el bit numero 48
-
-bc d9 92 f4 
-41 88 bb f4 
-e4 68 55 98 
-ac 30 0a 13 
-
-#5 bloc encriptat despres de canviar el bit numero 47
-
-af aa c5 75 
-51 6b 6e 32 
-10 50 31 b0 
-a5 3a 74 ab 
-
-#5 bloc encriptat despres de canviar el bit numero 46
-
-4d 32 69 90 
-f9 b9 14 ae 
-a8 62 b8 be 
-a2 82 63 d9 
-
-#5 bloc encriptat despres de canviar el bit numero 45
-
-21 e1 41 d2 
-f8 e7 04 aa 
-98 b0 40 57 
-54 f1 05 cd 
-
-#5 bloc encriptat despres de canviar el bit numero 44
-
-33 3c 5b 62 
-bf 54 60 19 
-25 bf 48 de 
-50 a1 ad e0 
-
-#5 bloc encriptat despres de canviar el bit numero 43
-
-de 77 2b b5 
-7f 3c 5e 56 
-a5 67 89 32 
-c5 c2 4f c6 
-
-#5 bloc encriptat despres de canviar el bit numero 42
-
-56 83 7d b3 
-22 82 7a 27 
-55 9b f5 bb 
-9b b3 22 a4 
-
-#5 bloc encriptat despres de canviar el bit numero 41
-
-d5 77 f4 1f 
-92 d0 c3 c1 
-7d c4 e5 0d 
-21 93 09 b6 
-
-#5 bloc encriptat despres de canviar el bit numero 40
-
-4a a1 04 80 
-7b 7d 27 53 
-11 e0 21 fe 
-dc 76 c5 d2 
-
-#5 bloc encriptat despres de canviar el bit numero 39
-
-b4 d3 d1 b2 
-7f 23 8b a1 
-8b bf c2 e3 
-bf 5a d6 8c 
-
-#5 bloc encriptat despres de canviar el bit numero 38
-
-72 d8 c8 21 
-3b 48 be 77 
-9e 88 9f 54 
-52 40 10 ad 
-
-#5 bloc encriptat despres de canviar el bit numero 37
-
-77 54 d3 62 
-c2 a8 40 a2 
-75 ad 10 e7 
-83 d6 75 9b 
-
-#5 bloc encriptat despres de canviar el bit numero 36
-
-1f 33 b5 3d 
-67 74 b6 c1 
-45 94 24 80 
-5e 0e d0 5b 
-
-#5 bloc encriptat despres de canviar el bit numero 35
-
-f7 98 6e 94 
-90 8a 65 5b 
-94 32 9a 18 
-1d 01 d3 c2 
-
-#5 bloc encriptat despres de canviar el bit numero 34
-
-f9 ad 70 2e 
-91 5d 61 3b 
-15 77 47 ba 
-fd a2 3a 62 
-
-#5 bloc encriptat despres de canviar el bit numero 33
-
-5d 16 63 10 
-94 80 a4 d7 
-57 91 ce a7 
-56 41 14 a8 
-
-#5 bloc encriptat despres de canviar el bit numero 32
-
-81 ac 3b db 
-3d 5b 9c d1 
-a8 d6 02 df 
-0f 76 1c d5 
-
-#5 bloc encriptat despres de canviar el bit numero 31
-
-9e ee d1 c5 
-e0 3f 22 94 
-cb e8 4a d6 
-96 f5 f5 c2 
-
-#5 bloc encriptat despres de canviar el bit numero 30
-
-3a 1b b5 d3 
-31 f0 ad 7d 
-fd c5 2b 90 
-ae c5 b8 a7 
-
-#5 bloc encriptat despres de canviar el bit numero 29
-
-bd 6e 01 5b 
-2e a8 48 b2 
-20 e3 08 2b 
-8c 2e 7f 68 
-
-#5 bloc encriptat despres de canviar el bit numero 28
-
-51 1d 84 7e 
-14 74 22 81 
-bf c7 74 12 
-d2 b3 57 49 
-
-#5 bloc encriptat despres de canviar el bit numero 27
-
-0d 5b e4 a3 
-90 6f e8 67 
-94 7d c5 09 
-9b 97 78 8f 
-
-#5 bloc encriptat despres de canviar el bit numero 26
-
-ea 5f f6 ce 
-50 32 e5 13 
-97 fb 39 ad 
-56 97 4f b2 
-
-#5 bloc encriptat despres de canviar el bit numero 25
-
-13 3b d3 51 
-57 b0 f2 a1 
-f5 89 ef cf 
-4a 01 44 e1 
-
-#5 bloc encriptat despres de canviar el bit numero 24
-
-f5 6a ae a4 
-9e db eb 37 
-cb ac 26 c8 
-d2 86 c1 aa 
-
-#5 bloc encriptat despres de canviar el bit numero 23
-
-bc 22 c1 60 
-f8 a1 8b ad 
-01 d2 20 a1 
-25 e9 87 be 
-
-#5 bloc encriptat despres de canviar el bit numero 22
-
-b5 4b ac cf 
-95 d7 07 85 
-c7 f1 e7 d0 
-30 df 60 9e 
-
-#5 bloc encriptat despres de canviar el bit numero 21
-
-b3 f9 90 7d 
-d1 99 81 f4 
-c8 1a 1c ee 
-b0 8b 8a 09 
-
-#5 bloc encriptat despres de canviar el bit numero 20
-
-40 55 5e 4e 
-53 94 2f a2 
-51 ca 9d 9b 
-41 90 f9 57 
-
-#5 bloc encriptat despres de canviar el bit numero 19
-
-61 ab 6b a7 
-d9 39 ed d8 
-59 a0 24 23 
-51 7d a7 8b 
-
-#5 bloc encriptat despres de canviar el bit numero 18
-
-f1 f2 bd 0d 
-d0 fd 8e 2e 
-11 1a d3 74 
-34 f5 03 70 
-
-#5 bloc encriptat despres de canviar el bit numero 17
-
-52 e0 c4 3b 
-6e e6 d9 aa 
-3f bd 75 af 
-80 3f 86 30 
-
-#5 bloc encriptat despres de canviar el bit numero 16
-
-fe 5e eb 1d 
-8a c2 2d 18 
-1d b0 e7 eb 
-c3 6a e7 86 
-
-#5 bloc encriptat despres de canviar el bit numero 15
-
-86 c0 33 b2 
-db 7f a9 8f 
-2b 6d 01 41 
-d9 22 14 1d 
-
-#5 bloc encriptat despres de canviar el bit numero 14
-
-92 8d 82 a3 
-cc 15 7f ac 
-3e 05 b3 3d 
-a9 bc f7 06 
-
-#5 bloc encriptat despres de canviar el bit numero 13
-
-89 46 cd 84 
-2b e0 5e 39 
-64 b4 b2 53 
-1e 90 a8 3f 
-
-#5 bloc encriptat despres de canviar el bit numero 12
-
-17 96 d7 c0 
-f2 3f 2a da 
-7a 24 78 df 
-67 7d d5 d0 
-
-#5 bloc encriptat despres de canviar el bit numero 11
-
-2c 7e 56 31 
-13 5a 5f 1a 
-50 13 03 9e 
-ad 86 2a 30 
-
-#5 bloc encriptat despres de canviar el bit numero 10
-
-ef a7 7d 03 
-8d 8f ba ea 
-c3 bc 7d e7 
-c6 8e b6 7e 
-
-#5 bloc encriptat despres de canviar el bit numero 9
-
-78 d9 5a 4b 
-c8 fb 8b a5 
-69 7b be 26 
-64 51 f5 f0 
-
-#5 bloc encriptat despres de canviar el bit numero 8
-
-21 4f 54 1e 
-80 01 3d ef 
-0d 35 7a 71 
-31 e3 87 f0 
-
-#5 bloc encriptat despres de canviar el bit numero 7
-
-39 95 2e fd 
-82 40 a1 7f 
-9d 30 c2 24 
-a9 10 1e 6a 
-
-#5 bloc encriptat despres de canviar el bit numero 6
-
-ca 4f 0d 09 
-17 a2 f9 e7 
-85 bf ec d6 
-6d 9f 31 de 
-
-#5 bloc encriptat despres de canviar el bit numero 5
-
-1e f3 45 97 
-54 7c 7d db 
-5b a4 c9 ed 
-fc 14 dd 82 
-
-#5 bloc encriptat despres de canviar el bit numero 4
-
-49 49 ac f4 
-c7 9b fc 8f 
-31 0c ee 93 
-44 d8 f6 67 
-
-#5 bloc encriptat despres de canviar el bit numero 3
-
-95 a7 02 bd 
-c3 17 27 22 
-7c 72 c8 62 
-1d 1a f0 a9 
-
-#5 bloc encriptat despres de canviar el bit numero 2
-
-c4 d3 1c c3 
-09 05 38 f0 
-48 a0 a7 37 
-54 58 d6 61 
-
-#5 bloc encriptat despres de canviar el bit numero 1
-
-f7 b7 c9 97 
-59 63 ad ba 
-8e 73 1f 1c 
-1d 6f 95 3d 
-
-#5 bloc encriptat despres de canviar el bit numero 0
-
-7c 03 ed b9 
-1c ab 74 df 
-da ed 4b 08 
-d8 5e f6 7a 
-
-bloc original numero # 6encriptat: 
-
-d0 41 3e 19 
-13 e6 50 55 
-94 04 2b c2 
-4a 0b 38 6b 
-
-#6 bloc encriptat despres de canviar el bit numero 127
-
-8a 4a c3 1a 
-e8 10 ec b6 
-07 d3 c7 b5 
-a5 4d 16 a5 
-
-#6 bloc encriptat despres de canviar el bit numero 126
-
-c1 e8 3c b6 
-19 33 ac c3 
-ea 6b c9 aa 
-74 5f 03 9b 
-
-#6 bloc encriptat despres de canviar el bit numero 125
-
-83 20 b8 3f 
-01 4c 6a 2c 
-1d b2 7b 31 
-0e 70 c1 5e 
-
-#6 bloc encriptat despres de canviar el bit numero 124
-
-b6 ab a2 09 
-4c 6c 0c 95 
-db ee a5 77 
-ed e8 a3 fc 
-
-#6 bloc encriptat despres de canviar el bit numero 123
-
-8f 1c 94 cf 
-41 05 77 42 
-7e 57 3a 29 
-9e 2a 2b 9f 
-
-#6 bloc encriptat despres de canviar el bit numero 122
-
-e7 be b7 50 
-ba 3f 60 69 
-1f f3 5a 8b 
-07 92 7c 31 
-
-#6 bloc encriptat despres de canviar el bit numero 121
-
-7e 07 0e 9e 
-96 3d d8 80 
-88 c7 0f aa 
-d4 7c c0 24 
-
-#6 bloc encriptat despres de canviar el bit numero 120
-
-9d 3d 94 f9 
-9f 92 78 c8 
-6e 2f 0d 9f 
-bb 09 dc 6e 
-
-#6 bloc encriptat despres de canviar el bit numero 119
-
-b8 6b 7e b2 
-2d 8a 6b 06 
-62 1b fc 96 
-1c 7d 8b d1 
-
-#6 bloc encriptat despres de canviar el bit numero 118
-
-e3 4a 63 29 
-8c 43 c3 5b 
-c6 e2 d9 78 
-0c d6 fb b8 
-
-#6 bloc encriptat despres de canviar el bit numero 117
-
-73 9e 31 fa 
-f6 4b 07 9b 
-aa 95 6a fd 
-05 0c 46 05 
-
-#6 bloc encriptat despres de canviar el bit numero 116
-
-ac ef 4a 58 
-c3 e0 e8 26 
-69 e3 8d a7 
-b5 7c 43 ef 
-
-#6 bloc encriptat despres de canviar el bit numero 115
-
-d4 c9 2b 38 
-0a 9e 28 cb 
-1b 18 f5 1f 
-72 ad 00 ea 
-
-#6 bloc encriptat despres de canviar el bit numero 114
-
-22 e8 e4 34 
-ac 03 24 bd 
-f4 57 8b c1 
-8d b3 69 78 
-
-#6 bloc encriptat despres de canviar el bit numero 113
-
-70 d1 06 8b 
-36 7c 03 28 
-19 9f f2 6a 
-f4 61 c5 6a 
-
-#6 bloc encriptat despres de canviar el bit numero 112
-
-d1 bf eb 0f 
-c0 29 fa 8a 
-6a 3a 97 96 
-e9 02 2a eb 
-
-#6 bloc encriptat despres de canviar el bit numero 111
-
-7a d6 19 b5 
-d5 00 ce 23 
-7d 9b 92 cd 
-c2 fd f7 71 
-
-#6 bloc encriptat despres de canviar el bit numero 110
-
-08 2c a2 85 
-f6 97 40 c0 
-3d 21 bb 8e 
-f5 cc 2b 62 
-
-#6 bloc encriptat despres de canviar el bit numero 109
-
-8e e6 41 9c 
-6a b0 04 0e 
-9d 11 36 07 
-2a cf 4b 77 
-
-#6 bloc encriptat despres de canviar el bit numero 108
-
-3f 94 7d 2f 
-28 ce 46 59 
-cf 4b d5 b1 
-43 2b e2 4f 
-
-#6 bloc encriptat despres de canviar el bit numero 107
-
-73 94 4d 31 
-aa 8f df 2f 
-db 0c a4 f6 
-94 2a ec 0d 
-
-#6 bloc encriptat despres de canviar el bit numero 106
-
-62 a7 3b 00 
-9f 0a 55 c1 
-5b ea 0b 09 
-e7 01 74 8a 
-
-#6 bloc encriptat despres de canviar el bit numero 105
-
-e3 ab 89 9b 
-40 69 a4 43 
-4d d4 f4 46 
-2a c7 69 84 
-
-#6 bloc encriptat despres de canviar el bit numero 104
-
-c7 3f a6 63 
-c6 e2 80 5a 
-6b f4 55 7f 
-e2 c1 95 3d 
-
-#6 bloc encriptat despres de canviar el bit numero 103
-
-97 10 bf f2 
-66 eb 12 c6 
-57 e8 f4 27 
-10 05 f5 56 
-
-#6 bloc encriptat despres de canviar el bit numero 102
-
-8e b4 e5 3d 
-77 10 08 0d 
-44 07 b5 ae 
-40 0e 96 3f 
-
-#6 bloc encriptat despres de canviar el bit numero 101
-
-62 3b 27 7e 
-49 f4 56 c9 
-7a 28 e9 ed 
-74 e1 67 66 
-
-#6 bloc encriptat despres de canviar el bit numero 100
-
-a7 a1 6a dd 
-90 7c 7f bc 
-82 ad fb c3 
-06 d1 13 4c 
-
-#6 bloc encriptat despres de canviar el bit numero 99
-
-8d 3b df fe 
-56 81 b7 9d 
-05 1f ce 2c 
-6a 83 37 84 
-
-#6 bloc encriptat despres de canviar el bit numero 98
-
-9d 81 19 3a 
-df cd a3 a8 
-11 c6 b6 57 
-7c 8a d6 a8 
-
-#6 bloc encriptat despres de canviar el bit numero 97
-
-5f 3d d5 53 
-6d 38 0b c2 
-a9 75 7f 99 
-f6 5b 53 81 
-
-#6 bloc encriptat despres de canviar el bit numero 96
-
-6e 60 fd 28 
-62 89 a3 ed 
-61 18 c8 43 
-74 23 42 92 
-
-#6 bloc encriptat despres de canviar el bit numero 95
-
-e6 df fc 30 
-d3 4f 02 93 
-68 20 4e cb 
-da c3 54 f7 
-
-#6 bloc encriptat despres de canviar el bit numero 94
-
-7c 49 08 18 
-fe 6d b5 ce 
-96 4b 84 5e 
-97 0f 92 12 
-
-#6 bloc encriptat despres de canviar el bit numero 93
-
-a6 25 9f 1e 
-42 af 87 6f 
-d0 b6 45 9b 
-10 b6 ac db 
-
-#6 bloc encriptat despres de canviar el bit numero 92
-
-d2 df 54 3a 
-84 64 43 55 
-dc b6 80 77 
-06 f2 04 58 
-
-#6 bloc encriptat despres de canviar el bit numero 91
-
-c2 b3 88 55 
-67 d8 1b dc 
-7e a1 43 4a 
-cd 8d b0 4d 
-
-#6 bloc encriptat despres de canviar el bit numero 90
-
-f2 92 b4 7c 
-0f 43 13 6a 
-97 9a 52 c1 
-5a 99 71 dc 
-
-#6 bloc encriptat despres de canviar el bit numero 89
-
-5e fd 0d 15 
-3b de 4b de 
-81 33 20 ea 
-21 e3 fb 74 
-
-#6 bloc encriptat despres de canviar el bit numero 88
-
-64 76 0a 03 
-b2 30 84 30 
-aa 6d 44 73 
-0e 84 50 d2 
-
-#6 bloc encriptat despres de canviar el bit numero 87
-
-32 5d b8 6b 
-69 bd 4c c0 
-d2 3d 08 62 
-57 62 7f 84 
-
-#6 bloc encriptat despres de canviar el bit numero 86
-
-6e ab b3 af 
-11 cc 71 a6 
-e4 db 9d 5d 
-49 45 1e fc 
-
-#6 bloc encriptat despres de canviar el bit numero 85
-
-1e 69 9f 5e 
-1d 83 c0 b9 
-3e 38 2e 92 
-fd fb 93 4f 
-
-#6 bloc encriptat despres de canviar el bit numero 84
-
-f6 15 9e 04 
-d9 3b 72 33 
-e9 26 58 64 
-86 5d e9 d4 
-
-#6 bloc encriptat despres de canviar el bit numero 83
-
-3c 88 8f ed 
-a7 86 00 9e 
-63 32 d9 cc 
-f4 40 25 5d 
-
-#6 bloc encriptat despres de canviar el bit numero 82
-
-36 27 6d 02 
-f6 7f 82 9b 
-f7 f6 2a ae 
-f4 33 1a 7c 
-
-#6 bloc encriptat despres de canviar el bit numero 81
-
-01 9a 22 b6 
-35 41 09 fd 
-33 42 ff 89 
-59 62 1e 72 
-
-#6 bloc encriptat despres de canviar el bit numero 80
-
-66 c5 37 17 
-e5 6d 91 2e 
-e6 11 45 52 
-9b fd fb fb 
-
-#6 bloc encriptat despres de canviar el bit numero 79
-
-e7 71 66 33 
-4b 17 4d fd 
-0f cf a5 ba 
-df 1d 19 5c 
-
-#6 bloc encriptat despres de canviar el bit numero 78
-
-02 a9 be c8 
-81 6a 18 32 
-da 5c 79 54 
-19 0d 99 7b 
-
-#6 bloc encriptat despres de canviar el bit numero 77
-
-4f 63 30 50 
-cd 9e 2c c9 
-3c fe e9 c1 
-e6 93 59 d9 
-
-#6 bloc encriptat despres de canviar el bit numero 76
-
-e5 97 fa 18 
-b5 ed ac 01 
-e7 c4 ea 22 
-d2 fc cb f5 
-
-#6 bloc encriptat despres de canviar el bit numero 75
-
-1b d5 32 83 
-b8 5f 24 47 
-18 10 01 50 
-2c 4a 0c 71 
-
-#6 bloc encriptat despres de canviar el bit numero 74
-
-d6 10 f7 40 
-17 0d 81 ab 
-11 5c c0 4c 
-63 e6 cc 53 
-
-#6 bloc encriptat despres de canviar el bit numero 73
-
-fd 7d d1 a1 
-75 04 a6 2d 
-98 73 5a c9 
-3f 35 c8 ce 
-
-#6 bloc encriptat despres de canviar el bit numero 72
-
-b1 5c ac f0 
-ae 0e 3a dd 
-b1 ec 56 e4 
-08 e6 d9 c6 
-
-#6 bloc encriptat despres de canviar el bit numero 71
-
-e3 3e 8b d7 
-42 97 81 1c 
-1f 8c 81 2f 
-a1 a7 8e 8d 
-
-#6 bloc encriptat despres de canviar el bit numero 70
-
-f4 dd 04 b1 
-7e ac cf 62 
-3e 5f 4a 99 
-62 b8 af 3f 
-
-#6 bloc encriptat despres de canviar el bit numero 69
-
-d5 62 e5 9e 
-49 7d 75 78 
-ea 56 4f 15 
-bb 4b bc ce 
-
-#6 bloc encriptat despres de canviar el bit numero 68
-
-02 23 31 7e 
-6b 27 91 48 
-5b 3b 79 95 
-9c 0c 17 cd 
-
-#6 bloc encriptat despres de canviar el bit numero 67
-
-0b f9 e4 27 
-14 de 28 6f 
-e9 09 11 81 
-a2 b6 21 d4 
-
-#6 bloc encriptat despres de canviar el bit numero 66
-
-ec ae 28 b8 
-6f 4c c7 67 
-a7 3a af fa 
-29 ac e3 fd 
-
-#6 bloc encriptat despres de canviar el bit numero 65
-
-61 e1 e2 7e 
-4c 83 2d 70 
-04 b2 de 88 
-d8 cb 9a 16 
-
-#6 bloc encriptat despres de canviar el bit numero 64
-
-6a ae 00 a4 
-c6 c1 fb 1a 
-7d 10 43 b2 
-ee 7d b4 91 
-
-#6 bloc encriptat despres de canviar el bit numero 63
-
-17 60 3f c4 
-98 87 c5 51 
-80 0a fe 34 
-f7 b9 0c 05 
-
-#6 bloc encriptat despres de canviar el bit numero 62
-
-73 83 4b c9 
-a8 64 da 4f 
-d7 78 8c 5c 
-c6 ab e7 71 
-
-#6 bloc encriptat despres de canviar el bit numero 61
-
-0e 01 be 2b 
-af 35 06 62 
-78 1d 5e e5 
-83 80 43 b3 
-
-#6 bloc encriptat despres de canviar el bit numero 60
-
-e1 3f 27 94 
-81 a0 d9 f7 
-54 26 0e dc 
-b2 e6 c3 38 
-
-#6 bloc encriptat despres de canviar el bit numero 59
-
-6b 73 84 8c 
-de 13 8a 77 
-3b c3 b9 9f 
-00 45 57 0e 
-
-#6 bloc encriptat despres de canviar el bit numero 58
-
-51 46 b1 de 
-4b 09 2d c0 
-46 2a 97 0d 
-b8 c3 5a f3 
-
-#6 bloc encriptat despres de canviar el bit numero 57
-
-2d c7 b2 b9 
-33 43 ed b7 
-ba 4d 17 1c 
-6e 16 c3 0b 
-
-#6 bloc encriptat despres de canviar el bit numero 56
-
-33 ae 38 03 
-67 b9 65 9c 
-34 57 e4 d2 
-ce bc 16 9c 
-
-#6 bloc encriptat despres de canviar el bit numero 55
-
-aa 1b 73 d8 
-18 22 6e 5b 
-e2 46 9f 49 
-3a 4e dc 30 
-
-#6 bloc encriptat despres de canviar el bit numero 54
-
-70 d8 5f 96 
-f4 77 0c a3 
-1d dd b2 85 
-99 fd cc 48 
-
-#6 bloc encriptat despres de canviar el bit numero 53
-
-89 70 48 a5 
-49 0b 82 94 
-37 28 09 17 
-67 09 46 ea 
-
-#6 bloc encriptat despres de canviar el bit numero 52
-
-75 d3 a9 5e 
-12 f4 6a c4 
-3b e6 ad 31 
-32 7d ed 71 
-
-#6 bloc encriptat despres de canviar el bit numero 51
-
-4b 48 a0 31 
-9c 37 78 55 
-b9 c6 8e 5b 
-4a e7 b2 22 
-
-#6 bloc encriptat despres de canviar el bit numero 50
-
-f9 0c a5 62 
-2b dd 06 5e 
-de 4e da 33 
-93 e4 7b c5 
-
-#6 bloc encriptat despres de canviar el bit numero 49
-
-97 83 9a 7a 
-4a a1 0a 2f 
-4e 4b 17 fc 
-d4 e3 0a 7e 
-
-#6 bloc encriptat despres de canviar el bit numero 48
-
-e8 c6 f0 c7 
-fe 4d d3 54 
-18 55 47 a1 
-9a e5 46 d0 
-
-#6 bloc encriptat despres de canviar el bit numero 47
-
-44 88 b3 99 
-40 7f c3 07 
-be 9e 93 96 
-a3 c9 3d 8a 
-
-#6 bloc encriptat despres de canviar el bit numero 46
-
-00 25 9e af 
-15 98 63 a3 
-81 ae 60 8f 
-de f6 5e 06 
-
-#6 bloc encriptat despres de canviar el bit numero 45
-
-dc 91 32 d1 
-e0 94 26 2a 
-23 06 ba 2f 
-7d 1f a4 99 
-
-#6 bloc encriptat despres de canviar el bit numero 44
-
-0f c3 c5 a2 
-62 0b c0 52 
-2b 16 1d 33 
-c9 6a 32 f7 
-
-#6 bloc encriptat despres de canviar el bit numero 43
-
-19 ea 24 aa 
-73 fc 6d 71 
-90 f9 53 90 
-7b f2 aa e6 
-
-#6 bloc encriptat despres de canviar el bit numero 42
-
-bd 45 58 a2 
-7b 93 d5 f9 
-53 2e 82 ab 
-fc 0a 7d e0 
-
-#6 bloc encriptat despres de canviar el bit numero 41
-
-c1 04 4a b9 
-b0 9d f5 b9 
-64 e0 4e 35 
-4b 52 11 d8 
-
-#6 bloc encriptat despres de canviar el bit numero 40
-
-fa 6a ac 60 
-79 a7 66 94 
-43 d8 15 49 
-2e ef 86 8d 
-
-#6 bloc encriptat despres de canviar el bit numero 39
-
-af 25 3c c9 
-7f dd 6c fe 
-8a 52 4b 6a 
-f2 e8 8f 48 
-
-#6 bloc encriptat despres de canviar el bit numero 38
-
-8f 32 c4 9b 
-96 1d 3f 8a 
-82 af cf 28 
-9b d5 25 4d 
-
-#6 bloc encriptat despres de canviar el bit numero 37
-
-f3 21 12 ef 
-e6 11 b7 c2 
-a8 39 fe 4d 
-67 28 dd f4 
-
-#6 bloc encriptat despres de canviar el bit numero 36
-
-6d 87 b7 e3 
-cc 9b be 36 
-87 eb 9a 26 
-8d cb ff 57 
-
-#6 bloc encriptat despres de canviar el bit numero 35
-
-f7 d8 ca 1b 
-cd 58 40 20 
-3f c1 27 37 
-ca d5 d1 e1 
-
-#6 bloc encriptat despres de canviar el bit numero 34
-
-68 33 6d 7b 
-66 d6 b8 cb 
-a9 ed 1f 25 
-68 9a 3a cf 
-
-#6 bloc encriptat despres de canviar el bit numero 33
-
-28 93 77 8b 
-02 9a 99 34 
-56 a7 63 25 
-38 ee f2 6e 
-
-#6 bloc encriptat despres de canviar el bit numero 32
-
-ce 38 1d ba 
-f6 51 1a 5d 
-f5 be 86 54 
-5f 68 07 5e 
-
-#6 bloc encriptat despres de canviar el bit numero 31
-
-b9 d8 04 b7 
-5d 80 f5 e7 
-1a ab b7 f9 
-0b e6 4b 45 
-
-#6 bloc encriptat despres de canviar el bit numero 30
-
-b5 7a 39 fa 
-b7 d3 87 36 
-70 fa 6c d8 
-d9 88 4f 7a 
-
-#6 bloc encriptat despres de canviar el bit numero 29
-
-4a 85 0e 96 
-10 44 69 b0 
-e6 72 ef bc 
-8c f8 51 16 
-
-#6 bloc encriptat despres de canviar el bit numero 28
-
-49 27 51 27 
-9c 25 0f 2f 
-7b e4 38 de 
-4f cc 73 54 
-
-#6 bloc encriptat despres de canviar el bit numero 27
-
-78 6c 81 82 
-ff 7a e8 59 
-38 71 2f ab 
-84 ce be 62 
-
-#6 bloc encriptat despres de canviar el bit numero 26
-
-b1 0e 09 84 
-5c 85 4e b8 
-39 d2 cf f7 
-74 f9 7c 38 
-
-#6 bloc encriptat despres de canviar el bit numero 25
-
-70 7d 10 fb 
-cd a8 84 9c 
-ff c2 e8 0d 
-d6 f7 d7 82 
-
-#6 bloc encriptat despres de canviar el bit numero 24
-
-9e 9c a6 ee 
-82 7b d4 bb 
-4c a9 80 b9 
-49 f9 32 8a 
-
-#6 bloc encriptat despres de canviar el bit numero 23
-
-b2 3f 4a 3e 
-da 85 58 0f 
-76 4e 30 0b 
-c6 d5 a2 73 
-
-#6 bloc encriptat despres de canviar el bit numero 22
-
-7a 5d d3 d1 
-4d e6 34 30 
-a0 db cf 50 
-51 4c 30 99 
-
-#6 bloc encriptat despres de canviar el bit numero 21
-
-17 1d 64 5b 
-6c c8 31 61 
-4a b8 9b 88 
-c1 6d 3a bc 
-
-#6 bloc encriptat despres de canviar el bit numero 20
-
-66 82 78 81 
-ed db ae a6 
-5e 7c 7f 7e 
-3a 2c 1d d6 
-
-#6 bloc encriptat despres de canviar el bit numero 19
-
-a9 d8 80 17 
-84 ea b7 b4 
-2a c3 fd ba 
-a3 29 99 bd 
-
-#6 bloc encriptat despres de canviar el bit numero 18
-
-02 d5 6e 7a 
-b8 60 de a5 
-52 72 d8 92 
-1b 31 fa bb 
-
-#6 bloc encriptat despres de canviar el bit numero 17
-
-11 b3 95 a5 
-64 ff 11 f0 
-69 80 b4 b2 
-01 51 40 28 
-
-#6 bloc encriptat despres de canviar el bit numero 16
-
-6a 0c 56 6c 
-77 bd d0 f7 
-e5 6d 38 6c 
-d6 c3 14 7a 
-
-#6 bloc encriptat despres de canviar el bit numero 15
-
-8c 38 60 f4 
-13 b2 0f 24 
-63 65 92 16 
-a2 c4 f6 16 
-
-#6 bloc encriptat despres de canviar el bit numero 14
-
-3e 6a 0d 2a 
-12 fd 9d 20 
-58 4b 96 77 
-0c 45 08 67 
-
-#6 bloc encriptat despres de canviar el bit numero 13
-
-f2 2c 7e ba 
-db 3a d1 69 
-64 0a bd dc 
-2e da 85 70 
-
-#6 bloc encriptat despres de canviar el bit numero 12
-
-7a bb 0a f2 
-1f dd 2d 8d 
-2a 05 c3 2f 
-bb c3 db 04 
-
-#6 bloc encriptat despres de canviar el bit numero 11
-
-81 47 37 c7 
-56 09 22 e9 
-13 9e cd e7 
-6e 4e 52 78 
-
-#6 bloc encriptat despres de canviar el bit numero 10
-
-d3 23 52 d7 
-ea 3a f3 bd 
-d9 9e e5 28 
-0c 30 f6 cf 
-
-#6 bloc encriptat despres de canviar el bit numero 9
-
-30 0f 41 89 
-88 35 02 d0 
-30 a9 28 7f 
-f1 62 a5 f3 
-
-#6 bloc encriptat despres de canviar el bit numero 8
-
-49 12 3a c3 
-c1 82 74 74 
-38 ae ed 1e 
-41 53 6c b6 
-
-#6 bloc encriptat despres de canviar el bit numero 7
-
-2f 08 88 a1 
-d8 24 42 2f 
-7a 58 b9 14 
-96 84 17 ca 
-
-#6 bloc encriptat despres de canviar el bit numero 6
-
-5f a0 66 d0 
-63 8a fa 1f 
-38 d1 d2 32 
-61 3e b0 e2 
-
-#6 bloc encriptat despres de canviar el bit numero 5
-
-31 62 9e f6 
-61 bd c5 ac 
-58 09 8d f4 
-10 f5 b4 f5 
-
-#6 bloc encriptat despres de canviar el bit numero 4
-
-b6 d4 34 e7 
-e9 7c 71 0d 
-fb 99 a8 f8 
-4e 15 39 d9 
-
-#6 bloc encriptat despres de canviar el bit numero 3
-
-99 6a 3e cf 
-26 a3 ab 10 
-4d eb f9 24 
-32 62 29 86 
-
-#6 bloc encriptat despres de canviar el bit numero 2
-
-74 85 5b 25 
-d7 ab d2 79 
-02 6e 15 96 
-d8 a4 10 7d 
-
-#6 bloc encriptat despres de canviar el bit numero 1
-
-e9 ef 85 32 
-8f 44 c9 10 
-29 c8 9f d6 
-44 1a 02 0c 
-
-#6 bloc encriptat despres de canviar el bit numero 0
-
-fe f7 b4 af 
-f5 c9 13 45 
-2c 0d dd 8b 
-0f 17 be c3 
-
-bloc original numero # 7encriptat: 
-
-ff d9 c1 c4 
-30 23 75 74 
-1d 72 8c 91 
-ab 41 6a 99 
-
-#7 bloc encriptat despres de canviar el bit numero 127
-
-98 5d b7 62 
-26 a8 82 7d 
-0c bc 11 a6 
-fe b9 38 bb 
-
-#7 bloc encriptat despres de canviar el bit numero 126
-
-17 fa 76 51 
-c3 cd d4 8c 
-08 bc 21 e1 
-2b f4 eb 15 
-
-#7 bloc encriptat despres de canviar el bit numero 125
-
-15 89 f7 85 
-fd 49 ed 6b 
-8d e4 ea 09 
-07 d8 e4 3f 
-
-#7 bloc encriptat despres de canviar el bit numero 124
-
-35 ab 80 46 
-ee 17 72 b4 
-4a 9d 31 36 
-67 8c ca 13 
-
-#7 bloc encriptat despres de canviar el bit numero 123
-
-42 2c ce 82 
-2a aa 23 8a 
-33 22 7c ce 
-94 b5 32 0e 
-
-#7 bloc encriptat despres de canviar el bit numero 122
-
-64 4e ef d6 
-3e ff a1 41 
-bc b0 1a 26 
-22 1f 02 5e 
-
-#7 bloc encriptat despres de canviar el bit numero 121
-
-cb 7f fb c9 
-4b 39 4e 07 
-f0 99 22 ca 
-c6 3f 92 af 
-
-#7 bloc encriptat despres de canviar el bit numero 120
-
-84 75 0b 01 
-e9 57 06 a2 
-21 d1 ba 67 
-cf c8 a9 f8 
-
-#7 bloc encriptat despres de canviar el bit numero 119
-
-ab 87 90 ba 
-fc 16 72 21 
-91 5d 4f e5 
-81 85 61 3a 
-
-#7 bloc encriptat despres de canviar el bit numero 118
-
-39 1c 92 e6 
-e0 a5 29 16 
-14 d9 96 de 
-87 b5 2f ea 
-
-#7 bloc encriptat despres de canviar el bit numero 117
-
-7f 84 8b 57 
-89 2a 91 2d 
-cc 58 cb e1 
-f2 c4 67 60 
-
-#7 bloc encriptat despres de canviar el bit numero 116
-
-4b bc fa eb 
-93 e2 39 18 
-6e 3a ef 97 
-ad 88 25 ce 
-
-#7 bloc encriptat despres de canviar el bit numero 115
-
-f2 12 c6 1c 
-40 ae da 30 
-70 8e 0d 05 
-2f 07 21 f9 
-
-#7 bloc encriptat despres de canviar el bit numero 114
-
-c5 73 d6 5c 
-f8 cf 8d de 
-3b 95 36 11 
-1f 74 9b dd 
-
-#7 bloc encriptat despres de canviar el bit numero 113
-
-9b 8d 57 a9 
-88 4c 56 a7 
-c1 bb c4 5a 
-be 83 78 9b 
-
-#7 bloc encriptat despres de canviar el bit numero 112
-
-c2 cd 68 c2 
-99 76 0b 03 
-d0 c8 3e eb 
-fb ae 6d a8 
-
-#7 bloc encriptat despres de canviar el bit numero 111
-
-23 88 5f 3f 
-03 f1 43 a3 
-b5 d2 32 39 
-97 ea bc 76 
-
-#7 bloc encriptat despres de canviar el bit numero 110
-
-05 c1 ab 89 
-7a ef df 9d 
-63 fd af 41 
-e5 82 f3 7f 
-
-#7 bloc encriptat despres de canviar el bit numero 109
-
-a3 d0 94 3c 
-a6 3e f1 d0 
-8d 14 09 ea 
-43 37 bb 69 
-
-#7 bloc encriptat despres de canviar el bit numero 108
-
-a2 e2 45 87 
-8d 22 14 81 
-0c 4f dd 63 
-e5 13 2a 88 
-
-#7 bloc encriptat despres de canviar el bit numero 107
-
-00 80 d5 33 
-e8 de b4 d9 
-5c d9 e4 0b 
-80 b1 5b 3f 
-
-#7 bloc encriptat despres de canviar el bit numero 106
-
-5a 6b 84 47 
-20 27 b9 01 
-c2 bc 4b 8a 
-b9 49 71 30 
-
-#7 bloc encriptat despres de canviar el bit numero 105
-
-0a 68 0b ea 
-fa e7 63 f9 
-a8 3a bb 49 
-5d 03 ad cd 
-
-#7 bloc encriptat despres de canviar el bit numero 104
-
-2f 25 79 21 
-b5 09 bd 18 
-73 71 62 b9 
-db 25 dc 2d 
-
-#7 bloc encriptat despres de canviar el bit numero 103
-
-46 40 46 b1 
-33 a9 66 54 
-a9 31 71 6e 
-a9 33 03 06 
-
-#7 bloc encriptat despres de canviar el bit numero 102
-
-95 ad 77 0b 
-8e cc 9a fc 
-90 8f ff 49 
-15 37 34 7a 
-
-#7 bloc encriptat despres de canviar el bit numero 101
-
-e5 f6 1c b0 
-96 4a 93 65 
-e9 65 6f 8c 
-d6 62 5c da 
-
-#7 bloc encriptat despres de canviar el bit numero 100
-
-22 33 30 d1 
-57 10 43 51 
-3d e6 21 51 
-a9 20 d8 2c 
-
-#7 bloc encriptat despres de canviar el bit numero 99
-
-9d e7 22 6a 
-e5 3d 36 e7 
-e5 e2 3e 21 
-f4 7d 28 02 
-
-#7 bloc encriptat despres de canviar el bit numero 98
-
-57 dc 5c 4b 
-80 6b a8 9f 
-dc 10 91 5f 
-ab 1d 8b 79 
-
-#7 bloc encriptat despres de canviar el bit numero 97
-
-fc 5b 24 6c 
-51 fb dc 89 
-04 16 ba 9e 
-f8 40 59 87 
-
-#7 bloc encriptat despres de canviar el bit numero 96
-
-67 cb c8 a4 
-7e 9d 94 b2 
-e2 89 f5 90 
-44 76 88 88 
-
-#7 bloc encriptat despres de canviar el bit numero 95
-
-b7 f4 36 98 
-02 0a eb af 
-e1 d3 f5 57 
-df 09 ac 1d 
-
-#7 bloc encriptat despres de canviar el bit numero 94
-
-27 53 e0 fd 
-5a 0f fe 30 
-68 64 cf 32 
-ce 4d d1 06 
-
-#7 bloc encriptat despres de canviar el bit numero 93
-
-18 9a c0 ad 
-f9 fc 70 76 
-15 62 43 5c 
-b9 51 19 5c 
-
-#7 bloc encriptat despres de canviar el bit numero 92
-
-ea 15 30 86 
-42 2b 80 11 
-fa a5 3c 5d 
-b0 59 fe 54 
-
-#7 bloc encriptat despres de canviar el bit numero 91
-
-50 b8 c9 74 
-62 41 9a 24 
-55 b1 71 8e 
-cd bd 0d 0a 
-
-#7 bloc encriptat despres de canviar el bit numero 90
-
-c0 5b 12 3b 
-e3 7c bb 4a 
-1d db ee 44 
-17 2c 72 ba 
-
-#7 bloc encriptat despres de canviar el bit numero 89
-
-fb 08 f8 63 
-0c fe 1d 90 
-9d e7 60 ea 
-86 b0 f5 52 
-
-#7 bloc encriptat despres de canviar el bit numero 88
-
-04 9f c5 9e 
-00 6b f5 00 
-e6 46 e4 fb 
-62 be f7 6b 
-
-#7 bloc encriptat despres de canviar el bit numero 87
-
-d8 08 ff 00 
-c7 8e 76 13 
-be a5 60 88 
-58 cb 61 c5 
-
-#7 bloc encriptat despres de canviar el bit numero 86
-
-f4 f4 ff c5 
-e6 c4 f1 24 
-fc bd 22 eb 
-88 19 3d a0 
-
-#7 bloc encriptat despres de canviar el bit numero 85
-
-52 18 d1 13 
-f6 b4 3a 39 
-b3 fe 1e 39 
-f2 5a 90 59 
-
-#7 bloc encriptat despres de canviar el bit numero 84
-
-a4 a3 ba 0e 
-3b 11 14 38 
-ad 97 b2 dd 
-a9 57 63 23 
-
-#7 bloc encriptat despres de canviar el bit numero 83
-
-e6 a6 31 19 
-c0 3a fe 1b 
-df df 86 fc 
-0a d6 d6 10 
-
-#7 bloc encriptat despres de canviar el bit numero 82
-
-71 8e e8 ea 
-8b 67 9c e7 
-91 0c 45 58 
-6c 80 cf c0 
-
-#7 bloc encriptat despres de canviar el bit numero 81
-
-51 de e4 33 
-43 0f 25 1b 
-f5 a5 9b 23 
-91 ea 8b 18 
-
-#7 bloc encriptat despres de canviar el bit numero 80
-
-f6 c0 b5 cf 
-d7 3e ce 26 
-54 08 cd f4 
-5c dc 1f aa 
-
-#7 bloc encriptat despres de canviar el bit numero 79
-
-52 f2 2a c5 
-14 27 3d 14 
-34 f2 9d 8e 
-61 c7 e3 e1 
-
-#7 bloc encriptat despres de canviar el bit numero 78
-
-34 f0 76 00 
-70 72 b7 82 
-74 be b1 68 
-7a 09 c4 72 
-
-#7 bloc encriptat despres de canviar el bit numero 77
-
-db cf 2a 59 
-1e c7 62 d5 
-ec 2c 9c e4 
-b9 fd 2b f8 
-
-#7 bloc encriptat despres de canviar el bit numero 76
-
-69 73 7b 23 
-11 91 43 19 
-47 38 4a 2c 
-81 2b c7 10 
-
-#7 bloc encriptat despres de canviar el bit numero 75
-
-f6 dc 79 db 
-00 b1 b2 94 
-b9 fe c7 38 
-a8 eb 82 b2 
-
-#7 bloc encriptat despres de canviar el bit numero 74
-
-1a 2e e2 f7 
-5a 73 f5 2a 
-1a 07 c1 2a 
-18 4f 39 51 
-
-#7 bloc encriptat despres de canviar el bit numero 73
-
-98 dc ac c7 
-ad 73 e4 d6 
-fb dc d7 72 
-c6 be 35 3b 
-
-#7 bloc encriptat despres de canviar el bit numero 72
-
-70 51 d0 d8 
-d7 08 58 82 
-a2 32 b4 dc 
-f3 4f fa c5 
-
-#7 bloc encriptat despres de canviar el bit numero 71
-
-26 62 1d 98 
-85 b4 63 80 
-aa 40 e0 f6 
-74 a2 22 aa 
-
-#7 bloc encriptat despres de canviar el bit numero 70
-
-26 ca b1 3e 
-f3 e7 03 f6 
-a3 8e 08 32 
-4e 66 d2 5d 
-
-#7 bloc encriptat despres de canviar el bit numero 69
-
-76 5c 7b b6 
-8e c1 0a 20 
-9d 7c 48 1f 
-05 f8 b0 20 
-
-#7 bloc encriptat despres de canviar el bit numero 68
-
-03 27 73 ee 
-64 7d f8 b9 
-fd b4 41 1f 
-ff 13 d5 09 
-
-#7 bloc encriptat despres de canviar el bit numero 67
-
-ed 7e 9d eb 
-a8 8b 0e 9b 
-2d 39 ac aa 
-54 cb c1 0e 
-
-#7 bloc encriptat despres de canviar el bit numero 66
-
-00 fa 4c 98 
-a3 1b a7 74 
-a0 7b 18 93 
-4e 04 91 a8 
-
-#7 bloc encriptat despres de canviar el bit numero 65
-
-95 70 2d a2 
-d7 5c a5 6e 
-5c 7e a4 ef 
-ee c8 f8 1a 
-
-#7 bloc encriptat despres de canviar el bit numero 64
-
-2d d9 34 79 
-80 f7 ec 58 
-70 4b 42 85 
-dd 27 99 b6 
-
-#7 bloc encriptat despres de canviar el bit numero 63
-
-1c 96 65 b1 
-11 03 12 1b 
-eb 38 ab f1 
-53 2c e7 4e 
-
-#7 bloc encriptat despres de canviar el bit numero 62
-
-e0 8a e2 67 
-5a e2 f2 70 
-01 18 54 5d 
-ad b2 96 2e 
-
-#7 bloc encriptat despres de canviar el bit numero 61
-
-1e d4 05 c6 
-ad c7 e5 08 
-76 02 d7 59 
-14 89 1a 6e 
-
-#7 bloc encriptat despres de canviar el bit numero 60
-
-a2 9d 06 97 
-55 98 fe 30 
-c0 0b 3f 13 
-3d 27 e8 bf 
-
-#7 bloc encriptat despres de canviar el bit numero 59
-
-00 b8 26 e1 
-cd 14 2d a3 
-d6 05 1c 75 
-4a 31 83 97 
-
-#7 bloc encriptat despres de canviar el bit numero 58
-
-fa 2e f8 83 
-57 e1 ed 5b 
-69 3a d8 78 
-79 0d f4 ae 
-
-#7 bloc encriptat despres de canviar el bit numero 57
-
-18 9c d0 c3 
-b4 32 ec 59 
-82 d0 fc 6e 
-a3 4f 4d c7 
-
-#7 bloc encriptat despres de canviar el bit numero 56
-
-4d 3e 31 e3 
-f4 2a 76 14 
-b7 77 26 55 
-4a 42 55 02 
-
-#7 bloc encriptat despres de canviar el bit numero 55
-
-b7 12 44 24 
-08 36 a7 7b 
-22 40 85 5d 
-1b 34 24 20 
-
-#7 bloc encriptat despres de canviar el bit numero 54
-
-77 42 a5 27 
-a9 62 cc 6f 
-73 28 66 36 
-3c f5 70 a8 
-
-#7 bloc encriptat despres de canviar el bit numero 53
-
-1a 80 1a 16 
-ff d4 46 80 
-83 f3 eb 88 
-41 13 e8 13 
-
-#7 bloc encriptat despres de canviar el bit numero 52
-
-fb ff 42 29 
-40 04 ae 38 
-52 6d 56 a9 
-e3 fe a1 d4 
-
-#7 bloc encriptat despres de canviar el bit numero 51
-
-41 c6 0b 3f 
-44 c2 c5 e8 
-60 5d 01 2d 
-3e 0e 86 c8 
-
-#7 bloc encriptat despres de canviar el bit numero 50
-
-f4 0a fd 6f 
-da 8a 36 cf 
-1b 83 c2 f4 
-60 c3 e8 98 
-
-#7 bloc encriptat despres de canviar el bit numero 49
-
-3f a0 4f b8 
-5d 31 61 03 
-9d 2b ee 0e 
-a1 17 7a c7 
-
-#7 bloc encriptat despres de canviar el bit numero 48
-
-a6 50 e0 9c 
-3f 71 09 89 
-8f 6c 7f 09 
-b6 6b 18 9d 
-
-#7 bloc encriptat despres de canviar el bit numero 47
-
-30 f4 6e 74 
-8d 50 b4 d8 
-b6 2e 12 5d 
-5b 22 00 f2 
-
-#7 bloc encriptat despres de canviar el bit numero 46
-
-9b ba d9 e9 
-c3 49 99 bf 
-c6 e9 bf 06 
-81 16 9d 4b 
-
-#7 bloc encriptat despres de canviar el bit numero 45
-
-d2 39 6f a0 
-2b 86 ee ca 
-08 c5 39 e7 
-f7 ca 64 1e 
-
-#7 bloc encriptat despres de canviar el bit numero 44
-
-dd 16 a7 af 
-b7 50 f2 e3 
-4f 09 af 8a 
-e9 4b 76 79 
-
-#7 bloc encriptat despres de canviar el bit numero 43
-
-26 e1 94 e9 
-b6 9f 62 c3 
-6d 2f 49 f9 
-01 0b 57 c2 
-
-#7 bloc encriptat despres de canviar el bit numero 42
-
-56 84 6a 32 
-9e 9e d5 b5 
-e5 3e aa 87 
-45 f3 d8 5f 
-
-#7 bloc encriptat despres de canviar el bit numero 41
-
-2a 4b 79 18 
-52 4b cb a6 
-9c fe ac 8a 
-f9 ce 2c f8 
-
-#7 bloc encriptat despres de canviar el bit numero 40
-
-69 02 db 31 
-48 b6 29 eb 
-3f ee f4 8e 
-54 6a 11 28 
-
-#7 bloc encriptat despres de canviar el bit numero 39
-
-ec e8 24 d8 
-34 30 9c 66 
-44 b3 e6 6b 
-e0 2a b0 74 
-
-#7 bloc encriptat despres de canviar el bit numero 38
-
-4b 29 0a 61 
-f7 00 fa 97 
-6e 03 25 b2 
-d3 12 cf 9a 
-
-#7 bloc encriptat despres de canviar el bit numero 37
-
-01 4b ee 74 
-40 eb a0 11 
-26 62 fe c6 
-89 d8 e4 d2 
-
-#7 bloc encriptat despres de canviar el bit numero 36
-
-38 4d f4 75 
-a6 b6 37 89 
-61 88 be 03 
-28 17 ee 01 
-
-#7 bloc encriptat despres de canviar el bit numero 35
-
-dc d9 c4 e4 
-c1 eb 1c 63 
-24 b3 79 aa 
-13 59 8c 0a 
-
-#7 bloc encriptat despres de canviar el bit numero 34
-
-2c 33 78 c2 
-0d ef 8e 34 
-c6 53 f5 75 
-ff bb bc bc 
-
-#7 bloc encriptat despres de canviar el bit numero 33
-
-bb 36 b3 20 
-19 76 99 6b 
-59 a4 32 45 
-5c b9 2c 17 
-
-#7 bloc encriptat despres de canviar el bit numero 32
-
-f4 59 9c 7a 
-08 8b 33 4c 
-1a 20 cf 89 
-5c 58 57 4b 
-
-#7 bloc encriptat despres de canviar el bit numero 31
-
-42 0a 83 9f 
-ed 96 8b 3f 
-4f 8a cb 54 
-7e 12 50 28 
-
-#7 bloc encriptat despres de canviar el bit numero 30
-
-b7 a5 81 0b 
-88 75 7d fa 
-c5 89 7b 7c 
-46 44 7e 02 
-
-#7 bloc encriptat despres de canviar el bit numero 29
-
-b1 85 ed c8 
-75 e0 04 d4 
-cb 88 94 ef 
-0d b7 b5 d2 
-
-#7 bloc encriptat despres de canviar el bit numero 28
-
-b2 bb 92 fa 
-0b ad fc 69 
-2f be 5e 29 
-f9 23 b7 db 
-
-#7 bloc encriptat despres de canviar el bit numero 27
-
-0f 76 f2 a6 
-7e 0c 37 0a 
-a6 e3 ce cd 
-2b 77 e5 6d 
-
-#7 bloc encriptat despres de canviar el bit numero 26
-
-40 7d a7 c7 
-05 0d 25 ac 
-72 f5 e8 b5 
-cd 0e 08 db 
-
-#7 bloc encriptat despres de canviar el bit numero 25
-
-f6 72 88 ab 
-76 12 db 5e 
-37 9a e9 9b 
-d6 3f 06 b5 
-
-#7 bloc encriptat despres de canviar el bit numero 24
-
-2c 39 27 f0 
-35 1a 66 ab 
-14 2d ae c0 
-da 28 60 3f 
-
-#7 bloc encriptat despres de canviar el bit numero 23
-
-76 d6 10 3c 
-f0 fa e7 e6 
-00 94 83 de 
-66 06 2c 04 
-
-#7 bloc encriptat despres de canviar el bit numero 22
-
-65 ef 5f 3d 
-58 68 84 93 
-2a cb cd a8 
-8e 43 ef c6 
-
-#7 bloc encriptat despres de canviar el bit numero 21
-
-11 92 3c f5 
-21 a9 d9 35 
-69 f8 2d de 
-8d 38 46 6d 
-
-#7 bloc encriptat despres de canviar el bit numero 20
-
-b5 c9 0d 00 
-37 0d d5 cb 
-66 31 b8 6a 
-b9 c5 e2 bf 
-
-#7 bloc encriptat despres de canviar el bit numero 19
-
-40 9d 62 cd 
-c8 f0 d1 b7 
-be de cb 0d 
-0a 1a 3c c5 
-
-#7 bloc encriptat despres de canviar el bit numero 18
-
-15 ef c9 45 
-96 a5 26 a8 
-3b 5f 16 8c 
-a1 9e ff f9 
-
-#7 bloc encriptat despres de canviar el bit numero 17
-
-dd f6 a9 cc 
-3a bd 73 4e 
-74 c5 18 42 
-3e 3f ce 67 
-
-#7 bloc encriptat despres de canviar el bit numero 16
-
-d2 34 29 40 
-0e a0 91 db 
-fd 70 f3 0c 
-56 35 03 43 
-
-#7 bloc encriptat despres de canviar el bit numero 15
-
-a5 eb 6b ed 
-c0 33 eb 2e 
-f5 57 67 cf 
-db 4c d2 28 
-
-#7 bloc encriptat despres de canviar el bit numero 14
-
-cc eb 5c b0 
-88 e6 de 7f 
-b3 14 26 29 
-bf 62 f4 52 
-
-#7 bloc encriptat despres de canviar el bit numero 13
-
-3a 4f 40 c7 
-7c aa 8e ba 
-b6 36 54 b7 
-b7 29 f5 7a 
-
-#7 bloc encriptat despres de canviar el bit numero 12
-
-80 97 b9 d3 
-e3 dc b5 09 
-97 54 4f ad 
-9a 7a c3 69 
-
-#7 bloc encriptat despres de canviar el bit numero 11
-
-b3 9b 56 a5 
-bb f8 7d 7e 
-c6 75 87 ee 
-81 52 e6 35 
-
-#7 bloc encriptat despres de canviar el bit numero 10
-
-85 a2 3b 0f 
-5b 98 36 c8 
-33 58 3e 46 
-aa fa 53 b2 
-
-#7 bloc encriptat despres de canviar el bit numero 9
-
-84 67 db 5d 
-42 9d e8 8f 
-7e b9 84 a6 
-53 80 30 ce 
-
-#7 bloc encriptat despres de canviar el bit numero 8
-
-c2 6c c4 45 
-79 41 76 8f 
-cd 93 f7 5f 
-12 80 d1 34 
-
-#7 bloc encriptat despres de canviar el bit numero 7
-
-8c a7 f8 40 
-ee c1 c9 04 
-b8 fd 4c 8c 
-bc 8b c3 fd 
-
-#7 bloc encriptat despres de canviar el bit numero 6
-
-1a 1a 59 92 
-6c bc c9 a0 
-51 63 cb c4 
-94 3b 30 e7 
-
-#7 bloc encriptat despres de canviar el bit numero 5
-
-f1 49 70 75 
-c4 7f 51 21 
-6b c2 d0 83 
-bb a9 f7 22 
-
-#7 bloc encriptat despres de canviar el bit numero 4
-
-60 a4 eb f6 
-a1 62 78 bd 
-ed cd 16 ec 
-60 f4 20 c2 
-
-#7 bloc encriptat despres de canviar el bit numero 3
-
-02 ae 81 75 
-32 1c 92 82 
-fa db 82 d5 
-ae 91 d4 a2 
-
-#7 bloc encriptat despres de canviar el bit numero 2
-
-74 44 b4 21 
-cf 23 28 29 
-ce e7 c3 b1 
-ff e1 fd 65 
-
-#7 bloc encriptat despres de canviar el bit numero 1
-
-cf 06 94 2b 
-bc b7 56 ab 
-5f f6 ec d9 
-24 41 5b f2 
-
-#7 bloc encriptat despres de canviar el bit numero 0
-
-bb e2 d9 02 
-49 f4 c9 22 
-84 50 1f c3 
-c1 93 66 a9 
-
-bloc original numero # 8encriptat: 
-
-29 98 f3 ff 
-61 87 ef 7c 
-82 1c 42 13 
-5d 19 16 ca 
-
-#8 bloc encriptat despres de canviar el bit numero 127
-
-4e 03 eb 2b 
-16 93 06 26 
-a0 04 30 66 
-36 ea 4a 7d 
-
-#8 bloc encriptat despres de canviar el bit numero 126
-
-f1 5c 38 f1 
-c0 2c 30 c1 
-d6 91 91 27 
-0d 64 ef e0 
-
-#8 bloc encriptat despres de canviar el bit numero 125
-
-99 4c 07 0a 
-6e 05 3b 15 
-4b d5 ca a6 
-a5 09 e8 1e 
-
-#8 bloc encriptat despres de canviar el bit numero 124
-
-07 6b 0e 5d 
-46 55 2d 1a 
-da 8d c4 b0 
-39 da df 2c 
-
-#8 bloc encriptat despres de canviar el bit numero 123
-
-fb 82 ea b8 
-35 e0 7e c7 
-df b6 7e 66 
-00 b7 19 20 
-
-#8 bloc encriptat despres de canviar el bit numero 122
-
-1d 4b a3 f5 
-1d f1 22 39 
-db 36 0a 9b 
-f9 98 8f 62 
-
-#8 bloc encriptat despres de canviar el bit numero 121
-
-7f ff 8a 89 
-59 bc b9 93 
-28 20 2b 94 
-db 40 b4 a2 
-
-#8 bloc encriptat despres de canviar el bit numero 120
-
-9d 30 3f 52 
-2b 6d 25 4a 
-bc 28 18 8d 
-80 ac 22 6e 
-
-#8 bloc encriptat despres de canviar el bit numero 119
-
-9d e9 28 11 
-49 fa ef fb 
-8c bf 53 ce 
-c4 63 cb 8c 
-
-#8 bloc encriptat despres de canviar el bit numero 118
-
-ca 2f 31 9c 
-a1 13 89 3f 
-58 fa b4 74 
-f9 fd 5e 2b 
-
-#8 bloc encriptat despres de canviar el bit numero 117
-
-2f f7 43 d8 
-c3 c7 be 16 
-20 99 a4 56 
-6f de f5 43 
-
-#8 bloc encriptat despres de canviar el bit numero 116
-
-02 26 9a 0d 
-42 04 0f f4 
-8d 37 3f 8b 
-09 76 8c 42 
-
-#8 bloc encriptat despres de canviar el bit numero 115
-
-6d 5f 49 fe 
-5f 5f 2a 46 
-9d e5 76 1b 
-d4 60 94 10 
-
-#8 bloc encriptat despres de canviar el bit numero 114
-
-1c 7f dd e4 
-79 a7 0f 0a 
-07 e3 7f 97 
-bf 35 8f b0 
-
-#8 bloc encriptat despres de canviar el bit numero 113
-
-4d 4d ec d6 
-7b 08 37 e0 
-5b bc e2 45 
-8f 88 2f ff 
-
-#8 bloc encriptat despres de canviar el bit numero 112
-
-9f 00 18 b6 
-66 8b f0 b3 
-22 10 2a 80 
-21 9f cf 3b 
-
-#8 bloc encriptat despres de canviar el bit numero 111
-
-14 a5 ae 2f 
-bb 25 80 59 
-34 32 02 4a 
-10 57 40 77 
-
-#8 bloc encriptat despres de canviar el bit numero 110
-
-78 9b c8 19 
-42 5b 4f 74 
-6a 19 66 a1 
-7a e1 17 fe 
-
-#8 bloc encriptat despres de canviar el bit numero 109
-
-ba 92 eb 86 
-3a 2b 58 75 
-9e 8a 4f 77 
-da 49 74 ac 
-
-#8 bloc encriptat despres de canviar el bit numero 108
-
-cb d2 b6 b9 
-67 1f 7d e6 
-e3 63 16 c8 
-18 ca b1 c0 
-
-#8 bloc encriptat despres de canviar el bit numero 107
-
-7f 16 ea 91 
-a1 d5 84 ed 
-05 44 36 8f 
-10 87 ea 13 
-
-#8 bloc encriptat despres de canviar el bit numero 106
-
-2b 0e e9 c8 
-f8 67 1f e2 
-28 f3 e5 1c 
-16 58 1e 45 
-
-#8 bloc encriptat despres de canviar el bit numero 105
-
-97 b7 3c 19 
-4a df d2 f1 
-41 01 b3 c4 
-bd 71 70 a2 
-
-#8 bloc encriptat despres de canviar el bit numero 104
-
-70 cc 59 af 
-37 c8 60 b6 
-43 a8 09 e7 
-b4 82 9c 27 
-
-#8 bloc encriptat despres de canviar el bit numero 103
-
-c8 f4 22 08 
-60 73 cb 34 
-fa bc a5 93 
-74 34 4d b6 
-
-#8 bloc encriptat despres de canviar el bit numero 102
-
-37 b7 2c 1f 
-bb 96 05 a5 
-55 46 f6 54 
-0b 4c 02 5a 
-
-#8 bloc encriptat despres de canviar el bit numero 101
-
-1c fa 65 3f 
-88 17 82 7a 
-20 de 79 2c 
-fa b7 96 38 
-
-#8 bloc encriptat despres de canviar el bit numero 100
-
-e7 cc 1a b4 
-5e e4 b4 71 
-70 13 1b c5 
-e8 75 56 ee 
-
-#8 bloc encriptat despres de canviar el bit numero 99
-
-ea d7 dd 58 
-b1 8b 63 13 
-9c 61 84 5a 
-30 2b 39 8c 
-
-#8 bloc encriptat despres de canviar el bit numero 98
-
-e5 f6 a4 2a 
-a6 de 52 3f 
-d1 c9 fa 0f 
-a3 55 72 93 
-
-#8 bloc encriptat despres de canviar el bit numero 97
-
-d4 7c 3b 30 
-16 ad 1e d1 
-88 7f e0 28 
-7e 69 e4 e7 
-
-#8 bloc encriptat despres de canviar el bit numero 96
-
-2a 5d bd c2 
-32 e5 d8 0c 
-28 c7 c6 8f 
-cd 03 19 a0 
-
-#8 bloc encriptat despres de canviar el bit numero 95
-
-f0 1f 05 37 
-55 80 09 74 
-17 79 62 7a 
-8f 96 36 98 
-
-#8 bloc encriptat despres de canviar el bit numero 94
-
-9d c2 98 c6 
-9e fc 90 ba 
-2d 6c 9d 0c 
-49 46 6c cd 
-
-#8 bloc encriptat despres de canviar el bit numero 93
-
-af 08 70 d1 
-63 f5 23 8c 
-4c 57 40 fb 
-8b e4 1a ac 
-
-#8 bloc encriptat despres de canviar el bit numero 92
-
-fe 2f 96 3a 
-cf ca 7c 70 
-54 16 82 dd 
-31 19 ba 59 
-
-#8 bloc encriptat despres de canviar el bit numero 91
-
-a7 27 b3 04 
-4c cd 8d 7b 
-1e 44 43 90 
-09 59 32 9b 
-
-#8 bloc encriptat despres de canviar el bit numero 90
-
-57 f3 26 e7 
-e1 15 54 ea 
-f8 f2 f6 cc 
-0b ec db ff 
-
-#8 bloc encriptat despres de canviar el bit numero 89
-
-30 14 78 f7 
-54 6a 40 ae 
-b5 f4 fd cd 
-be f9 5b 19 
-
-#8 bloc encriptat despres de canviar el bit numero 88
-
-4f 0c 02 e1 
-00 b6 3b 05 
-bb 11 91 fd 
-25 34 10 f1 
-
-#8 bloc encriptat despres de canviar el bit numero 87
-
-59 2a 80 60 
-f4 eb dd 0f 
-e4 61 4b 3e 
-01 c2 51 e8 
-
-#8 bloc encriptat despres de canviar el bit numero 86
-
-5a ec 5f 4a 
-62 ce 07 0f 
-09 37 19 7a 
-16 3a 42 d6 
-
-#8 bloc encriptat despres de canviar el bit numero 85
-
-41 bc f1 2d 
-d7 dd 2f a9 
-c9 c7 32 90 
-28 e2 8e b8 
-
-#8 bloc encriptat despres de canviar el bit numero 84
-
-cc 34 ef 2a 
-8b 45 b8 43 
-cf 48 c6 57 
-46 e0 ed ac 
-
-#8 bloc encriptat despres de canviar el bit numero 83
-
-13 3f 0d 50 
-4f f0 d2 f8 
-4c ed d2 07 
-f2 76 e5 83 
-
-#8 bloc encriptat despres de canviar el bit numero 82
-
-3f b9 97 e0 
-84 c3 62 0e 
-ef ce af f8 
-16 ab 54 35 
-
-#8 bloc encriptat despres de canviar el bit numero 81
-
-57 bd 76 f3 
-f6 2d 35 bc 
-75 4d 55 e4 
-9f 1d 3d 48 
-
-#8 bloc encriptat despres de canviar el bit numero 80
-
-a3 22 35 7a 
-4c 0d 32 5a 
-04 ac 09 6f 
-94 45 8c 99 
-
-#8 bloc encriptat despres de canviar el bit numero 79
-
-1d a5 4a 7c 
-c9 0a b3 60 
-0f 95 9f 99 
-8f 34 15 cf 
-
-#8 bloc encriptat despres de canviar el bit numero 78
-
-77 9c 51 16 
-dc ee a6 5a 
-b1 41 bd 0a 
-4e c6 15 55 
-
-#8 bloc encriptat despres de canviar el bit numero 77
-
-52 da 42 a3 
-06 5c 83 93 
-2c 64 16 1b 
-fa 4f 1a cb 
-
-#8 bloc encriptat despres de canviar el bit numero 76
-
-7f fc 16 10 
-ff a3 1c 1a 
-39 6b 71 94 
-8f 8c a2 99 
-
-#8 bloc encriptat despres de canviar el bit numero 75
-
-e3 ad 7a 82 
-dd 08 c7 63 
-3c ee d1 a8 
-80 19 d9 cd 
-
-#8 bloc encriptat despres de canviar el bit numero 74
-
-dc 62 02 7f 
-6f 4d 94 5f 
-b1 27 b0 95 
-bf a7 89 5c 
-
-#8 bloc encriptat despres de canviar el bit numero 73
-
-c2 03 61 0b 
-2a 1e fe 5f 
-50 ea 8a e1 
-19 aa bb 8a 
-
-#8 bloc encriptat despres de canviar el bit numero 72
-
-b9 d0 bb e0 
-3b fd 25 38 
-3e d0 cf b4 
-83 4c f9 9d 
-
-#8 bloc encriptat despres de canviar el bit numero 71
-
-0f 49 0f 96 
-5d 7d 56 0a 
-8f bd a4 32 
-ed 7f 81 b0 
-
-#8 bloc encriptat despres de canviar el bit numero 70
-
-38 d2 32 76 
-ba f5 3d 88 
-a4 68 12 73 
-b4 a0 5f 66 
-
-#8 bloc encriptat despres de canviar el bit numero 69
-
-8f e6 c2 77 
-b0 fa f8 bf 
-c9 19 be 26 
-94 78 2e 99 
-
-#8 bloc encriptat despres de canviar el bit numero 68
-
-79 36 72 23 
-10 29 21 ca 
-d0 70 c5 9d 
-dd 21 0c 67 
-
-#8 bloc encriptat despres de canviar el bit numero 67
-
-1e 8f 6d be 
-7a cb ab ad 
-ac 65 ae 53 
-55 0a 64 cf 
-
-#8 bloc encriptat despres de canviar el bit numero 66
-
-fc 1a 76 27 
-19 91 6f 02 
-49 73 cb ac 
-72 67 e8 a5 
-
-#8 bloc encriptat despres de canviar el bit numero 65
-
-d4 c8 34 8a 
-4d 75 2c 56 
-f4 1a 05 8e 
-55 ca 58 2e 
-
-#8 bloc encriptat despres de canviar el bit numero 64
-
-33 f1 77 62 
-ee bb 87 77 
-e7 fb da ae 
-79 4e 97 ef 
-
-#8 bloc encriptat despres de canviar el bit numero 63
-
-9b e0 00 19 
-48 d5 b9 90 
-ab d5 a6 1c 
-25 9b 96 78 
-
-#8 bloc encriptat despres de canviar el bit numero 62
-
-0b d7 ad 6e 
-18 a3 72 d5 
-b5 f3 b5 93 
-8f b7 af 02 
-
-#8 bloc encriptat despres de canviar el bit numero 61
-
-b5 c6 77 5f 
-c1 95 a0 4e 
-f5 32 94 7b 
-69 8d 2f 9f 
-
-#8 bloc encriptat despres de canviar el bit numero 60
-
-29 ef 45 4b 
-29 49 70 46 
-a0 46 bd 28 
-e6 b7 0f b9 
-
-#8 bloc encriptat despres de canviar el bit numero 59
-
-49 8c cc 7f 
-bc 09 3c 7a 
-ea 3b 1c e7 
-e5 98 fd 36 
-
-#8 bloc encriptat despres de canviar el bit numero 58
-
-01 18 7f 07 
-e5 75 ed ea 
-e6 1f d1 be 
-cb 75 3c 35 
-
-#8 bloc encriptat despres de canviar el bit numero 57
-
-4e 73 0d 18 
-9f bd 93 50 
-6c 6d ac c2 
-2e b5 a0 1e 
-
-#8 bloc encriptat despres de canviar el bit numero 56
-
-da 39 6b 1e 
-58 75 2b 6d 
-7b fa 6b e7 
-a7 f9 cf c4 
-
-#8 bloc encriptat despres de canviar el bit numero 55
-
-76 21 df 2e 
-bb 53 4a 22 
-77 45 f7 36 
-05 80 1b 12 
-
-#8 bloc encriptat despres de canviar el bit numero 54
-
-94 a7 56 c5 
-ce ee fd c3 
-25 c9 95 be 
-20 26 81 25 
-
-#8 bloc encriptat despres de canviar el bit numero 53
-
-fc 63 e1 01 
-25 e7 15 d8 
-4a 94 a6 d3 
-b0 20 41 28 
-
-#8 bloc encriptat despres de canviar el bit numero 52
-
-d8 b3 e8 2c 
-0f 55 67 25 
-bd 71 64 35 
-61 4c 40 96 
-
-#8 bloc encriptat despres de canviar el bit numero 51
-
-a8 4e 82 72 
-af d5 61 8f 
-f1 6d 9e 57 
-c8 0e fe 98 
-
-#8 bloc encriptat despres de canviar el bit numero 50
-
-e4 b7 c2 79 
-cb a9 85 0b 
-71 9a 37 a8 
-b6 f9 de ce 
-
-#8 bloc encriptat despres de canviar el bit numero 49
-
-85 69 cd a7 
-96 6c f4 12 
-f0 d2 fa d7 
-c7 60 42 e7 
-
-#8 bloc encriptat despres de canviar el bit numero 48
-
-df e4 dc 3c 
-29 6c 34 d1 
-26 15 5e d4 
-e7 d2 30 e2 
-
-#8 bloc encriptat despres de canviar el bit numero 47
-
-de fe b5 d6 
-fa 48 0c ee 
-94 86 20 52 
-fc 69 a0 ed 
-
-#8 bloc encriptat despres de canviar el bit numero 46
-
-ba 7a c3 03 
-27 09 bf 0f 
-f1 da eb 36 
-18 02 34 13 
-
-#8 bloc encriptat despres de canviar el bit numero 45
-
-85 1f cb 9f 
-1e 7a 41 d2 
-bb 42 37 c4 
-8c 33 3b 68 
-
-#8 bloc encriptat despres de canviar el bit numero 44
-
-a9 e1 a7 1c 
-6e 0a 40 a2 
-78 9e c5 0f 
-4e 37 3c 22 
-
-#8 bloc encriptat despres de canviar el bit numero 43
-
-8f 63 1b cc 
-54 00 dc 26 
-b6 5b 28 ce 
-ee 1a d0 8d 
-
-#8 bloc encriptat despres de canviar el bit numero 42
-
-01 31 7e 6d 
-46 d9 bc 3a 
-d2 7e 49 e5 
-78 3f 79 cb 
-
-#8 bloc encriptat despres de canviar el bit numero 41
-
-ca 4f 6c fe 
-f8 8d b3 21 
-73 9d aa cd 
-15 69 b0 32 
-
-#8 bloc encriptat despres de canviar el bit numero 40
-
-f1 a3 e3 5a 
-b7 d3 74 b8 
-08 bc 48 aa 
-87 ad b4 2a 
-
-#8 bloc encriptat despres de canviar el bit numero 39
-
-53 09 1d ec 
-5d e9 a4 8e 
-82 54 cb a0 
-4c 97 82 66 
-
-#8 bloc encriptat despres de canviar el bit numero 38
-
-2f 5e d7 3f 
-99 22 45 c8 
-2a 25 ee d6 
-35 93 e1 1b 
-
-#8 bloc encriptat despres de canviar el bit numero 37
-
-79 fe 6f ea 
-be d4 2f 64 
-1a 35 63 2f 
-68 73 3f a4 
-
-#8 bloc encriptat despres de canviar el bit numero 36
-
-3a b2 06 fa 
-ad 59 eb 7a 
-7e ac 6d 72 
-8a 25 2d ee 
-
-#8 bloc encriptat despres de canviar el bit numero 35
-
-0a 4e 35 a8 
-fb 08 60 bd 
-75 ea cc 42 
-0e dd d0 b3 
-
-#8 bloc encriptat despres de canviar el bit numero 34
-
-f0 43 e4 3b 
-bb df db 6d 
-30 53 65 a8 
-fe 69 9d 68 
-
-#8 bloc encriptat despres de canviar el bit numero 33
-
-ae 58 ea 43 
-e6 7c d6 eb 
-c7 59 35 07 
-8a 5d 57 4b 
-
-#8 bloc encriptat despres de canviar el bit numero 32
-
-d7 12 41 f4 
-56 d7 16 0b 
-0c 68 08 36 
-44 5d 62 05 
-
-#8 bloc encriptat despres de canviar el bit numero 31
-
-87 d6 1a 04 
-f1 0f 6b 38 
-0f 8f fa c6 
-3b e7 47 50 
-
-#8 bloc encriptat despres de canviar el bit numero 30
-
-74 aa 66 d1 
-4f ce 35 36 
-5e 54 19 dd 
-63 8a bb 16 
-
-#8 bloc encriptat despres de canviar el bit numero 29
-
-88 85 af a0 
-53 7a 5c 5c 
-0d 24 1d cd 
-c2 6a a9 a5 
-
-#8 bloc encriptat despres de canviar el bit numero 28
-
-48 0b 5d 84 
-b2 d0 7b f6 
-c0 98 62 61 
-de 0a ed 0c 
-
-#8 bloc encriptat despres de canviar el bit numero 27
-
-d7 39 71 2c 
-70 20 9e df 
-4d bf ef b7 
-a7 28 40 45 
-
-#8 bloc encriptat despres de canviar el bit numero 26
-
-4f 3c 36 b9 
-3c e0 93 90 
-ed f0 b0 b4 
-72 7a 5a a0 
-
-#8 bloc encriptat despres de canviar el bit numero 25
-
-78 e9 5d 8a 
-fa e3 48 6c 
-cf 5f f0 c0 
-fe c4 e2 7d 
-
-#8 bloc encriptat despres de canviar el bit numero 24
-
-0e 45 20 56 
-d7 1f 5f f4 
-4b e9 d5 47 
-16 91 67 22 
-
-#8 bloc encriptat despres de canviar el bit numero 23
-
-9c 17 82 46 
-35 d7 6b 74 
-b5 ed 41 ca 
-08 54 70 87 
-
-#8 bloc encriptat despres de canviar el bit numero 22
-
-9e c0 c8 8b 
-02 40 03 9d 
-4c 35 2a b4 
-a1 6e 8f 89 
-
-#8 bloc encriptat despres de canviar el bit numero 21
-
-cc 79 b8 2a 
-8d 7b 0c 77 
-08 b5 a5 b0 
-a4 23 94 91 
-
-#8 bloc encriptat despres de canviar el bit numero 20
-
-65 9e a0 17 
-87 54 4b 40 
-ef 72 0d 6d 
-01 74 f6 ff 
-
-#8 bloc encriptat despres de canviar el bit numero 19
-
-fe 5d c3 23 
-c0 6c b2 96 
-0e 32 e4 10 
-d1 00 25 06 
-
-#8 bloc encriptat despres de canviar el bit numero 18
-
-c5 02 19 30 
-91 2f 94 8f 
-fe 78 75 9f 
-3e b9 3b 56 
-
-#8 bloc encriptat despres de canviar el bit numero 17
-
-df a7 c5 ba 
-a2 77 c0 15 
-34 ca 33 57 
-da 26 8f 7c 
-
-#8 bloc encriptat despres de canviar el bit numero 16
-
-43 bf 3d f6 
-5c 1d 81 ab 
-bd fe 94 f9 
-31 de 3f cd 
-
-#8 bloc encriptat despres de canviar el bit numero 15
-
-36 fa 64 7b 
-54 69 8f 71 
-eb c6 27 e3 
-de 2b 08 8e 
-
-#8 bloc encriptat despres de canviar el bit numero 14
-
-5b 0f 53 85 
-45 9b f7 c9 
-06 28 23 40 
-0b 06 9b fa 
-
-#8 bloc encriptat despres de canviar el bit numero 13
-
-f7 16 de 7b 
-17 5e f1 af 
-43 e8 46 de 
-d4 d4 02 51 
-
-#8 bloc encriptat despres de canviar el bit numero 12
-
-50 c3 96 00 
-c7 91 d1 d0 
-0f 6c 98 0a 
-3b 4e 21 5a 
-
-#8 bloc encriptat despres de canviar el bit numero 11
-
-a4 5f 0d 53 
-72 db 59 e6 
-4e a2 aa 8f 
-08 8b 89 f1 
-
-#8 bloc encriptat despres de canviar el bit numero 10
-
-20 ad 12 b8 
-d4 13 b8 cf 
-39 eb 48 9c 
-18 3d f9 7d 
-
-#8 bloc encriptat despres de canviar el bit numero 9
-
-5e c7 e2 ec 
-21 2c f8 f3 
-3f 1d e6 ff 
-a6 48 6c ea 
-
-#8 bloc encriptat despres de canviar el bit numero 8
-
-f4 5c 61 de 
-92 47 b9 68 
-46 d5 c8 04 
-4a 91 3c a6 
-
-#8 bloc encriptat despres de canviar el bit numero 7
-
-9f e0 47 89 
-f3 52 0f a6 
-72 96 79 c7 
-1c 35 9f 19 
-
-#8 bloc encriptat despres de canviar el bit numero 6
-
-62 14 01 ed 
-ed 6a 30 8b 
-a3 75 af 07 
-f3 46 1a 25 
-
-#8 bloc encriptat despres de canviar el bit numero 5
-
-84 7b 97 52 
-cb a6 2b f1 
-72 d6 ec d7 
-a7 5d de 9d 
-
-#8 bloc encriptat despres de canviar el bit numero 4
-
-e9 51 ef 64 
-62 cb 62 75 
-d9 74 04 6c 
-a8 ec 30 9f 
-
-#8 bloc encriptat despres de canviar el bit numero 3
-
-7c 7e 24 29 
-a8 74 6e c0 
-d2 41 c9 52 
-ba 9f 18 fe 
-
-#8 bloc encriptat despres de canviar el bit numero 2
-
-f5 0c 2d 5d 
-c4 ce 41 49 
-a0 76 74 37 
-f7 d5 7c 40 
-
-#8 bloc encriptat despres de canviar el bit numero 1
-
-ec 19 ec 4b 
-cb 00 9e f2 
-8b 0a 26 21 
-cc b2 7f 5a 
-
-#8 bloc encriptat despres de canviar el bit numero 0
-
-6a 14 af 0b 
-75 a4 55 02 
-6a 3c 1b e4 
-5e d2 fa 1b 
-
-bloc original numero # 9encriptat: 
-
-ab 43 d5 8d 
-7a 38 98 4a 
-c6 89 42 f5 
-08 a2 95 c7 
-
-#9 bloc encriptat despres de canviar el bit numero 127
-
-15 9a a8 93 
-72 13 d4 db 
-a2 b8 08 e1 
-62 39 c9 76 
-
-#9 bloc encriptat despres de canviar el bit numero 126
-
-c4 03 9c ba 
-93 ae 33 39 
-cf 08 8b 44 
-35 32 1f cc 
-
-#9 bloc encriptat despres de canviar el bit numero 125
-
-e5 fb bb fa 
-bf 82 05 47 
-40 24 e7 5c 
-b4 1e e3 e9 
-
-#9 bloc encriptat despres de canviar el bit numero 124
-
-95 7c 9f 0f 
-51 a6 54 f5 
-93 92 d1 4a 
-4f 8b a6 31 
-
-#9 bloc encriptat despres de canviar el bit numero 123
-
-bc e8 ca 4e 
-34 9f 49 3f 
-71 75 a9 79 
-64 c1 e3 6b 
-
-#9 bloc encriptat despres de canviar el bit numero 122
-
-db 69 2f 82 
-9f ff d6 24 
-dd 53 63 0c 
-4d 75 02 76 
-
-#9 bloc encriptat despres de canviar el bit numero 121
-
-67 2c cf cf 
-b3 f7 6a da 
-8f 0a de c4 
-04 9b f3 6c 
-
-#9 bloc encriptat despres de canviar el bit numero 120
-
-5e 3c 12 6c 
-9e f8 93 15 
-28 b2 2c 14 
-51 fe 62 27 
-
-#9 bloc encriptat despres de canviar el bit numero 119
-
-34 ad 3a b4 
-dc 25 98 ea 
-cb 2d 00 4a 
-f7 88 29 1b 
-
-#9 bloc encriptat despres de canviar el bit numero 118
-
-60 01 3b 8e 
-ef 47 cf c2 
-80 ea 3d 13 
-74 7f 93 38 
-
-#9 bloc encriptat despres de canviar el bit numero 117
-
-30 5c d3 a2 
-0e bc 24 48 
-99 48 aa 86 
-11 d2 eb bf 
-
-#9 bloc encriptat despres de canviar el bit numero 116
-
-72 c1 8e 8f 
-0f cb b4 a0 
-98 5d 4e 65 
-05 45 3c 5e 
-
-#9 bloc encriptat despres de canviar el bit numero 115
-
-e1 0e ad 6b 
-d2 dc 8b 08 
-0e a1 19 d8 
-e0 e3 33 64 
-
-#9 bloc encriptat despres de canviar el bit numero 114
-
-bf ae 7b ce 
-88 9e 6f 72 
-64 7e b8 56 
-49 76 53 f1 
-
-#9 bloc encriptat despres de canviar el bit numero 113
-
-ec 62 db 4b 
-b8 d0 d3 c7 
-55 5e 4f 7c 
-db a6 c5 c0 
-
-#9 bloc encriptat despres de canviar el bit numero 112
-
-a3 85 fd d5 
-f5 60 03 a5 
-7b d8 fc 41 
-13 5c be 43 
-
-#9 bloc encriptat despres de canviar el bit numero 111
-
-e1 7b c6 e3 
-d6 13 75 95 
-57 26 25 aa 
-3f 46 11 01 
-
-#9 bloc encriptat despres de canviar el bit numero 110
-
-a4 4e c2 cf 
-2c 72 1f 4f 
-0a 86 c8 82 
-0a 38 fc 22 
-
-#9 bloc encriptat despres de canviar el bit numero 109
-
-3e 2e c5 e7 
-39 b8 60 4b 
-6a 3b 12 07 
-95 98 a8 0b 
-
-#9 bloc encriptat despres de canviar el bit numero 108
-
-a7 d9 12 da 
-3f 1b 27 95 
-4b ce 1c 55 
-a5 f1 1f bd 
-
-#9 bloc encriptat despres de canviar el bit numero 107
-
-9f 22 66 83 
-01 82 8d 89 
-0b c3 11 f0 
-d0 cd cd 40 
-
-#9 bloc encriptat despres de canviar el bit numero 106
-
-db 22 b0 de 
-c0 22 f2 27 
-28 e2 8c d7 
-1d 0e 66 cd 
-
-#9 bloc encriptat despres de canviar el bit numero 105
-
-db 8d 89 1f 
-33 4b 8c 94 
-99 2a 04 e3 
-7b bd 24 5f 
-
-#9 bloc encriptat despres de canviar el bit numero 104
-
-bf a4 13 40 
-5b 8e d4 b2 
-38 62 95 e8 
-86 b8 23 18 
-
-#9 bloc encriptat despres de canviar el bit numero 103
-
-6b fc 6e 3c 
-b7 1f 29 c9 
-e8 6b a1 b1 
-03 0c 90 fa 
-
-#9 bloc encriptat despres de canviar el bit numero 102
-
-48 ee 77 49 
-23 a1 c3 f7 
-f4 9f 6c ce 
-39 29 53 95 
-
-#9 bloc encriptat despres de canviar el bit numero 101
-
-d6 32 b8 40 
-dd 0d 6e f3 
-b0 40 48 58 
-0e c9 dd 1e 
-
-#9 bloc encriptat despres de canviar el bit numero 100
-
-01 9d d2 8d 
-19 36 90 6e 
-43 da e1 5d 
-9a 95 8e 17 
-
-#9 bloc encriptat despres de canviar el bit numero 99
-
-8a f0 60 04 
-ab de e0 50 
-61 56 da e2 
-76 15 07 f1 
-
-#9 bloc encriptat despres de canviar el bit numero 98
-
-2b 4d ef 2a 
-45 6a 6c 39 
-76 16 b0 e0 
-fd ae 82 73 
-
-#9 bloc encriptat despres de canviar el bit numero 97
-
-fc ab 5c 69 
-95 9a b7 3d 
-56 d7 2b 3d 
-90 ad 63 f4 
-
-#9 bloc encriptat despres de canviar el bit numero 96
-
-06 01 da 8c 
-25 4f 8a b2 
-f7 01 55 87 
-f5 1d dd 10 
-
-#9 bloc encriptat despres de canviar el bit numero 95
-
-bb 9b ca 37 
-2d 1f 66 15 
-dd 4c 02 65 
-b7 5c c5 c2 
-
-#9 bloc encriptat despres de canviar el bit numero 94
-
-6e bb c1 b5 
-d8 15 15 ff 
-10 2f 6b 70 
-b1 45 eb e8 
-
-#9 bloc encriptat despres de canviar el bit numero 93
-
-f2 72 41 4d 
-16 4a 3e 23 
-a0 15 4a 07 
-7d 9b cd 09 
-
-#9 bloc encriptat despres de canviar el bit numero 92
-
-c9 a6 15 e6 
-d8 5e 5a 06 
-e6 38 e1 e7 
-ad 9e 4b 32 
-
-#9 bloc encriptat despres de canviar el bit numero 91
-
-bf db a0 81 
-43 b2 c9 ee 
-c7 ba f4 54 
-49 a7 07 33 
-
-#9 bloc encriptat despres de canviar el bit numero 90
-
-f8 2e 21 a5 
-93 94 93 4c 
-9c c4 50 c8 
-29 31 35 9f 
-
-#9 bloc encriptat despres de canviar el bit numero 89
-
-28 dc f0 de 
-a5 b6 16 1a 
-47 27 10 ac 
-8d 16 3c ec 
-
-#9 bloc encriptat despres de canviar el bit numero 88
-
-61 4b 82 3a 
-65 c9 ff 29 
-1a ab 5b a4 
-57 7f 57 b9 
-
-#9 bloc encriptat despres de canviar el bit numero 87
-
-b2 46 40 5b 
-d7 21 ba 66 
-ed 0f 66 76 
-7c cd 18 bf 
-
-#9 bloc encriptat despres de canviar el bit numero 86
-
-da 31 df 23 
-fb 3a 97 70 
-0b 0d 72 22 
-97 80 60 35 
-
-#9 bloc encriptat despres de canviar el bit numero 85
-
-d7 fd 13 31 
-38 48 88 70 
-cd de 9d 04 
-24 c6 d7 fb 
-
-#9 bloc encriptat despres de canviar el bit numero 84
-
-fd 30 b3 f4 
-58 46 d9 36 
-59 33 91 57 
-3c 9a 1c 6b 
-
-#9 bloc encriptat despres de canviar el bit numero 83
-
-91 6b ae bb 
-3a 54 90 69 
-62 e0 c6 37 
-f7 30 1a c1 
-
-#9 bloc encriptat despres de canviar el bit numero 82
-
-1a 41 81 97 
-0c 59 02 e5 
-aa b2 ed 36 
-32 35 bd 30 
-
-#9 bloc encriptat despres de canviar el bit numero 81
-
-92 bf ef 63 
-83 31 06 7d 
-68 c9 92 f9 
-2f bc 34 14 
-
-#9 bloc encriptat despres de canviar el bit numero 80
-
-12 ed 42 ff 
-7d 1e 50 3d 
-35 a4 ca c1 
-ca ec 3a 7a 
-
-#9 bloc encriptat despres de canviar el bit numero 79
-
-9a 92 a8 cc 
-d0 06 8e e5 
-38 6d f3 62 
-06 6a 9f 39 
-
-#9 bloc encriptat despres de canviar el bit numero 78
-
-41 50 f0 60 
-1d b6 21 7b 
-24 a0 35 eb 
-a2 f8 15 05 
-
-#9 bloc encriptat despres de canviar el bit numero 77
-
-3d c4 02 f5 
-1e 46 65 57 
-c8 1e 26 78 
-5f a0 05 59 
-
-#9 bloc encriptat despres de canviar el bit numero 76
-
-44 71 65 a3 
-ab eb d1 53 
-0c 65 92 0b 
-e2 05 20 f6 
-
-#9 bloc encriptat despres de canviar el bit numero 75
-
-40 e0 40 c3 
-83 ca 61 a3 
-2e 96 7b 2f 
-b8 90 44 cc 
-
-#9 bloc encriptat despres de canviar el bit numero 74
-
-55 75 2e 7f 
-67 b8 40 da 
-9d 28 45 b6 
-ee d4 cb 69 
-
-#9 bloc encriptat despres de canviar el bit numero 73
-
-b2 22 88 a9 
-e5 71 67 d1 
-90 04 d8 6e 
-09 a7 4d 48 
-
-#9 bloc encriptat despres de canviar el bit numero 72
-
-fe 78 87 c7 
-7a 8f 59 80 
-df 86 ac 32 
-56 b6 6a 9c 
-
-#9 bloc encriptat despres de canviar el bit numero 71
-
-e3 88 b1 d1 
-ad 69 4a 7c 
-c0 e8 70 04 
-10 46 79 68 
-
-#9 bloc encriptat despres de canviar el bit numero 70
-
-6c 90 a4 2f 
-ba da 1e bb 
-06 8e 98 a4 
-74 74 3a f6 
-
-#9 bloc encriptat despres de canviar el bit numero 69
-
-50 19 30 e7 
-67 65 8c bb 
-49 fe 8a 64 
-16 92 f1 75 
-
-#9 bloc encriptat despres de canviar el bit numero 68
-
-91 25 27 22 
-83 f5 bd f9 
-ba 8a 3d 22 
-59 72 93 bb 
-
-#9 bloc encriptat despres de canviar el bit numero 67
-
-48 e4 b9 f4 
-e9 f0 91 f3 
-37 e3 d3 8f 
-99 88 f7 ae 
-
-#9 bloc encriptat despres de canviar el bit numero 66
-
-ae d0 68 8b 
-26 64 78 0f 
-cf 55 8f 4a 
-d6 3b 03 36 
-
-#9 bloc encriptat despres de canviar el bit numero 65
-
-45 c3 9b c8 
-8a b6 00 80 
-86 b3 e9 73 
-87 f4 24 24 
-
-#9 bloc encriptat despres de canviar el bit numero 64
-
-ce 1e 57 ef 
-51 0b 1e 25 
-d1 00 93 fb 
-50 df 6e 25 
-
-#9 bloc encriptat despres de canviar el bit numero 63
-
-f1 81 f0 72 
-38 d8 23 3b 
-c7 fc 73 8e 
-90 24 45 09 
-
-#9 bloc encriptat despres de canviar el bit numero 62
-
-3a 0d 20 10 
-e4 28 4e 7c 
-88 08 0a 59 
-27 83 e6 13 
-
-#9 bloc encriptat despres de canviar el bit numero 61
-
-81 c7 80 d3 
-93 1d a3 df 
-50 86 22 48 
-6a 68 88 8f 
-
-#9 bloc encriptat despres de canviar el bit numero 60
-
-7b 26 27 ed 
-ed 84 ee 24 
-1f b4 09 3f 
-a4 3e 9c c6 
-
-#9 bloc encriptat despres de canviar el bit numero 59
-
-70 0e 94 74 
-1a ca 4d 6a 
-a3 84 63 a8 
-35 b0 81 58 
-
-#9 bloc encriptat despres de canviar el bit numero 58
-
-26 b3 3c 15 
-fe 5e ad 76 
-7e ae 30 89 
-79 f7 1b d9 
-
-#9 bloc encriptat despres de canviar el bit numero 57
-
-87 28 4c be 
-de e9 1e 82 
-76 2f c6 5c 
-2f 38 47 9c 
-
-#9 bloc encriptat despres de canviar el bit numero 56
-
-8a 48 2f a3 
-b0 06 37 8f 
-9d 2f 6c b1 
-0f 15 2c 9e 
-
-#9 bloc encriptat despres de canviar el bit numero 55
-
-44 2e 3b bb 
-89 90 e7 85 
-ea 04 83 d4 
-b0 a5 71 b6 
-
-#9 bloc encriptat despres de canviar el bit numero 54
-
-b9 9e f3 ac 
-60 bd 99 79 
-c6 f2 bc fe 
-6f f8 7f 10 
-
-#9 bloc encriptat despres de canviar el bit numero 53
-
-67 c5 35 d8 
-2e bb 60 38 
-22 ab ac 64 
-97 25 cf f9 
-
-#9 bloc encriptat despres de canviar el bit numero 52
-
-65 d7 dc bb 
-55 be 49 89 
-50 0f 44 51 
-5a 81 f9 71 
-
-#9 bloc encriptat despres de canviar el bit numero 51
-
-e2 01 68 39 
-f7 bf 1a 5f 
-9c 02 23 df 
-86 54 d9 bc 
-
-#9 bloc encriptat despres de canviar el bit numero 50
-
-b9 e1 22 aa 
-37 df 96 a2 
-c2 89 fb 84 
-12 4a 98 8f 
-
-#9 bloc encriptat despres de canviar el bit numero 49
-
-2a a9 4d 34 
-6a 36 0c a0 
-0d d0 4e da 
-9b 41 86 81 
-
-#9 bloc encriptat despres de canviar el bit numero 48
-
-99 b6 dc e8 
-fa 87 a7 7b 
-e3 62 cb 2b 
-1f 9c 31 48 
-
-#9 bloc encriptat despres de canviar el bit numero 47
-
-96 96 df 90 
-87 56 95 6b 
-89 fb ba 7f 
-77 fd 27 4f 
-
-#9 bloc encriptat despres de canviar el bit numero 46
-
-3b 54 f3 b3 
-80 9d 52 0e 
-c4 f2 a7 8c 
-40 f9 b6 9f 
-
-#9 bloc encriptat despres de canviar el bit numero 45
-
-3f 20 36 cd 
-df a7 15 f1 
-95 de 85 2c 
-5d 2f a6 5f 
-
-#9 bloc encriptat despres de canviar el bit numero 44
-
-11 c0 fe fb 
-7e 9a c1 41 
-80 1c 25 b8 
-af e4 94 f0 
-
-#9 bloc encriptat despres de canviar el bit numero 43
-
-aa c2 72 65 
-d4 5b d7 89 
-3b 15 ff 60 
-94 db db b9 
-
-#9 bloc encriptat despres de canviar el bit numero 42
-
-14 3d 31 55 
-a7 82 e9 b9 
-37 9b 8e 85 
-b0 b5 9b 39 
-
-#9 bloc encriptat despres de canviar el bit numero 41
-
-0d a4 38 25 
-99 e6 58 8d 
-80 7d a8 1d 
-cc 3b 53 a4 
-
-#9 bloc encriptat despres de canviar el bit numero 40
-
-d4 22 2c ce 
-31 4e f7 62 
-b0 88 9f 17 
-3c 6d 43 a1 
-
-#9 bloc encriptat despres de canviar el bit numero 39
-
-fa 4c a0 43 
-0a 92 9f ce 
-bc 23 72 69 
-75 43 6b 4a 
-
-#9 bloc encriptat despres de canviar el bit numero 38
-
-f0 50 ca 7c 
-86 31 68 45 
-4f dc a2 cc 
-80 02 d4 4d 
-
-#9 bloc encriptat despres de canviar el bit numero 37
-
-b8 80 2e 56 
-4e 76 0e 61 
-5f 8a 3a 56 
-5d 68 03 9b 
-
-#9 bloc encriptat despres de canviar el bit numero 36
-
-e7 3b 64 66 
-22 60 74 9c 
-ea a6 dd be 
-c5 18 6a 3d 
-
-#9 bloc encriptat despres de canviar el bit numero 35
-
-38 c3 70 26 
-a8 8f 6d f1 
-3b 23 da 65 
-54 c2 24 06 
-
-#9 bloc encriptat despres de canviar el bit numero 34
-
-58 3a 4c 4b 
-d6 de be 74 
-24 da d6 df 
-32 8e e7 93 
-
-#9 bloc encriptat despres de canviar el bit numero 33
-
-ba 84 05 40 
-23 8d df 23 
-d0 f9 aa 63 
-40 a0 37 3b 
-
-#9 bloc encriptat despres de canviar el bit numero 32
-
-de ae b1 e1 
-14 d0 c0 5a 
-90 68 3b 90 
-be d0 1d 5e 
-
-#9 bloc encriptat despres de canviar el bit numero 31
-
-62 e9 90 94 
-b8 e0 4c cb 
-17 11 ea 45 
-9d 87 f3 0a 
-
-#9 bloc encriptat despres de canviar el bit numero 30
-
-97 d9 e3 ab 
-d9 4a 4b 70 
-b1 a6 db 4a 
-86 2c 6e 59 
-
-#9 bloc encriptat despres de canviar el bit numero 29
-
-73 04 81 78 
-8f 87 23 df 
-d3 a0 2e b5 
-08 45 a1 85 
-
-#9 bloc encriptat despres de canviar el bit numero 28
-
-9d e4 f1 64 
-5b 81 01 6e 
-78 c1 3d d5 
-c0 96 b3 52 
-
-#9 bloc encriptat despres de canviar el bit numero 27
-
-ec e4 9e 87 
-4a c1 d1 21 
-0a 92 8f 31 
-62 64 89 e3 
-
-#9 bloc encriptat despres de canviar el bit numero 26
-
-29 3a 00 91 
-2d b5 23 6b 
-93 7c b3 e2 
-fd 53 fe 66 
-
-#9 bloc encriptat despres de canviar el bit numero 25
-
-1d cb d4 3d 
-56 da 72 db 
-d6 d5 b2 5a 
-53 b3 a9 63 
-
-#9 bloc encriptat despres de canviar el bit numero 24
-
-6c 82 24 7b 
-7d 59 83 23 
-cc 82 ed 65 
-d8 06 81 0b 
-
-#9 bloc encriptat despres de canviar el bit numero 23
-
-56 10 8c 5e 
-50 f0 bf b7 
-d8 99 72 3a 
-b3 a6 16 69 
-
-#9 bloc encriptat despres de canviar el bit numero 22
-
-f3 82 ff 48 
-3d 3f e4 7f 
-3b 73 4b b9 
-61 42 96 db 
-
-#9 bloc encriptat despres de canviar el bit numero 21
-
-ff ae 9e 5d 
-d7 96 b6 5a 
-06 38 6e 0d 
-69 d9 d8 1b 
-
-#9 bloc encriptat despres de canviar el bit numero 20
-
-ae 7c 37 40 
-5f 3a 24 d8 
-8f 60 78 6f 
-99 db ec 8b 
-
-#9 bloc encriptat despres de canviar el bit numero 19
-
-1a 5c 4e 60 
-1f a2 50 9d 
-72 f4 50 cc 
-5f d1 d7 42 
-
-#9 bloc encriptat despres de canviar el bit numero 18
-
-47 8e 3f c3 
-b8 c5 ea 9c 
-5e 40 bf c3 
-f2 9a 63 59 
-
-#9 bloc encriptat despres de canviar el bit numero 17
-
-22 f7 5d b3 
-70 a7 97 94 
-e9 04 58 94 
-8e ae d1 5f 
-
-#9 bloc encriptat despres de canviar el bit numero 16
-
-ef 5c 5b 05 
-e8 7d 50 e9 
-21 77 dd e3 
-59 b5 16 e5 
-
-#9 bloc encriptat despres de canviar el bit numero 15
-
-a6 b7 c6 58 
-9d 2a 21 5e 
-ca 82 d6 5e 
-af be df 6e 
-
-#9 bloc encriptat despres de canviar el bit numero 14
-
-2e 77 b8 f3 
-3b c6 9c 62 
-dd 8f e4 eb 
-6f 0a 4d 19 
-
-#9 bloc encriptat despres de canviar el bit numero 13
-
-19 f9 5b f8 
-0b 7f b9 d3 
-3a ea 70 f0 
-62 37 be e0 
-
-#9 bloc encriptat despres de canviar el bit numero 12
-
-78 80 51 f2 
-be a5 cd 62 
-a2 03 a1 40 
-cb 75 28 68 
-
-#9 bloc encriptat despres de canviar el bit numero 11
-
-8a 67 f3 90 
-26 3e 89 04 
-9e 2d ec 7c 
-43 7c 8b c7 
-
-#9 bloc encriptat despres de canviar el bit numero 10
-
-7b 43 57 d1 
-a1 3a 15 ea 
-9f 94 a9 df 
-4b ca a7 a0 
-
-#9 bloc encriptat despres de canviar el bit numero 9
-
-13 09 ab 6c 
-ca de 4a a4 
-cc 6f 36 3f 
-c2 c3 40 ac 
-
-#9 bloc encriptat despres de canviar el bit numero 8
-
-b5 18 8d 93 
-aa a0 b1 99 
-3a 33 9c 98 
-65 4f 4f a4 
-
-#9 bloc encriptat despres de canviar el bit numero 7
-
-14 67 7b db 
-7b e5 99 cf 
-63 f1 8c 1f 
-8e a6 5c f9 
-
-#9 bloc encriptat despres de canviar el bit numero 6
-
-f6 37 43 45 
-f1 0f 7b a0 
-69 b4 6f 11 
-5c 0a 22 42 
-
-#9 bloc encriptat despres de canviar el bit numero 5
-
-61 0a f0 55 
-58 45 13 12 
-ca 48 4f 92 
-99 d0 5f ba 
-
-#9 bloc encriptat despres de canviar el bit numero 4
-
-48 24 0f 10 
-a0 42 6d 5a 
-41 40 e8 30 
-ff af 03 a1 
-
-#9 bloc encriptat despres de canviar el bit numero 3
-
-e6 96 ac 74 
-d7 98 87 51 
-86 d3 47 9d 
-99 17 cf a4 
-
-#9 bloc encriptat despres de canviar el bit numero 2
-
-4e 37 80 9a 
-9a b0 85 3b 
-d3 ed 04 5f 
-e2 c3 cc 88 
-
-#9 bloc encriptat despres de canviar el bit numero 1
-
-a0 65 83 50 
-ab ee d5 7e 
-d1 29 31 29 
-d7 ec 80 19 
-
-#9 bloc encriptat despres de canviar el bit numero 0
-
-cb 8f cd 9e 
-85 5f c9 52 
-fd 4f 73 b6 
-02 f8 7e f7 
-
-bloc original numero # 10encriptat: 
-
-ca 81 1a cf 
-24 c8 d1 76 
-92 5a 7e a4 
-84 e2 36 86 
-
-#10 bloc encriptat despres de canviar el bit numero 127
-
-40 4d 23 0e 
-d6 43 0c 29 
-8f 2b 1d bd 
-5d ee 59 56 
-
-#10 bloc encriptat despres de canviar el bit numero 126
-
-b4 f1 d7 36 
-d0 17 fb fc 
-9b 25 3c 01 
-1b 1a 47 76 
-
-#10 bloc encriptat despres de canviar el bit numero 125
-
-fc d4 93 65 
-37 5a a8 02 
-d3 ee 02 ad 
-ae 79 bd 42 
-
-#10 bloc encriptat despres de canviar el bit numero 124
-
-d1 e3 e7 32 
-82 16 18 79 
-3b 94 ec b8 
-3b 55 eb 4e 
-
-#10 bloc encriptat despres de canviar el bit numero 123
-
-6b 7f 3f df 
-e0 af 3d 2c 
-35 63 7e d8 
-33 e0 37 61 
-
-#10 bloc encriptat despres de canviar el bit numero 122
-
-17 d7 bc e7 
-91 97 91 09 
-f5 65 8d f1 
-bc eb 82 d8 
-
-#10 bloc encriptat despres de canviar el bit numero 121
-
-d5 5c b5 e4 
-b6 d3 48 94 
-72 0b 2b d8 
-56 aa c8 a6 
-
-#10 bloc encriptat despres de canviar el bit numero 120
-
-03 f5 c2 dc 
-05 50 69 ed 
-ad 63 91 62 
-18 e5 6d 21 
-
-#10 bloc encriptat despres de canviar el bit numero 119
-
-bb 3f bd b1 
-f9 09 40 b5 
-0a b4 3b 36 
-26 c3 5a fa 
-
-#10 bloc encriptat despres de canviar el bit numero 118
-
-c8 22 e4 28 
-07 e1 13 d2 
-e4 41 e4 69 
-71 f6 56 a1 
-
-#10 bloc encriptat despres de canviar el bit numero 117
-
-0e dc 2a af 
-d4 eb 28 8f 
-09 b4 1d ff 
-ce 10 dd 5a 
-
-#10 bloc encriptat despres de canviar el bit numero 116
-
-48 2e f0 cf 
-40 9d bd e1 
-0d 2f c8 43 
-4a 4b 7e e0 
-
-#10 bloc encriptat despres de canviar el bit numero 115
-
-07 7e e4 bb 
-d4 26 f1 f9 
-21 48 b9 c3 
-f6 a3 a5 35 
-
-#10 bloc encriptat despres de canviar el bit numero 114
-
-7a 2a 1e 48 
-c0 52 36 ba 
-4b c4 6d 5f 
-ee da 6f ec 
-
-#10 bloc encriptat despres de canviar el bit numero 113
-
-6a e0 79 dd 
-7b d3 25 59 
-37 1b 0e 49 
-4f 16 c1 70 
-
-#10 bloc encriptat despres de canviar el bit numero 112
-
-78 68 e6 f3 
-9e b3 6a 4d 
-68 07 8a be 
-e8 7d 27 b2 
-
-#10 bloc encriptat despres de canviar el bit numero 111
-
-a5 42 74 b0 
-29 20 31 c8 
-ec 95 62 35 
-1b 76 4e 59 
-
-#10 bloc encriptat despres de canviar el bit numero 110
-
-36 28 58 17 
-e1 c4 50 6f 
-fb a1 51 d9 
-90 a8 17 92 
-
-#10 bloc encriptat despres de canviar el bit numero 109
-
-ab 72 cc f1 
-ee 03 39 41 
-2a 5e 2e c4 
-bc 44 b7 a6 
-
-#10 bloc encriptat despres de canviar el bit numero 108
-
-e8 90 5f 95 
-ad 0a c1 19 
-0b 7b 18 48 
-c4 ff 10 11 
-
-#10 bloc encriptat despres de canviar el bit numero 107
-
-98 86 e3 87 
-3d 8c 7a 01 
-70 1e 37 01 
-54 fb 2d de 
-
-#10 bloc encriptat despres de canviar el bit numero 106
-
-ae 6d ef 03 
-2f 80 a4 97 
-1d 4a 98 b3 
-b0 24 a3 1c 
-
-#10 bloc encriptat despres de canviar el bit numero 105
-
-b4 5b ef 6c 
-16 a9 4d 2f 
-67 65 e3 b4 
-60 ce 12 1d 
-
-#10 bloc encriptat despres de canviar el bit numero 104
-
-34 ee 9c 91 
-30 3d 99 d7 
-48 63 df 4b 
-ed 82 54 d7 
-
-#10 bloc encriptat despres de canviar el bit numero 103
-
-4f ff b3 40 
-9a 5b a2 e0 
-84 76 6a 85 
-6f 3a bb aa 
-
-#10 bloc encriptat despres de canviar el bit numero 102
-
-90 ec a2 5d 
-a1 f8 03 25 
-7a b8 66 6d 
-bf 59 a9 ff 
-
-#10 bloc encriptat despres de canviar el bit numero 101
-
-8c 87 05 b1 
-db 3a 7d 3b 
-3b 18 c7 ac 
-7c 90 b4 76 
-
-#10 bloc encriptat despres de canviar el bit numero 100
-
-47 cc c0 de 
-08 23 14 c5 
-18 02 c6 59 
-59 76 9f c2 
-
-#10 bloc encriptat despres de canviar el bit numero 99
-
-4b 0d 56 17 
-66 a6 9b 70 
-84 a1 aa f0 
-c4 65 2e bc 
-
-#10 bloc encriptat despres de canviar el bit numero 98
-
-a2 73 c8 dc 
-80 d9 c3 0c 
-d4 f0 23 0c 
-c7 64 b9 8c 
-
-#10 bloc encriptat despres de canviar el bit numero 97
-
-d1 9a 2b 01 
-22 0b be 8d 
-31 a7 a2 47 
-de df 0a 69 
-
-#10 bloc encriptat despres de canviar el bit numero 96
-
-08 ed 57 94 
-a7 2f d8 1c 
-7d 83 2b af 
-a2 1a e7 ee 
-
-#10 bloc encriptat despres de canviar el bit numero 95
-
-9c 13 b2 43 
-46 89 f9 6b 
-4f 29 df b2 
-c0 93 95 a7 
-
-#10 bloc encriptat despres de canviar el bit numero 94
-
-e8 09 20 a0 
-1e ea 6e 0d 
-d8 02 f9 9c 
-9d cb d3 38 
-
-#10 bloc encriptat despres de canviar el bit numero 93
-
-ef 35 cb be 
-c1 a2 60 90 
-7c 74 79 01 
-78 29 40 01 
-
-#10 bloc encriptat despres de canviar el bit numero 92
-
-45 d7 a6 b2 
-3d d1 3e 79 
-24 b7 74 26 
-85 ca 7e d1 
-
-#10 bloc encriptat despres de canviar el bit numero 91
-
-66 10 ef a6 
-a7 e9 f4 99 
-ac fe ba ae 
-6d 31 e1 b6 
-
-#10 bloc encriptat despres de canviar el bit numero 90
-
-a4 66 d5 4a 
-d9 a4 57 31 
-45 48 31 20 
-21 34 fe 07 
-
-#10 bloc encriptat despres de canviar el bit numero 89
-
-15 50 3e de 
-70 2b 63 2f 
-4d 6d d9 61 
-05 13 44 cb 
-
-#10 bloc encriptat despres de canviar el bit numero 88
-
-79 eb bb 81 
-91 2a 9b ed 
-2c 25 ca a9 
-ac 35 19 b0 
-
-#10 bloc encriptat despres de canviar el bit numero 87
-
-27 bd 5c 9d 
-a7 d6 50 99 
-a3 32 11 06 
-ad 29 70 ea 
-
-#10 bloc encriptat despres de canviar el bit numero 86
-
-a6 bc 10 d7 
-d2 3a c6 e0 
-67 b2 ff 6f 
-e8 c8 5e cb 
-
-#10 bloc encriptat despres de canviar el bit numero 85
-
-9a 00 1c 15 
-31 c6 95 38 
-aa 5e 91 8c 
-7e 7c 15 db 
-
-#10 bloc encriptat despres de canviar el bit numero 84
-
-5f 31 11 9d 
-c7 68 80 24 
-00 96 76 58 
-cc 88 59 78 
-
-#10 bloc encriptat despres de canviar el bit numero 83
-
-38 aa ba ea 
-20 a1 ef 6d 
-6e 66 00 6b 
-d6 ad 72 48 
-
-#10 bloc encriptat despres de canviar el bit numero 82
-
-31 ec 48 3e 
-d3 25 71 2c 
-d2 7d 42 af 
-d4 5e 61 1e 
-
-#10 bloc encriptat despres de canviar el bit numero 81
-
-1d 00 3b 04 
-5e 43 b9 7f 
-66 6a 0a b8 
-ed 69 80 76 
-
-#10 bloc encriptat despres de canviar el bit numero 80
-
-51 d4 e3 24 
-53 05 4f cc 
-39 5f 55 1f 
-24 bc 51 a5 
-
-#10 bloc encriptat despres de canviar el bit numero 79
-
-a2 ed ad 3a 
-a9 06 80 7a 
-d8 11 48 19 
-4b cb 2f 0b 
-
-#10 bloc encriptat despres de canviar el bit numero 78
-
-db 20 51 ef 
-34 69 9f 9b 
-47 d6 89 03 
-00 da b2 0e 
-
-#10 bloc encriptat despres de canviar el bit numero 77
-
-94 20 76 c4 
-e3 07 27 e7 
-b0 4a 5a b1 
-94 67 b8 a9 
-
-#10 bloc encriptat despres de canviar el bit numero 76
-
-1c 9c 40 24 
-07 af 0f c3 
-bb d4 86 8e 
-6f bb a6 c1 
-
-#10 bloc encriptat despres de canviar el bit numero 75
-
-a0 ab 71 4f 
-df b4 c5 84 
-e2 8d c0 bb 
-7c cb c0 ff 
-
-#10 bloc encriptat despres de canviar el bit numero 74
-
-1b 18 e3 01 
-e3 25 65 61 
-f4 fa f7 64 
-66 f4 1a 45 
-
-#10 bloc encriptat despres de canviar el bit numero 73
-
-7f b1 50 80 
-80 75 bf 99 
-8d 74 f2 06 
-2a 1b 8a 8c 
-
-#10 bloc encriptat despres de canviar el bit numero 72
-
-ab ae e5 77 
-fe 33 2d de 
-d4 3b cb 6a 
-de c7 2d 21 
-
-#10 bloc encriptat despres de canviar el bit numero 71
-
-ce a3 44 eb 
-4a d5 c4 5a 
-20 9a 3e 50 
-67 33 a6 16 
-
-#10 bloc encriptat despres de canviar el bit numero 70
-
-59 b0 bc 4d 
-24 bb 01 67 
-41 46 c4 8d 
-fc 3b 07 39 
-
-#10 bloc encriptat despres de canviar el bit numero 69
-
-b3 eb ac 73 
-2c 1d 46 cf 
-73 3d 31 18 
-19 9e 0b 4a 
-
-#10 bloc encriptat despres de canviar el bit numero 68
-
-d7 c3 5f 51 
-d6 bd 61 12 
-4c e1 92 ee 
-86 83 46 04 
-
-#10 bloc encriptat despres de canviar el bit numero 67
-
-5a e3 40 a3 
-34 25 19 21 
-4d ac cf 54 
-c0 81 35 c9 
-
-#10 bloc encriptat despres de canviar el bit numero 66
-
-8a b8 e9 53 
-61 cd 5c b5 
-bf 62 b5 50 
-4d 06 f3 c6 
-
-#10 bloc encriptat despres de canviar el bit numero 65
-
-7e 8f d0 a3 
-45 ed 29 16 
-52 71 c8 4c 
-6f ff de f0 
-
-#10 bloc encriptat despres de canviar el bit numero 64
-
-54 72 91 b7 
-8d 2e 41 10 
-54 26 af 7e 
-94 f0 78 9e 
-
-#10 bloc encriptat despres de canviar el bit numero 63
-
-68 1c a6 9f 
-db 91 f2 60 
-ef 52 5c a9 
-7f 01 06 06 
-
-#10 bloc encriptat despres de canviar el bit numero 62
-
-2f 66 ac fa 
-94 68 a6 cd 
-e5 13 83 1b 
-45 49 aa 34 
-
-#10 bloc encriptat despres de canviar el bit numero 61
-
-38 78 1d a8 
-e2 01 3c fe 
-b4 e8 ca e1 
-bc 0a 82 39 
-
-#10 bloc encriptat despres de canviar el bit numero 60
-
-75 54 70 28 
-2a b5 92 bb 
-0d c3 df 22 
-3c f5 11 46 
-
-#10 bloc encriptat despres de canviar el bit numero 59
-
-29 f2 ee 2f 
-0d c8 20 5a 
-33 e8 e8 80 
-04 6a ca 53 
-
-#10 bloc encriptat despres de canviar el bit numero 58
-
-0a c6 18 2c 
-d7 24 ae 10 
-de 9a c1 df 
-97 97 fe cf 
-
-#10 bloc encriptat despres de canviar el bit numero 57
-
-7c 88 20 69 
-ee f4 30 31 
-4a 6d 2b 9d 
-14 f8 bc 6a 
-
-#10 bloc encriptat despres de canviar el bit numero 56
-
-78 9d cd 83 
-1f 86 f0 fe 
-1f c4 57 12 
-4d c2 c3 f0 
-
-#10 bloc encriptat despres de canviar el bit numero 55
-
-c2 8f e7 3c 
-fc b6 50 68 
-ae da be c1 
-cd 95 1a 8c 
-
-#10 bloc encriptat despres de canviar el bit numero 54
-
-d6 20 9c ae 
-7e a3 74 a8 
-f0 fb 5b 54 
-f2 11 9e 50 
-
-#10 bloc encriptat despres de canviar el bit numero 53
-
-4f e2 e5 31 
-f9 13 56 13 
-b5 e8 1b f8 
-b7 e3 e4 de 
-
-#10 bloc encriptat despres de canviar el bit numero 52
-
-f5 3c d4 ec 
-25 4b 52 7f 
-99 09 1f 2f 
-12 df dd 1f 
-
-#10 bloc encriptat despres de canviar el bit numero 51
-
-ee 54 34 d5 
-00 e3 f3 48 
-45 d6 09 62 
-f8 51 4a 6c 
-
-#10 bloc encriptat despres de canviar el bit numero 50
-
-f3 42 f1 a2 
-a6 61 2a 6d 
-0d f2 bc ef 
-cc 08 e4 cf 
-
-#10 bloc encriptat despres de canviar el bit numero 49
-
-8a 34 8a 5e 
-a0 fa 82 4f 
-d8 a4 6c e3 
-71 a2 f9 b1 
-
-#10 bloc encriptat despres de canviar el bit numero 48
-
-00 d6 dd 64 
-c1 20 89 cc 
-3a 55 d3 f6 
-29 ca 69 ce 
-
-#10 bloc encriptat despres de canviar el bit numero 47
-
-79 3b af c4 
-41 df 89 c2 
-82 9b 2c 07 
-37 fb 3b 31 
-
-#10 bloc encriptat despres de canviar el bit numero 46
-
-3c 7d c4 ea 
-46 32 fa b3 
-7f 5d 14 63 
-6b 4a 77 11 
-
-#10 bloc encriptat despres de canviar el bit numero 45
-
-ea 47 51 80 
-6a bf e2 01 
-07 1c 75 8c 
-fd 0b a8 9e 
-
-#10 bloc encriptat despres de canviar el bit numero 44
-
-7e 89 07 6d 
-f5 9b e7 79 
-32 3f b4 e0 
-a7 22 48 b2 
-
-#10 bloc encriptat despres de canviar el bit numero 43
-
-6e d6 74 90 
-71 0f 53 de 
-9a e8 4e bf 
-b9 98 09 b8 
-
-#10 bloc encriptat despres de canviar el bit numero 42
-
-47 56 c9 65 
-d5 64 0b 51 
-b3 70 2d 43 
-9e f2 1d 6a 
-
-#10 bloc encriptat despres de canviar el bit numero 41
-
-1e 27 02 7f 
-00 ba 41 b2 
-c7 5a 7f 74 
-7b d1 88 dc 
-
-#10 bloc encriptat despres de canviar el bit numero 40
-
-c5 1d db e6 
-d3 8c 75 8a 
-40 9b 68 5f 
-9c 7a 6b d2 
-
-#10 bloc encriptat despres de canviar el bit numero 39
-
-32 b3 0a 43 
-4e 47 bd d5 
-e5 2a 23 82 
-b1 84 49 80 
-
-#10 bloc encriptat despres de canviar el bit numero 38
-
-36 df 2d f9 
-5e 4e a2 72 
-13 3c fc 9e 
-48 10 0c ec 
-
-#10 bloc encriptat despres de canviar el bit numero 37
-
-79 8c 3c 0a 
-1b 38 2e 6b 
-10 c4 a0 bc 
-88 8d 11 fe 
-
-#10 bloc encriptat despres de canviar el bit numero 36
-
-c9 73 c6 66 
-11 25 d7 c4 
-13 db 0e 73 
-7e 81 85 0b 
-
-#10 bloc encriptat despres de canviar el bit numero 35
-
-93 93 0f f1 
-ce 58 75 89 
-2d a6 bb 9d 
-a9 3f 78 7a 
-
-#10 bloc encriptat despres de canviar el bit numero 34
-
-df 92 20 18 
-80 63 7c ba 
-f0 02 a7 2d 
-43 70 05 04 
-
-#10 bloc encriptat despres de canviar el bit numero 33
-
-fb 7c ff 09 
-b4 d6 10 84 
-ea ec 71 ac 
-21 85 2b e7 
-
-#10 bloc encriptat despres de canviar el bit numero 32
-
-5a b3 71 e0 
-c9 43 42 c1 
-77 09 1a 7b 
-79 a6 f9 84 
-
-#10 bloc encriptat despres de canviar el bit numero 31
-
-64 09 26 0b 
-94 aa 0c 24 
-d1 87 e8 94 
-89 97 55 ff 
-
-#10 bloc encriptat despres de canviar el bit numero 30
-
-2b 58 af 44 
-2a 6b 74 c6 
-3f 1d da 25 
-96 0f 75 cd 
-
-#10 bloc encriptat despres de canviar el bit numero 29
-
-cc e2 9a 38 
-dd 46 86 29 
-ac ae fe 4a 
-38 b6 54 be 
-
-#10 bloc encriptat despres de canviar el bit numero 28
-
-ae 66 62 57 
-24 e9 bc 3c 
-89 e4 cf b9 
-36 78 9d 07 
-
-#10 bloc encriptat despres de canviar el bit numero 27
-
-83 ae f0 4b 
-79 ea 8c 87 
-22 89 b0 d8 
-f6 d0 a6 eb 
-
-#10 bloc encriptat despres de canviar el bit numero 26
-
-11 f3 d0 c9 
-c0 46 4e 28 
-28 ff 96 9a 
-ac 71 09 a3 
-
-#10 bloc encriptat despres de canviar el bit numero 25
-
-2d 0c 32 53 
-e9 3e ef 9d 
-b0 d1 7c b9 
-66 a9 75 37 
-
-#10 bloc encriptat despres de canviar el bit numero 24
-
-bc 2f bd 6a 
-24 c4 18 bf 
-dc 0b df 50 
-9b a4 47 ad 
-
-#10 bloc encriptat despres de canviar el bit numero 23
-
-e7 7d 8e 06 
-ae d2 56 69 
-26 56 a4 9b 
-1e a6 a0 da 
-
-#10 bloc encriptat despres de canviar el bit numero 22
-
-be 83 5f 6d 
-81 93 29 27 
-0c 5e 7a 18 
-80 93 f0 69 
-
-#10 bloc encriptat despres de canviar el bit numero 21
-
-a5 9c 55 1e 
-29 50 23 95 
-cd 24 17 58 
-87 83 56 4c 
-
-#10 bloc encriptat despres de canviar el bit numero 20
-
-e1 e9 3a 36 
-ab 24 95 d5 
-02 2b b1 b3 
-eb 10 3a 40 
-
-#10 bloc encriptat despres de canviar el bit numero 19
-
-32 ca 4a 5e 
-32 2c e1 52 
-84 ca f8 16 
-0a 0a 8b eb 
-
-#10 bloc encriptat despres de canviar el bit numero 18
-
-f8 7b db 6d 
-fd 5e 32 cf 
-6c 92 2e 6c 
-fb 00 95 3d 
-
-#10 bloc encriptat despres de canviar el bit numero 17
-
-11 3c 04 44 
-d8 aa 4f 8a 
-52 f1 93 a3 
-54 f0 12 50 
-
-#10 bloc encriptat despres de canviar el bit numero 16
-
-0f 55 81 63 
-88 8a 12 43 
-47 a4 36 e4 
-f3 94 a4 23 
-
-#10 bloc encriptat despres de canviar el bit numero 15
-
-9f 79 f9 8e 
-59 a0 7c da 
-31 3f 6a f8 
-d1 88 bf 5c 
-
-#10 bloc encriptat despres de canviar el bit numero 14
-
-b4 e3 d7 df 
-27 65 d1 73 
-64 fb 5d f0 
-c7 2f 66 0a 
-
-#10 bloc encriptat despres de canviar el bit numero 13
-
-95 4c 7a 93 
-75 d9 6a f1 
-c6 f6 60 89 
-5a b1 bc d3 
-
-#10 bloc encriptat despres de canviar el bit numero 12
-
-2f 7c 12 ef 
-e2 ab 17 d5 
-b2 c4 f5 93 
-64 63 74 df 
-
-#10 bloc encriptat despres de canviar el bit numero 11
-
-d7 fa f1 8f 
-d7 86 71 4f 
-4f d4 5e d5 
-70 95 c8 f5 
-
-#10 bloc encriptat despres de canviar el bit numero 10
-
-26 85 46 c9 
-26 9d 4e 9b 
-b5 33 e5 14 
-6f b5 a9 a7 
-
-#10 bloc encriptat despres de canviar el bit numero 9
-
-29 ce 94 8f 
-3a 35 7b 1d 
-16 10 27 b0 
-be 3d cb e1 
-
-#10 bloc encriptat despres de canviar el bit numero 8
-
-5a 3b 08 3e 
-20 3b d1 99 
-f3 c1 f6 41 
-6b 24 c3 0d 
-
-#10 bloc encriptat despres de canviar el bit numero 7
-
-ab 6c af 24 
-cb bc c0 26 
-35 40 8d 71 
-22 bb 5a 22 
-
-#10 bloc encriptat despres de canviar el bit numero 6
-
-80 cb 55 e6 
-92 8f 0b cd 
-f1 94 30 7b 
-61 e8 cb 87 
-
-#10 bloc encriptat despres de canviar el bit numero 5
-
-3b 72 56 47 
-d3 66 b8 ab 
-0d 06 aa 82 
-59 ad f2 08 
-
-#10 bloc encriptat despres de canviar el bit numero 4
-
-e6 5e 67 29 
-8d c8 ca e6 
-d9 20 40 72 
-25 70 3f b6 
-
-#10 bloc encriptat despres de canviar el bit numero 3
-
-7d 28 68 00 
-3f 5d d3 99 
-ae 71 28 9d 
-57 f1 f5 21 
-
-#10 bloc encriptat despres de canviar el bit numero 2
-
-bb 95 b4 fb 
-bf 12 c2 b4 
-d7 e7 4b e2 
-a5 9a 95 fc 
-
-#10 bloc encriptat despres de canviar el bit numero 1
-
-36 98 7a 56 
-56 93 ff c6 
-13 29 b9 e0 
-fa cf 4e 94 
-
-#10 bloc encriptat despres de canviar el bit numero 0
-
-8f e7 84 61 
-f3 4a 42 37 
-2a be f5 27 
-1c 80 a6 1c 
-
-~5-10min
