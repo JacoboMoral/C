@@ -16,35 +16,17 @@ def timing(f):
 
 
 def GF_product_p(a, b):
-    result, resultaux, aaux, baux, xor =\
-    0, 0, 0, 0, 0
+    result = 0
 
     for i in range(8):
+        a &= 255
         if b & 1 == 1:
-            resultaux = result & 255
-            aaux = a & 255
-            xor = resultaux ^ aaux
-            #print ("1aaux: " + str(aaux))
-            #print ("1xor: " + str(xor))
-            result = xor
-        msb = a & 128   #128 = 0x80
-        aaux = a & 255
-        aaux = aaux << 1
-        #print ("1msb: " + str(msb))
-        #print ("2aaux: " + str(aaux))
-        a = aaux
-        #print ("1a: " + str(a))
-        if msb == 128:
-            xor = aaux ^ 27 #27 = 0x1B
-            a = xor
-            #print ("2xor: " + str(xor))
-            #print ("2a: " + str(a))
-        baux = b & 255
-        #print ("1baux: " + str(baux))
-        baux = baux >> 1
-        #print ("2baux: " + str(baux))
-        b = baux
-        #print ("1b: " + str(b))
+            result ^= a
+        maxBit = a & 128   #128 = 0x80
+        a <<= 1
+        if maxBit == 128:
+            a ^= 27 #27 = 0x1B
+        b >>= 1
     return result
 
 def GF_tables():
@@ -52,15 +34,13 @@ def GF_tables():
     global tableOfLog
 
     tableOfExp[0] = 1;
-    
+
     for i in range (1,256):
         tableOfExp[i] = GF_product_p(tableOfExp[i-1], 3) #no fa falta calcular potencies a cada posicio perque basta amb calcular el nombre de la posicio anterior per 3
         tableOfLog[tableOfExp[i-1] & 255] = (i-1)
     return
 
 def GF_product_t(a, b):
-    #print("a&255: " + str(a&255))
-    #print("b&255: " + str(b&255))
     if a == 0 or b == 0:  #qualsevol a o b multiplicat per 0 retorna 0
         return 0
     pos = (tableOfLog[a & 255] & 255) + (tableOfLog[b & 255] & 255)
@@ -111,8 +91,14 @@ def GF_invers(a):
 
 def main():
     GF_tables()
+    # print(tableOfExp)
+    # print(tableOfLog)
 
-    #print(GF_generador())
+    print(GF_generador())
+
+    print(GF_product_p(11,12))
+    print(GF_product_p(77,3))
+
 
     #GF_product_p vs GF_product_t
     GF_product_p_vs()
