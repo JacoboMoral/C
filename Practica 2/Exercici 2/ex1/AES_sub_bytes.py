@@ -371,55 +371,95 @@ def exercici():
         salt = os.urandom(SALT_SIZE)
         key, hmac_key, iv = get_key_iv(key, salt, workload)
         AESObject = AES(key)
-        #encryptedBlock = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+        encryptedBlock = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
         encryptedBlock_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
 
 
         #escriuBlocFile(file,encryptedFile,"bloc original numero # " + str(l+1) + "encriptat: \n")
+
+        # recorregut de la matriu de enters per recorrer, per a cada bit de cada enter de cada posicio,
+        # cadascun dels bits dels enters de cadascuna de les posicions de la matriu (128x128)
         for i in range(4):
             for j in range(4):
-                originalValue = missatgeBloc[i][j]
+                originalValue_i = missatgeBloc[i][j]
                 for k in range(8):
-                    for m in range(8):
-                        if k == m:
-                            # es queda igual perque es canvia dues vegades.
-                            numi = missatgeBloc[i][j]
-                            numj = missatgeBloc[i][j]
-                            numij = missatgeBloc[i][j]
-                        else:
-                            numi = canviabit(missatgeBloc[i][j],k)
-                            numj = canviabit(missatgeBloc[i][j],m)
-                            numij = canviabits(missatgeBloc[i][j],k,m)
+                    for ii in range(4):
+                        for jj in range(4):
+                            originalValue_j = missatgeBloc[ii][jj]
+                            for kk in range(8):
+                                if k == kk and i == ii and j == jj:
+                                    # si es el mateix bit
+                                    # es queda igual perque es canvia dues vegades.
+                                    numi = missatgeBloc[i][j]
+                                    numj = missatgeBloc[i][j]
+                                    numij = missatgeBloc[i][j]
+                                else:
+                                    if i == ii and j == jj:
+                                        numi = canviabit(missatgeBloc[i][j],k)
+                                        numj = canviabit(missatgeBloc[ii][jj],kk)
+                                        numij = canviabits(missatgeBloc[i][j],k,kk)
 
-                        missatgeBloc[i][j] = numi
-                        #encryptedBlocki = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
-                        encryptedBlocki_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
+                                        missatgeBloc[i][j] = numi
+                                        encryptedBlocki = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+                                        encryptedBlocki_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
 
-                        missatgeBloc[i][j] = originalValue
-                        missatgeBloc[i][j] = numj
-                        #encryptedBlockj = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
-                        encryptedBlockj_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
+                                        missatgeBloc[i][j] = numj
+                                        encryptedBlockj = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+                                        encryptedBlockj_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
 
-                        missatgeBloc[i][j] = originalValue
-                        missatgeBloc[i][j] = numij
-                        #encryptedBlockij = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
-                        encryptedBlockij_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
+                                        missatgeBloc[i][j] = numij
+                                        encryptedBlockij = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+                                        encryptedBlockij_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
 
-                        xor_i_j_identitat = exclusiveOR(bytes2matrix(encryptedBlocki_identitat), bytes2matrix(encryptedBlockj_identitat))
-                        xor_i_j_ij_identitat = exclusiveOR(xor_i_j_identitat, bytes2matrix(encryptedBlockij_identitat))
-                        igualtat_sub_bytes_identitat = checkEquals(xor_i_j_ij_identitat, bytes2matrix(encryptedBlock_identitat))
+                                        xor_i_j_identitat = exclusiveOR(bytes2matrix(encryptedBlocki_identitat), bytes2matrix(encryptedBlockj_identitat))
+                                        xor_i_j_ij_identitat = exclusiveOR(xor_i_j_identitat, bytes2matrix(encryptedBlockij_identitat))
+                                        igualtat_sub_bytes_identitat = checkEquals(xor_i_j_ij_identitat, bytes2matrix(encryptedBlock_identitat))
 
-                        # xor_i_j = exclusiveOR(bytes2matrix(encryptedBlocki), bytes2matrix(encryptedBlockj))
-                        # xor_i_j_ij = exclusiveOR(xor_i_j, bytes2matrix(encryptedBlockij))
-                        # igualtat_sub_bytes = checkEquals(xor_i_j_ij, bytes2matrix(encryptedBlock))
+                                        xor_i_j = exclusiveOR(bytes2matrix(encryptedBlocki), bytes2matrix(encryptedBlockj))
+                                        xor_i_j_ij = exclusiveOR(xor_i_j, bytes2matrix(encryptedBlockij))
+                                        igualtat_sub_bytes = checkEquals(xor_i_j_ij, bytes2matrix(encryptedBlock))
 
-                        #print("igualtat original: " + str(igualtat_sub_bytes))
-                        print("igualtat identitat: " + str(igualtat_sub_bytes_identitat))
+                                        print("igualtat original: " + str(igualtat_sub_bytes))
+                                        print("igualtat identitat: " + str(igualtat_sub_bytes_identitat))
 
-                        # print("numij: " + str(numij))
-                        # escriuBloc(-1, matrix2bytes(missatgeBloc))
-                        # print(bytes2matrix(encryptedBlockij))
-                        missatgeBloc[i][j] = originalValue
+                                        missatgeBloc[i][j] = originalValue_i
+                                        missatgeBloc[ii][jj] = originalValue_j
+
+
+
+                                    else:
+                                        numi = canviabit(missatgeBloc[i][j],k)
+                                        numj = canviabit(missatgeBloc[ii][jj],kk)
+
+                                        missatgeBloc[i][j] = numi
+                                        encryptedBlocki = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+                                        encryptedBlocki_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
+
+                                        missatgeBloc[i][j] = originalValue_i
+                                        missatgeBloc[ii][jj] = numj
+                                        encryptedBlockj = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+                                        encryptedBlockj_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
+
+                                        missatgeBloc[i][j] = originalValue_i
+                                        missatgeBloc[ii][jj] = originalValue_j
+                                        missatgeBloc[i][j] = numi
+                                        missatgeBloc[ii][jj] = numj
+                                        encryptedBlockij = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
+                                        encryptedBlockij_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
+
+                                        xor_i_j_identitat = exclusiveOR(bytes2matrix(encryptedBlocki_identitat), bytes2matrix(encryptedBlockj_identitat))
+                                        xor_i_j_ij_identitat = exclusiveOR(xor_i_j_identitat, bytes2matrix(encryptedBlockij_identitat))
+                                        igualtat_sub_bytes_identitat = checkEquals(xor_i_j_ij_identitat, bytes2matrix(encryptedBlock_identitat))
+
+                                        xor_i_j = exclusiveOR(bytes2matrix(encryptedBlocki), bytes2matrix(encryptedBlockj))
+                                        xor_i_j_ij = exclusiveOR(xor_i_j, bytes2matrix(encryptedBlockij))
+                                        igualtat_sub_bytes = checkEquals(xor_i_j_ij, bytes2matrix(encryptedBlock))
+
+                                        print("igualtat original: " + str(igualtat_sub_bytes))
+                                        print("igualtat identitat: " + str(igualtat_sub_bytes_identitat))
+
+                                        missatgeBloc[i][j] = originalValue_i
+                                        missatgeBloc[ii][jj] = originalValue_j
 
 
 #exercici 2.1.1
