@@ -290,38 +290,70 @@ def canviabits(num, index1, index2):
         b2 = "1"
     else:
         b2 = "0"
-    numeroEnBinari = canviaLetraString(numBinari, index, b1)
-    numeroEnBinari = canviaLetraString(numeroEnBinari, index, b2)
+    numeroEnBinari = canviaLetraString(numBinari, index1, b1)
+    numeroEnBinari = canviaLetraString(numeroEnBinari, index2, b2)
     return int(numeroEnBinari,base=2)
 
+def exclusiveOR(matrix1, matrix2):
+# pre: matrix1 i matrix2 han de ser de la mateixa mida i quadrades
+    xorBlock = [[None]*len(matrix1) for _ in range(len(matrix1))]
+    for i in range(len(matrix1)):
+        for j in range(len(matrix1)):
+            xorBlock[i][j] = (matrix1[i][j] ^ matrix2[i][j])
+    return xorBlock
+
+def checkEquals(matrix1, matrix2):
+# pre: matrix1 i matrix2 han de ser de la mateixa mida i quadrades
+    for i in range(len(matrix1)):
+        for j in range(len(matrix1)):
+            if matrix1[i][j] != matrix2[i][j]:
+                return False
+    return True
 
 # Canviem la funcio ByteSub per la identitat, i.e. ByteSub(x)=x
 def exercici():
     key = 91988770966827344886319470096581337551
     key = key.to_bytes(16, byteorder='big', signed=True)
     missatgeBloc = [[None]*4 for _ in range(4)]
-    file = open("shift_rows.txt","w")
+    #file = open("shift_rows.txt","w")
     print("Escrivint ...")
 
     #generem 10 missatges aleatoris de mida d'un bloc
     for l in range(10):
         emplenaRandom(missatgeBloc)
-        encryptedFile = encrypt(key, matrix2bytes(missatgeBloc))
-        escriuBlocFile(file,encryptedFile,"bloc original numero # " + str(l+1) + "encriptat: \n")
+        encryptedBlock = encrypt(key, matrix2bytes(missatgeBloc))
+        #escriuBlocFile(file,encryptedFile,"bloc original numero # " + str(l+1) + "encriptat: \n")
         for i in range(4):
             for j in range(4):
                 originalValue = missatgeBloc[i][j]
                 for k in range(8):
                     for m in range(8):
                         numi = canviabit(missatgeBloc[i][j],k)
-                        numj = canviabit(missatgeBloc[i][j],k)
-                        missatgeBloc[i][j] = num
-                        escriuBloc(matrix2bytes(missatgeBloc))
+                        numj = canviabit(missatgeBloc[i][j],m)
+                        numij = canviabits(missatgeBloc[i][j],k,m)
+                        missatgeBloc[i][j] = numi
+                        encryptedBlocki = encrypt(key, matrix2bytes(missatgeBloc))
+                        # print("numi: " + str(numi))
+                        # escriuBloc(-1, matrix2bytes(missatgeBloc))
+                        # print()
                         missatgeBloc[i][j] = originalValue
+                        missatgeBloc[i][j] = numj
+                        encryptedBlockj = encrypt(key, matrix2bytes(missatgeBloc))
 
-
-                        encryptedFile = encrypt(key, matrix2bytes(missatgeBloc))
-                        missatge = "#"+str(l+1) + " bloc encriptat despres de canviar el bit numero " + str(127-i*32-j*8-k)
+                        xorijBlock = exclusiveOR(bytes2matrix(encryptedBlocki), bytes2matrix(encryptedBlockj))
+                        # print("numj: " + str(numj))
+                        # escriuBloc(-1, matrix2bytes(missatgeBloc))
+                        # print()
+                        missatgeBloc[i][j] = originalValue
+                        missatgeBloc[i][j] = numij
+                        encryptedBlockij = encrypt(key, matrix2bytes(missatgeBloc))
+                        xorijijBlock = exclusiveOR(xorijBlock, bytes2matrix(encryptedBlockij))
+                        print(xorijijBlock)
+                        print(bytes2matrix(encryptedBlock))
+                        print(checkEquals(xorijijBlock, bytes2matrix(encryptedBlock)))
+                        # print("numij: " + str(numij))
+                        # escriuBloc(-1, matrix2bytes(missatgeBloc))
+                        # print(bytes2matrix(encryptedBlockij))
                         missatgeBloc[i][j] = originalValue
 
 

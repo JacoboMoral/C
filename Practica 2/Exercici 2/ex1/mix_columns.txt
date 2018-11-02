@@ -1,4 +1,4 @@
-bloc original numero # 1encriptat: 
+bloc original numero # 1 encriptat: 
 
 f9 c0 18 fc 
 60 db 02 bb 
@@ -901,7 +901,7 @@ db c6 5e f8
 f5 73 af d7 
 60 f3 9a 71 
 
-bloc original numero # 2encriptat: 
+bloc original numero # 2 encriptat: 
 
 69 61 22 bd 
 d8 c2 93 09 
@@ -1804,7 +1804,7 @@ cf d8 6c bc
 a2 62 73 0d 
 6d cd c2 46 
 
-bloc original numero # 3encriptat: 
+bloc original numero # 3 encriptat: 
 
 0c 97 bf ba 
 a7 ec 60 d3 
@@ -2707,7 +2707,7 @@ b1 36 6e 63
 64 df d9 41 
 54 22 e1 1c 
 
-bloc original numero # 4encriptat: 
+bloc original numero # 4 encriptat: 
 
 c9 b9 be 1f 
 cf 68 b7 d3 
@@ -3610,7 +3610,7 @@ e0 84 90 4b
 5c 4e bb 2a 
 d3 f0 46 b3 
 
-bloc original numero # 5encriptat: 
+bloc original numero # 5 encriptat: 
 
 e8 fd 01 0a 
 ea 0d dd 70 
@@ -4513,7 +4513,7 @@ b4 ba 1c 3f
 50 96 6c 72 
 39 e8 f2 0d 
 
-bloc original numero # 6encriptat: 
+bloc original numero # 6 encriptat: 
 
 ff 6f 30 2b 
 80 94 33 d7 
@@ -5416,7 +5416,7 @@ ed 9e 16 c6
 67 6d d3 30 
 6d b6 d8 c8 
 
-bloc original numero # 7encriptat: 
+bloc original numero # 7 encriptat: 
 
 2e b2 58 db 
 21 05 5a 8b 
@@ -6319,7 +6319,7 @@ eb fd 1e 16
 8f 32 0d 61 
 74 27 18 55 
 
-bloc original numero # 8encriptat: 
+bloc original numero # 8 encriptat: 
 
 87 52 91 87 
 75 8c 20 d3 
@@ -7222,7 +7222,7 @@ b1 a8 2c f7
 60 fb e7 b5 
 67 5f ed 77 
 
-bloc original numero # 9encriptat: 
+bloc original numero # 9 encriptat: 
 
 e6 8d bf 46 
 3c 58 b9 71 
@@ -8125,7 +8125,7 @@ a2 97 ce 40
 00 46 f3 43 
 8c 11 2c 1d 
 
-bloc original numero # 10encriptat: 
+bloc original numero # 10 encriptat: 
 
 42 3b 46 22 
 fb 94 ce c7 
