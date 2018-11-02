@@ -2,11 +2,13 @@ from Crypto.Cipher import AES
 
 key = open("albert.key", 'rb').read()
 enc = open("albert.enc", 'rb').read()
+
 iv = enc[:AES.block_size]
-#figue
+
+#Albert Figuera Pérez
 cipher = AES.new(key, AES.MODE_CFB, iv)
 
-#jacobo
+#Jacobo Moral Buendía
 cipher = AES.new(key, AES.MODE_CBC, iv)
 
 plaintext = cipher.decrypt(enc[AES.block_size:])
