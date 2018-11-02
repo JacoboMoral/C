@@ -360,8 +360,6 @@ def exercici():
     key = 91988770966827344886319470096581337551
     key = key.to_bytes(16, byteorder='big', signed=True)
     missatgeBloc = [[None]*4 for _ in range(4)]
-    #file = open("shift_rows.txt","w")
-    print("Escrivint ...")
 
     #generem 10 missatges aleatoris de mida d'un bloc
     for l in range(10):
@@ -373,9 +371,6 @@ def exercici():
         AESObject = AES(key)
         encryptedBlock = AESObject.encrypt_cbc(matrix2bytes(missatgeBloc), iv)
         encryptedBlock_identitat = AESObject.encrypt_cbc_byte_sub_identitat(matrix2bytes(missatgeBloc), iv)
-
-
-        #escriuBlocFile(file,encryptedFile,"bloc original numero # " + str(l+1) + "encriptat: \n")
 
         # recorregut de la matriu de enters per recorrer, per a cada bit de cada enter de cada posicio,
         # cadascun dels bits dels enters de cadascuna de les posicions de la matriu (128x128)
@@ -424,8 +419,6 @@ def exercici():
 
                                         missatgeBloc[i][j] = originalValue_i
                                         missatgeBloc[ii][jj] = originalValue_j
-
-
 
                                     else:
                                         numi = canviabit(missatgeBloc[i][j],k)
