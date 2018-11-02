@@ -96,10 +96,6 @@ def main():
 
     print(GF_generador())
 
-    print(GF_product_p(11,12))
-    print(GF_product_p(77,3))
-
-
     #GF_product_p vs GF_product_t
     GF_product_p_vs()
     GF_product_t_vs()
