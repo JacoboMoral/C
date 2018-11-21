@@ -1,16 +1,21 @@
+from hashlib import sha256
+import json
+
+
+
 class block:
     def __init__(self):
-        # crea un bloc (no neces`ariamnet v`alid)
-        self.block_hash
-        self.previous_block_hash
-        self.transaction
-        self.seed
+        # crea un bloc (no necessariamnet valid)
+        h = 5
 
     def genesis(self,transaction):
-        # genera el primer bloc d’una cadena amb la transacco "transaction" que es caracteritza per:
+        # genera el primer bloc d’una cadena amb la transaccio "transaction" que es caracteritza per:
         # - previous_block_hash=0
         # - ser valid
-        a = 5
+        self.previous_block_hash = 0
+        self.transaction = transaction
+        self.seed = 5
+        self.block_hash = self.getHash256()
 
     def next_block(self, transaction):
         # genera el seguent block valid amb la transaccio "transaction"
@@ -23,4 +28,9 @@ class block:
         # -Comprova que el hash del bloc cumpleix las condicions exigides
         # Si totes les comprovacions son correctes retorna el boolea True.
         # En qualsevol altre cas retorma el boolea False
+
         return True
+
+    def getHash256(self):
+        block_string = json.dumps(self.__dict__, sort_keys=True)
+        return sha256(block_string.encode()).hexdigest()
