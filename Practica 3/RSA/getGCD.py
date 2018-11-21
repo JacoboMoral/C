@@ -17,7 +17,7 @@ So what the researchers did, apparently, was to gather all the RSA public keys t
 Whenever they found a gcd that wasn't equal to 1, they'd cracked (at least) 2 keys.
 '''
 
-for filename in glob('*pubkeyRSA_RW*.pem'):
+for filename in glob('./files/*pubkeyRSA_RW*.pem'):
     f = open(filename)
     key = importKey(f.read())
     if gcd(n, key.n) != 1:
