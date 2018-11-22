@@ -11,7 +11,8 @@ class block_chain:
     def add_block(self,transaction):
         #afegeix a la llista de blocs un nou bloc valid generat amb la transaccio "transaction"
         block = block()
-        block.next_block(transaction)
+        last_block_hash = self.getLastBlock().getBlockHash()
+        block.next_block(transaction, last_block_hash)
         self.list_of_blocks.append(block)
 
     def add_genesis_block(self,transaction):
@@ -19,6 +20,9 @@ class block_chain:
         block = block()
         block.genesis(transaction)
         self.list_of_blocks.append(block)
+
+    def getLastBlock(self):
+        return self.list_of_blocks[-1]
 
     def verify(self):
         # verifica si la cadena de blocs es valida:
