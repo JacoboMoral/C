@@ -7,7 +7,7 @@ class transaction:
 
         self.public_key = rsa_public_key(RSAkey)
         self.message = message
-        self.signature = sign(message, RSAkey)
+        self.signature = self.signature(message, RSAkey)
 
     def verify(self):
         # retorna el boolea True si "signature" es correspon amb una
@@ -17,3 +17,4 @@ class transaction:
         return False
 
     def signature(self, message, RSAkey):
+        return 4

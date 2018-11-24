@@ -1,3 +1,5 @@
+from block import block
+
 class block_chain:
 
     def __init__(self,transaction):
@@ -10,23 +12,23 @@ class block_chain:
 
     def add_block(self,transaction):
         #afegeix a la llista de blocs un nou bloc valid generat amb la transaccio "transaction"
-        block = block()
+        bloc = block()
         last_block_hash = self.getLastBlock().getBlockHash()
-        block.next_block(transaction, last_block_hash)
-        self.list_of_blocks.append(block)
+        bloc.next_block(transaction, last_block_hash)
+        self.list_of_blocks.append(bloc)
 
     def add_genesis_block(self,transaction):
         #afegeix a la llista de blocs un nou bloc gensis generat amb la transaccio "transaction"
-        block = block()
-        block.genesis(transaction)
-        self.list_of_blocks.append(block)
+        bloc = block()
+        bloc.genesis(transaction)
+        self.list_of_blocks.append(bloc)
 
     def getLastBlock(self):
         return self.list_of_blocks[-1]
 
     def verify(self):
         # verifica si la cadena de blocs es valida:
-        # - Comprova que tots el blocs s´on valids
+        # - Comprova que tots el blocs son valids
         # - Comprova que el primer bloc es un bloc "genesis"
         # - Comprova que per cada bloc de la cadena el seguent es el correcte
         # Si totes les comprovacions son correctes retorna el boolea True.

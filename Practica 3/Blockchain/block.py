@@ -1,4 +1,5 @@
-from hashlib import sha256
+import hashlib
+from random import random
 import json
 from transaction import transaction
 
@@ -10,7 +11,6 @@ class block:
         self.block_hash = None
         self.previous_block_hash = None
         self.transaction = None
-        self.seed = self.generateRandomSeed()
         self.d = 8
 
     def genesis(self,transaction):
@@ -20,13 +20,15 @@ class block:
 
         self.previous_block_hash = 0
         self.transaction = transaction
-        self.block_hash = self.calculateHash256()
+        self.seed = self.generateValidSeed()
+        #self.block_hash = self.calculateHash256()
 
     def next_block(self, transaction, previous_block_hash):
         # genera el seguent block valid amb la transaccio "transaction"
         self.previous_block_hash = previous_block_hash
         self.transaction = transaction
-        self.block_hash = self.calculateHash256()
+        self.seed = self.generateValidSeed()
+        #self.block_hash = self.calculateHash256()
 
 
     def verify_block(self):
@@ -50,30 +52,31 @@ class block:
         # h < 2^(256−d) on d es un parametre que indica el proof of work
         # necessari per generar un bloc valid.
         llindar = pow(2,256-self.d)
-        hash = int(block_hash,16)
-        return hash < llindar
+        return block_hash < llindar
 
     def verifyTransaction(self, transaction):
         return true
 
 
-    def getBlockHash():
+    def getBlockHash(self):
         return self.block_hash
 
     def calculateHash256(self):
-        # entrada=str(previous_block_hash)
-        # entrada=entrada+str(transaction.public_key.publicExponent)
-        # entrada=entrada+str(transaction.public_key.modulus)
-        # entrada=entrada+str(transaction.message)
-        # entrada=entrada+str(transaction.signature)
-        # entrada=entrada+str(seed)
-        # h=int(hashlib.sha256(entrada.encode()).hexdigest(),16)
+        entrada=str(self.previous_block_hash)
+        entrada=entrada+str(self.transaction.public_key.publicExponent)
+        entrada=entrada+str(self.transaction.public_key.modulus)
+        entrada=entrada+str(self.transaction.message)
+        entrada=entrada+str(self.transaction.signature)
+        entrada=entrada+str(self.seed)
+        h=int(hashlib.sha256(entrada.encode()).hexdigest(),16)
+        return h
 
-
-        block_string = json.dumps(self.__dict__, sort_keys=True)
-        return sha256(block_string.encode()).hexdigest()
-
-    def generateRandomSeed(self):
-        # random_data = os.urandom(4)
-        # return int.from_bytes(random_data, byteorder="big")
-        return 1234
+    def generateValidSeed(self):
+        generated = False
+        while not generated:
+            self.seed = int(random()*pow(10,17))
+            h=self.calculateHash256()
+            if (self.verifyBlockHash(h)):
+                generated = True
+                self.block_hash = h
+                print(count)

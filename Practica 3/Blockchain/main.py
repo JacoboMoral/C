@@ -8,7 +8,7 @@ myPrivateKey = rsa_key()
 myTransaction = transaction(myMessage, myPrivateKey)
 
 #es crea una nova blockchain amb un blocs, el genesis
-myBlockchain = blockchain(myTransaction)
+myBlockchain = block_chain(myTransaction)
 
 myMessage = "Mi mensaje 2"
 myTransaction = transaction(myMessage, myPrivateKey)
