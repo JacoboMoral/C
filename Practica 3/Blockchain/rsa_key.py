@@ -2,7 +2,7 @@ import random
 
 class rsa_key:
 
-    def __init__(self,bits_modulo = 2048,e = 2**16+1):
+    def __init__(self,bits_modulo = 10,e = 2**16+1):
         # genera una clau RSA (de 2048 bits i amb exponent public 2**16+1 per defecte)
 
         self.primeP = 0
@@ -37,7 +37,9 @@ class rsa_key:
         self.privateExponentModulusPhiP = self.privateExponent % (self.primeP - 1) #d1 ==> d1 = d mod (p-1)
         self.privateExponentModulusPhiQ = self.privateExponent % (self.primeQ - 1) #d2 ==> d2 = d mod (q-1)
         self.inverseQModulusP = pow(self.primeQ, -1) % self.primeP #q1 ==> q1 = q^-1 mod p
-        #AMB EL SEGON METODE NO ES NECESSARI self.inversePModulusQ = pow(self.primeP, -1) % self.primeQ #p1 ==> p1 = p^-1 mod q
+
+        #AMB EL SEGON MÈTODE DESCIFRAR NO ES NECESSARI
+        #self.inversePModulusQ = pow(self.primeP, -1) % self.primeQ #p1 ==> p1 = p^-1 mod q
 
         #CLAU PUBLICA (e,n)
         #CLAU PRIVADA (d,p,q,d1,d2,q1)
@@ -46,7 +48,7 @@ class rsa_key:
 
         #CIFRAR c = m^e mod(n)
 
-        #DESCIFRAR m = c^d mod n
+        #DESCIFRAR sign_low m = c^d mod n
 
         # DESCIFRAR METODE XINÈS
         # calcular cp = c mod p              cq = c mod q
@@ -63,8 +65,10 @@ class rsa_key:
         print(missatge)
         missatgeEncriptat = (pow(missatge, self.publicExponent) % self.modulus)
         #NO FUNCIONA PERO HAURIA? (pow(missatge, self.publicExponent) % self.primeP) + (pow(missatge, self.publicExponent) % self.primeQ)
+        print('missatge encriptat: ')
         print(missatgeEncriptat)
         missatgeDesencriptat = (pow(missatgeEncriptat, self.privateExponent) % self.modulus)
+        print('missatgeDesencriptat: ')
         print(missatgeDesencriptat)
 
     def sign(self,message):
