@@ -11,20 +11,20 @@ class rsa_key:
         print('calculant primers per RSA...')
 
         while self.primeP == self.primeQ:
-            self.primeP = self.generateLargePrime(1000) # p nombre primer
-            self.primeQ = self.generateLargePrime(1000) # q nombre primer
+            self.primeP = self.generateLargePrime(bits_modulo) # p nombre primer
+            self.primeQ = self.generateLargePrime(bits_modulo) # q nombre primer
 
         print('Sha calculat P:')
         print(self.primeP)
         print('Sha calculat Q:')
         print(self.primeQ)
 
-        self.publicExponent = self.calculatePublicExponent(bits_modulo) # e on 1 < e < phi(n) e i phi(n) primers entre ells
+        self.publicExponent = self.calculatePublicExponent((self.primeP - 1)*(self.primeQ - 1)) # e on 1 < e < phi(n) e i phi(n) primers entre ells
 
         print('Sha calculat publicExponent:')
         print(self.publicExponent)
 
-        self.privateExponent = self.findModInverse(e, (self.primeP - 1) * (self.primeQ - 1)) # d
+        self.privateExponent = self.findModInverse(self.publicExponent, (self.primeP - 1) * (self.primeQ - 1)) # d
 
         print('Sha calculat privateExponent:')
         print(self.privateExponent)
@@ -37,10 +37,35 @@ class rsa_key:
         self.privateExponentModulusPhiP = self.privateExponent % (self.primeP - 1) #d1 ==> d1 = d mod (p-1)
         self.privateExponentModulusPhiQ = self.privateExponent % (self.primeQ - 1) #d2 ==> d2 = d mod (q-1)
         self.inverseQModulusP = pow(self.primeQ, -1) % self.primeP #q1 ==> q1 = q^-1 mod p
-        self.inversePModulusQ = pow(self.primeP, -1) % self.primeQ #p1 ==> p1 = p^-1 mod q
+        #AMB EL SEGON METODE NO ES NECESSARI self.inversePModulusQ = pow(self.primeP, -1) % self.primeQ #p1 ==> p1 = p^-1 mod q
+
+        #CLAU PUBLICA (e,n)
+        #CLAU PRIVADA (d,p,q,d1,d2,q1)
 
         print('Sha calculat tot')
 
+        #CIFRAR c = m^e mod(n)
+
+        #DESCIFRAR m = c^d mod n
+
+        # DESCIFRAR METODE XINÈS
+        # calcular cp = c mod p              cq = c mod q
+        # calcular c1 = cp ^ d1 mod p        c2 = cq ^ d2 mod q
+        # m = c1 * q1 * q + c2 * p1 * p mod n
+
+        # DESCIFRAR PDF RSA METODE XINÈS. USAREM AQUEST
+        # M = c1 * q1 * q + c2 * p1 * p mod n
+        # h = (c1 - c2)q1 mod p
+        # M = c2 + q * h
+
+        print('anem a encriptar: ')
+        missatge = 5
+        print(missatge)
+        missatgeEncriptat = (pow(missatge, self.publicExponent) % self.modulus)
+        #NO FUNCIONA PERO HAURIA? (pow(missatge, self.publicExponent) % self.primeP) + (pow(missatge, self.publicExponent) % self.primeQ)
+        print(missatgeEncriptat)
+        missatgeDesencriptat = (pow(missatgeEncriptat, self.privateExponent) % self.modulus)
+        print(missatgeDesencriptat)
 
     def sign(self,message):
         # retorma un enter que es la signatura de "message" feta amb la clau RSA fent servir el TXR
@@ -50,10 +75,12 @@ class rsa_key:
         # retorma un enter que es la signatura de "message" feta amb la clau RSA sense fer servir el TXR
         a=5
 
-    def calculatePublicExponent(self, bits_modulo):
+    def calculatePublicExponent(self, phiN):
         trobat = False
         while not trobat:
-            e = random.randrange(2 ** (bits_modulo - 1), 2 ** (bits_modulo))
+            e = random.randrange(1, phiN)
+            print("POSSIBLE PUBLIC EXPONENT")
+            print(e)
             # e ha de ser primer entre phi(n) on phi(n) = (p-1)*(q-1)
             if self.gcd(e, (self.primeP - 1) * (self.primeQ - 1)) == 1:
                 trobat = True
