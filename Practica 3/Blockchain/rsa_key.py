@@ -19,12 +19,13 @@ class rsa_key:
         print('Sha calculat Q:')
         print(self.primeQ)
 
-        self.publicExponent = self.calculatePublicExponent((self.primeP - 1)*(self.primeQ - 1)) # e on 1 < e < phi(n) e i phi(n) primers entre ells
+        #self.publicExponent = self.calculatePublicExponent((self.primeP - 1)*(self.primeQ - 1)) # e on 1 < e < phi(n) e i phi(n) primers entre ells
+        self.publicExponent = e
 
         print('Sha calculat publicExponent:')
         print(self.publicExponent)
 
-        self.privateExponent = self.findModInverse(self.publicExponent, (self.primeP - 1) * (self.primeQ - 1)) # d
+        self.privateExponent = self.findModInverse(self.publicExponent, (self.primeP - 1) * (self.primeQ - 1)) # d * e = 1 mod (phi(n))
 
         print('Sha calculat privateExponent:')
         print(self.privateExponent)
@@ -36,7 +37,10 @@ class rsa_key:
 
         self.privateExponentModulusPhiP = self.privateExponent % (self.primeP - 1) #d1 ==> d1 = d mod (p-1)
         self.privateExponentModulusPhiQ = self.privateExponent % (self.primeQ - 1) #d2 ==> d2 = d mod (q-1)
-        self.inverseQModulusP = pow(self.primeQ, -1) % self.primeP #q1 ==> q1 = q^-1 mod p
+        ##self.inverseQModulusP = pow(self.primeQ, -1) % self.primeP #q1 ==> q1 = q^-1 mod p
+        self.inverseQModulusP = self.findModInverse(self.primeQ, self.primeP)
+        print('InverseQModP:')
+        print(self.inverseQModulusP)
 
         #AMB EL SEGON MÈTODE DESCIFRAR NO ES NECESSARI
         #self.inversePModulusQ = pow(self.primeP, -1) % self.primeQ #p1 ==> p1 = p^-1 mod q
@@ -48,7 +52,7 @@ class rsa_key:
 
         #CIFRAR c = m^e mod(n)
 
-        #DESCIFRAR sign_low m = c^d mod n
+        #DESCIFRAR sign_slow m = c^d mod n
 
         # DESCIFRAR METODE XINÈS
         # calcular cp = c mod p              cq = c mod q
@@ -60,16 +64,26 @@ class rsa_key:
         # h = (c1 - c2)q1 mod p
         # M = c2 + q * h
 
+
+
         print('anem a encriptar: ')
-        missatge = 5
+        #missatge = 359872547800930008815860938858053243773069987686088256316451544010109887211343717949369621476691268259861562878447726483422812473580754458937297082523173
+        missatge = 54363
         print(missatge)
         missatgeEncriptat = (pow(missatge, self.publicExponent) % self.modulus)
-        #NO FUNCIONA PERO HAURIA? (pow(missatge, self.publicExponent) % self.primeP) + (pow(missatge, self.publicExponent) % self.primeQ)
         print('missatge encriptat: ')
         print(missatgeEncriptat)
-        missatgeDesencriptat = (pow(missatgeEncriptat, self.privateExponent) % self.modulus)
+        #missatgeDesencriptat = (pow(missatgeEncriptat, self.privateExponent) % self.modulus)
+        missatgeDesencriptat = self.desencriptaXines(missatgeEncriptat)
         print('missatgeDesencriptat: ')
         print(missatgeDesencriptat)
+
+    def desencriptaXines(self, missatge):
+        mp = missatge**self.privateExponentModulusPhiP % self.primeP
+        mq = missatge**self.privateExponentModulusPhiQ % self.primeQ
+        h = (mp - mq)*self.inverseQModulusP % self.primeP
+        missatge = mq + self.primeQ * h
+        return missatge
 
     def sign(self,message):
         # retorma un enter que es la signatura de "message" feta amb la clau RSA fent servir el TXR
