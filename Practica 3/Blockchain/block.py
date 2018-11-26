@@ -57,7 +57,6 @@ class block:
     def verifyTransaction(self, transaction):
         return true
 
-
     def getBlockHash(self):
         return self.block_hash
 
@@ -79,4 +78,4 @@ class block:
             if (self.verifyBlockHash(h)):
                 generated = True
                 self.block_hash = h
-                
+                print(h)

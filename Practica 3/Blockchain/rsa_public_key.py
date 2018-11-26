@@ -13,5 +13,7 @@ class rsa_public_key:
 
         verifyMessage = pow(missatge, self.publicExponent, self.modulus)
 
-        if(signature == verifyMessage) return True
-        else return False;
+        if signature == verifyMessage:
+            return True
+        else:
+            return False

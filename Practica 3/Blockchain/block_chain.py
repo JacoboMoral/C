@@ -17,6 +17,10 @@ class block_chain:
         bloc.next_block(transaction, last_block_hash)
         self.list_of_blocks.append(bloc)
 
+    def add_block_invalid(self, transaction):
+        #afegeix a la llista de blocs un nou bloc NO VALID generat amb la transaccio "transaction"
+        a = 5
+
     def add_genesis_block(self,transaction):
         #afegeix a la llista de blocs un nou bloc gensis generat amb la transaccio "transaction"
         bloc = block()
