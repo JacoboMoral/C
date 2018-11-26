@@ -2,7 +2,7 @@ import random
 
 class rsa_key:
 
-    def __init__(self,bits_modulo = 10,e = 2**16+1):
+    def __init__(self,bits_modulo = 2048,e = 2**16+1):
         # genera una clau RSA (de 2048 bits i amb exponent public 2**16+1 per defecte)
 
         self.primeP = 0
@@ -67,10 +67,11 @@ class rsa_key:
 
 
         print('anem a encriptar: ')
-        #missatge = 359872547800930008815860938858053243773069987686088256316451544010109887211343717949369621476691268259861562878447726483422812473580754458937297082523173
-        missatge = 54363
+        missatge = 359872547800930008815860938858053243773069987686088256316451544010109887211343717949369621476691268259861562878447726483422812473580754458937297082523173
+        #missatge = 54363
         print(missatge)
-        missatgeEncriptat = (pow(missatge, self.publicExponent) % self.modulus)
+        #missatgeEncriptat = (pow(missatge, self.publicExponent) % self.modulus)
+        missatgeEncriptat = pow(missatge, self.publicExponent, self.modulus)
         print('missatge encriptat: ')
         print(missatgeEncriptat)
         #missatgeDesencriptat = (pow(missatgeEncriptat, self.privateExponent) % self.modulus)
@@ -78,9 +79,11 @@ class rsa_key:
         print('missatgeDesencriptat: ')
         print(missatgeDesencriptat)
 
+
     def desencriptaXines(self, missatge):
-        mp = missatge**self.privateExponentModulusPhiP % self.primeP
-        mq = missatge**self.privateExponentModulusPhiQ % self.primeQ
+        mp = pow(missatge, self.privateExponentModulusPhiP, self.primeP)
+        mq = pow(missatge, self.privateExponentModulusPhiQ, self.primeQ)
+
         h = (mp - mq)*self.inverseQModulusP % self.primeP
         missatge = mq + self.primeQ * h
         return missatge
