@@ -13,14 +13,18 @@ class rsa_key:
         self.primeP = 0
         self.primeQ = 0
 
+        print("generando primos")
         while self.primeP == self.primeQ:
-            self.primeP = self.generateLargePrime(bits_modulo) # p nombre primer
-            self.primeQ = self.generateLargePrime(bits_modulo) # q nombre primer
+            self.primeP = self.generateLargePrime(int(bits_modulo/2)) # p nombre primer
+            self.primeQ = self.generateLargePrime(int(bits_modulo/2)) # q nombre primer
+        print("primos generados")
 
         self.publicExponent = e
         self.privateExponent = self.findModInverse(self.publicExponent, (self.primeP - 1) * (self.primeQ - 1)) # d * e = 1 mod (phi(n))
         self.modulus = self.primeP * self.primeQ # n ==> n = p*q
-
+        print("private expoonent")
+        print(self.privateExponent)
+        print("fin exponent\n\n")
 
         self.privateExponentModulusPhiP = self.privateExponent % (self.primeP - 1) #d1 ==> d1 = d mod (p-1)
         self.privateExponentModulusPhiQ = self.privateExponent % (self.primeQ - 1) #d2 ==> d2 = d mod (q-1)
