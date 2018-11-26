@@ -10,4 +10,8 @@ class rsa_public_key:
         # signatura de "message" feta amb la clau RSA associada a la clau
         # publica RSA.
         # En qualsevol altre cas retorma el boolea False
-        return False;
+
+        verifyMessage = pow(missatge, self.publicExponent, self.modulus)
+
+        if(signature == verifyMessage) return True
+        else return False;

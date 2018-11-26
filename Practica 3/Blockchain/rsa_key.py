@@ -64,14 +64,12 @@ class rsa_key:
         # h = (c1 - c2)q1 mod p
         # M = c2 + q * h
 
-
-
         print('anem a encriptar: ')
         missatge = 359872547800930008815860938858053243773069987686088256316451544010109887211343717949369621476691268259861562878447726483422812473580754458937297082523173
         #missatge = 54363
         print(missatge)
         #missatgeEncriptat = (pow(missatge, self.publicExponent) % self.modulus)
-        missatgeEncriptat = pow(missatge, self.publicExponent, self.modulus)
+        missatgeEncriptat = self.encriptarRSA(missatge)
         print('missatge encriptat: ')
         print(missatgeEncriptat)
         #missatgeDesencriptat = (pow(missatgeEncriptat, self.privateExponent) % self.modulus)
@@ -88,13 +86,19 @@ class rsa_key:
         missatge = mq + self.primeQ * h
         return missatge
 
+    def encriptatXines(self, missatge):
+        return encriptarRSA(missatge)
+
+    def encriptarRSA(self, missatge):
+        return pow(missatge, self.publicExponent, self.modulus)
+
     def sign(self,message):
         # retorma un enter que es la signatura de "message" feta amb la clau RSA fent servir el TXR
-        a=5
+        return desencriptaXines(message)
 
     def sign_slow(self,message):
         # retorma un enter que es la signatura de "message" feta amb la clau RSA sense fer servir el TXR
-        a=5
+        return desencriptaXines(message)
 
     def calculatePublicExponent(self, phiN):
         trobat = False
