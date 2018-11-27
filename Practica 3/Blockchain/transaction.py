@@ -13,9 +13,9 @@ class transaction:
 
 
         self.message = message
-        messageHash = int(hashlib.sha512(message.encode('utf-8')).hexdigest(), 16) #el missatge l'hem calculat el hash-512 i despres l'hem convertit a numero
+        self.messageHash512 = int(hashlib.sha512(message.encode('utf-8')).hexdigest(), 16) #el missatge l'hem calculat el hash-512 i despres l'hem convertit a numero
         self.public_key = rsa_public_key(RSAkey)
-        self.signature = self.signature(messageHash, RSAkey)
+        self.signature = self.signature(self.messageHash512, RSAkey)
 
 
     def verify(self):
@@ -23,8 +23,7 @@ class transaction:
         # signatura de "message" feta amb la clau publica "public_key".
         # En qualsevol altre cas retorma el boolea False
 
-        messageHash = int(hashlib.sha512(self.message.encode('utf-8')).hexdigest(), 16) #el missatge l'hem calculat el hash-512 i despres l'hem convertit a numero
-        return self.public_key.verify(messageHash, self.signature)
+        return self.public_key.verify(self.messageHash512, self.signature)
 
     def signature(self, message, RSAkey):
         return RSAkey.sign(message)

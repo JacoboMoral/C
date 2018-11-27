@@ -20,5 +20,9 @@ myBlockchain.add_block(myTransaction)
 myBlockchain.add_block(myTransaction)
 myBlockchain.add_block(myTransaction)
 
-print(myBlockchain.verify())
+print("Verificant la blockchain...")
+if myBlockchain.verify():
+    print("Verificada correctament")
+else:
+    print("La blockchain no es valida")
 myBlockchain.writeFile("blockchain.txt")
