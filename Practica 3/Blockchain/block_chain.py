@@ -23,7 +23,7 @@ class block_chain:
 
     def add_genesis_block(self,transaction):
         #afegeix a la llista de blocs un nou bloc gensis generat amb la transaccio "transaction"
-        
+
         bloc = block()
         bloc.genesis(transaction)
         self.list_of_blocks.append(bloc)
@@ -40,10 +40,13 @@ class block_chain:
         # En qualsevol altre cas retorma el boolea False i fins a quin bloc la cadena es valida
 
         if not self.verifyBlocks():
+            print("false: block_chain.verifyBlocks")
             return False
         if not self.verifyGenesis():
+            print("false: block_chain.verifyGenesis")
             return False
         if not self.verifyBlockChain():
+            print("false: block_chain.verifyBlockChain")
             return False
         return True
 
@@ -71,7 +74,8 @@ class block_chain:
         # comprova que per tot block b de la llista de blocks block_hash de b == previous_block_hash de b+1
 
         for i in range(len(self.list_of_blocks)-1):
-            if (self.list_of_blocks[i].block_hash != self.list_of_blocks[i+1]):
+            if (self.list_of_blocks[i].block_hash != self.list_of_blocks[i+1].previous_block_hash):
+                print("false: block_chain.verifyBlockChain")
                 return False
         return True
 
