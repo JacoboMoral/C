@@ -15,3 +15,9 @@ myTransaction = transaction(myMessage, myPrivateKey)
 
 #es crea una nova blockchain amb dos blocs, el genesis i un altre
 myBlockchain.add_block(myTransaction)
+myBlockchain.add_block(myTransaction)
+myBlockchain.add_block(myTransaction)
+myBlockchain.add_block(myTransaction)
+myBlockchain.add_block(myTransaction)
+
+myBlockchain.writeFile("blockchain.txt")

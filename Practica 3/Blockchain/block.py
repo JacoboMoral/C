@@ -11,6 +11,7 @@ class block:
         self.block_hash = None
         self.previous_block_hash = None
         self.transaction = None
+        self.seed = None
         self.d = 8
 
     def genesis(self,transaction):
@@ -20,14 +21,14 @@ class block:
 
         self.previous_block_hash = 0
         self.transaction = transaction
-        self.seed = self.generateValidSeed()
+        self.generateValidSeed()
         #self.block_hash = self.calculateHash256()
 
     def next_block(self, transaction, previous_block_hash):
         # genera el seguent block valid amb la transaccio "transaction"
         self.previous_block_hash = previous_block_hash
         self.transaction = transaction
-        self.seed = self.generateValidSeed()
+        self.generateValidSeed()
         #self.block_hash = self.calculateHash256()
 
 
@@ -78,4 +79,4 @@ class block:
             if (self.verifyBlockHash(h)):
                 generated = True
                 self.block_hash = h
-                print(h)
+                #print(h

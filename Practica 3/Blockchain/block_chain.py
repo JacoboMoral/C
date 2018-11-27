@@ -38,3 +38,33 @@ class block_chain:
         # Si totes les comprovacions son correctes retorna el boolea True.
         # En qualsevol altre cas retorma el boolea False i fins a quin bloc la cadena es valida
         return True;
+
+    def writeFile(self, filename):
+        file = open(filename,"w")
+        for b in self.list_of_blocks:
+            file.write("Block:\n")
+            file.write("  previous_block_hash: ")
+            file.write(str(b.previous_block_hash)+"\n")
+            file.write("  block_hash: ")
+            file.write(str(b.block_hash)+"\n")
+            file.write("  seed: ")
+            file.write(str(b.seed)+"\n")
+            file.write("  transaction:\n")
+            file.write("  ...........................................................\n")
+            file.write("\n      ________________________________________________________\n")
+            file.write("                  PUBLIC KEY: \n")
+            file.write("       publicExponent: ")
+            file.write(str(b.transaction.public_key.publicExponent))
+            file.write("\n")
+            file.write("       modulus: ")
+            file.write(str(b.transaction.public_key.modulus))
+            file.write("\n      ________________________________________________________\n\n")
+            file.write("       message: ")
+            file.write(str(b.transaction.message))
+            file.write("\n")
+            file.write("       signature: ")
+            file.write(str(b.transaction.signature))
+            file.write("\n\n  ........................................................... \n,\n\n")
+            file.write("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
+
+        file.close()

@@ -6,11 +6,17 @@ import hashlib
 class transaction:
     def __init__(self, message, RSAkey):
         # genera una transaccio signant "message" amb la clau "RSAkey"
-        print(message)
-        self.message = int(hashlib.sha512(message.encode('utf-8')).hexdigest(), 16) #el missatge l'hem calculat el hash-512 i despres l'hem convertit a numero
-        print(self.message)
+
+        # self.message = int(hashlib.sha512(message.encode('utf-8')).hexdigest(), 16) #el missatge l'hem calculat el hash-512 i despres l'hem convertit a numero
+        # self.public_key = rsa_public_key(RSAkey)
+        # self.signature = self.signature(self.message, RSAkey)
+
+
+        self.message = message
+        messageHash = int(hashlib.sha512(message.encode('utf-8')).hexdigest(), 16) #el missatge l'hem calculat el hash-512 i despres l'hem convertit a numero
         self.public_key = rsa_public_key(RSAkey)
-        self.signature = self.signature(self.message, RSAkey)
+        self.signature = self.signature(messageHash, RSAkey)
+
 
     def verify(self):
         # retorna el boolea True si "signature" es correspon amb una

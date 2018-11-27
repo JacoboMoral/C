@@ -22,9 +22,9 @@ class rsa_key:
         self.publicExponent = e
         self.privateExponent = self.findModInverse(self.publicExponent, (self.primeP - 1) * (self.primeQ - 1)) # d * e = 1 mod (phi(n))
         self.modulus = self.primeP * self.primeQ # n ==> n = p*q
-        print("private expoonent")
-        print(self.privateExponent)
-        print("fin exponent\n\n")
+        #print("private expoonent")
+        #print(self.privateExponent)
+        # print("fin exponent\n\n")
 
         self.privateExponentModulusPhiP = self.privateExponent % (self.primeP - 1) #d1 ==> d1 = d mod (p-1)
         self.privateExponentModulusPhiQ = self.privateExponent % (self.primeQ - 1) #d2 ==> d2 = d mod (q-1)
