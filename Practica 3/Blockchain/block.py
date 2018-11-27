@@ -29,8 +29,6 @@ class block:
         self.previous_block_hash = previous_block_hash
         self.transaction = transaction
         self.generateValidSeed()
-        #self.block_hash = self.calculateHash256()
-
 
     def verify_block(self):
         # Verifica si un bloc es valid:
@@ -52,14 +50,12 @@ class block:
         # Un bloc es valid si el seu hash h satisfa la condicio
         # h < 2^(256−d) on d es un parametre que indica el proof of work
         # necessari per generar un bloc valid.
+
         llindar = pow(2,256-self.d)
         return block_hash < llindar
 
     def verifyTransaction(self, transaction):
-        return true
-
-    def getBlockHash(self):
-        return self.block_hash
+        return self.transaction.verify()
 
     def calculateHash256(self):
         entrada=str(self.previous_block_hash)

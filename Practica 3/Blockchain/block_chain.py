@@ -13,7 +13,7 @@ class block_chain:
     def add_block(self,transaction):
         #afegeix a la llista de blocs un nou bloc valid generat amb la transaccio "transaction"
         bloc = block()
-        last_block_hash = self.getLastBlock().getBlockHash()
+        last_block_hash = self.getLastBlock().block_hash
         bloc.next_block(transaction, last_block_hash)
         self.list_of_blocks.append(bloc)
 
@@ -23,6 +23,7 @@ class block_chain:
 
     def add_genesis_block(self,transaction):
         #afegeix a la llista de blocs un nou bloc gensis generat amb la transaccio "transaction"
+        
         bloc = block()
         bloc.genesis(transaction)
         self.list_of_blocks.append(bloc)
@@ -37,7 +38,42 @@ class block_chain:
         # - Comprova que per cada bloc de la cadena el seguent es el correcte
         # Si totes les comprovacions son correctes retorna el boolea True.
         # En qualsevol altre cas retorma el boolea False i fins a quin bloc la cadena es valida
-        return True;
+
+        if not self.verifyBlocks():
+            return False
+        if not self.verifyGenesis():
+            return False
+        if not self.verifyBlockChain():
+            return False
+        return True
+
+    def verifyBlocks(self):
+        # Comprova que tots el blocs son valids
+
+        for b in self.list_of_blocks:
+            if not b.verify_block():
+                return False
+        return True
+
+    def verifyGenesis(self):
+        # Comprova que el primer bloc es un bloc "genesis"
+        # comprova que el primer block de la llista de blocks sigui genesis. Per aixo comprova
+        # que el seu previous_block_hash sigui 0 i que a mes sigui valid
+
+        if self.list_of_blocks[0].previous_block_hash != 0:
+            return False
+        if not self.list_of_blocks[0].verify_block():
+            return False
+        return True
+
+    def verifyBlockChain(self):
+        # Comprova que per cada bloc de la cadena el seguent es el correcte
+        # comprova que per tot block b de la llista de blocks block_hash de b == previous_block_hash de b+1
+
+        for i in range(len(self.list_of_blocks)-1):
+            if (self.list_of_blocks[i].block_hash != self.list_of_blocks[i+1]):
+                return False
+        return True
 
     def writeFile(self, filename):
         file = open(filename,"w")

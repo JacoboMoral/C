@@ -20,4 +20,5 @@ myBlockchain.add_block(myTransaction)
 myBlockchain.add_block(myTransaction)
 myBlockchain.add_block(myTransaction)
 
+print(myBlockchain.verify())
 myBlockchain.writeFile("blockchain.txt")
