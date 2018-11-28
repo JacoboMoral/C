@@ -1,4 +1,5 @@
 import random
+import time
 from rsa_public_key import rsa_public_key
 
 class rsa_key:
@@ -29,7 +30,6 @@ class rsa_key:
         self.privateExponentModulusPhiP = self.privateExponent % (self.primeP - 1) #d1 ==> d1 = d mod (p-1)
         self.privateExponentModulusPhiQ = self.privateExponent % (self.primeQ - 1) #d2 ==> d2 = d mod (q-1)
         self.inverseQModulusP = self.findModInverse(self.primeQ, self.primeP)
-
 
     def sign(self,message):
         # retorna un enter que es la signatura de "message" feta amb la clau RSA fent servir el TXR

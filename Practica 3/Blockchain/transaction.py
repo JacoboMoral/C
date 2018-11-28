@@ -1,7 +1,8 @@
 from rsa_public_key import rsa_public_key
 from rsa_key import rsa_key
 import hashlib
-
+import time
+from timeit import Timer
 
 class transaction:
     def __init__(self, message, RSAkey):
@@ -26,5 +27,19 @@ class transaction:
         return self.public_key.verify(self.messageHash512, self.signature)
 
     def signature(self, message, RSAkey):
+        #per calcular el temps:
+        time, signature = self.my_timeit(RSAkey.sign(message))
+        print(time)
+        return signature
+
+        #si no volem calcular el temps:
         return RSAkey.sign(message)
         #return RSAkey.sign_slow(message)
+
+    def my_timeit(self, func, *args, **kwargs):
+        output_container = []
+        def wrapper():
+            output_container.append(func(*args, **kwargs))
+        timer = Timer(wrapper)
+        delta = timer.timeit(1)
+        return delta, output_container.pop()
