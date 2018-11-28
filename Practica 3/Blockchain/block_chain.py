@@ -80,7 +80,13 @@ class block_chain:
         return True
 
     def writeFile(self, filename):
-        file = open(filename,"w")
+
+
+        import pickle
+        with open(filename, "wb") as file:
+            pickle.dump(self.list_of_blocks, file)
+
+        file = open(filename+"_readable","w")
         for b in self.list_of_blocks:
             file.write("Block:\n")
             file.write("  previous_block_hash: ")
