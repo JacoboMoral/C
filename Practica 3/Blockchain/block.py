@@ -75,4 +75,3 @@ class block:
             if (self.verifyBlockHash(h)):
                 generated = True
                 self.block_hash = h
-                #print(h

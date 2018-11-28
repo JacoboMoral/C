@@ -19,7 +19,11 @@ class block_chain:
 
     def add_block_invalid(self, transaction):
         #afegeix a la llista de blocs un nou bloc NO VALID generat amb la transaccio "transaction"
-        a = 5
+        bloc = block()
+        last_block_hash = 2**256 #un block b no es valid si el seu previous_block_hash no es valid (previous_block_hash de b < 2^(256-d)
+        bloc.next_block(transaction, last_block_hash)
+        self.list_of_blocks.append(bloc)
+
 
     def add_genesis_block(self,transaction):
         #afegeix a la llista de blocs un nou bloc gensis generat amb la transaccio "transaction"
@@ -40,13 +44,10 @@ class block_chain:
         # En qualsevol altre cas retorma el boolea False i fins a quin bloc la cadena es valida
 
         if not self.verifyBlocks():
-            print("false: block_chain.verifyBlocks")
             return False
         if not self.verifyGenesis():
-            print("false: block_chain.verifyGenesis")
             return False
         if not self.verifyBlockChain():
-            print("false: block_chain.verifyBlockChain")
             return False
         return True
 
@@ -75,12 +76,10 @@ class block_chain:
 
         for i in range(len(self.list_of_blocks)-1):
             if (self.list_of_blocks[i].block_hash != self.list_of_blocks[i+1].previous_block_hash):
-                print("false: block_chain.verifyBlockChain")
                 return False
         return True
 
     def writeFile(self, filename):
-
 
         import pickle
         with open(filename, "wb") as file:
