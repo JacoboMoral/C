@@ -2,8 +2,6 @@ import random
 import time
 from rsa_public_key import rsa_public_key
 
-
-
 class rsa_key:
 
 
@@ -16,11 +14,11 @@ class rsa_key:
         self.primeP = 0
         self.primeQ = 0
 
-        print("generando primos")
+        #print("generando primos")
         while self.primeP == self.primeQ:
             self.primeP = self.generateLargePrime(int(bits_modulo/2)) # p nombre primer
             self.primeQ = self.generateLargePrime(int(bits_modulo/2)) # q nombre primer
-        print("primos generados")
+        #print("primos generados")
 
         self.publicExponent = e
         self.privateExponent = self.findModInverse(self.publicExponent, (self.primeP - 1) * (self.primeQ - 1)) # d * e = 1 mod (phi(n))

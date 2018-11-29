@@ -127,7 +127,6 @@ messageHash512 = None
 myPrivateKey = None
 
 def setupTiming():
-    print("Start setup")
     global myMessage
     global myPrivateKey
     global messageHash512
@@ -135,17 +134,20 @@ def setupTiming():
     myMessage = str(random.randrange(0,2**256))
     messageHash512 = int(hashlib.sha512(myMessage.encode('utf-8')).hexdigest(), 16)
     myPrivateKey = rsa_key()
-    print("finished setup")
 
-def timeSignature():
-    myPrivateKey.sign(messageHash512)
-
-def execute_timings():
-    print("Start execute_timings")
+def time_sign():
+    print("Comenzado temporizador de metodo Sign")
     for i in range(100):
         setupTiming()
         myPrivateKey.sign_timer(messageHash512)
-        #print(timeit.timeit("timeSignature()", setup="from __main__ import rsa_key, timeSignature, setupTiming;setupTiming()", number=1000))
-    print("End execute_timings")
+    print("Terminado temporizador de metodo Sign")
 
-execute_timings()
+def time_sign_slow():
+    print("Comenzado temporizador de metodo Sign_slow")
+    for i in range(100):
+        setupTiming()
+        myPrivateKey.sign_slow_timer(messageHash512)
+    print("Terminado temporizador de metodo Sign_slow")
+
+time_sign()
+time_sign_slow()
