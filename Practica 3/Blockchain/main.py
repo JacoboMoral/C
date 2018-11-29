@@ -1,7 +1,11 @@
-import random
 from rsa_key import rsa_key
 from transaction import transaction
 from block_chain import block_chain
+import hashlib
+import time
+import random
+
+
 
 ##JACOBO
 def execute_blockchains():
@@ -117,12 +121,31 @@ def execute_blockchains():
         print("Blockchain no valida")
     myBlockchain.writeFile("blockchain_100_xx_albert")
 
-def execute_timings():
-    myMessage = str(random.randrange(0,2**256))
-    myPrivateKey = rsa_key()
-    myTransaction = transaction(myMessage, myPrivateKey)
 
-    #es crea una nova blockchain amb un bloc, el genesis
-    myBlockchain = block_chain(myTransaction)
+myMessage = None
+messageHash512 = None
+myPrivateKey = None
+
+def setupTiming():
+    print("Start setup")
+    global myMessage
+    global myPrivateKey
+    global messageHash512
+
+    myMessage = str(random.randrange(0,2**256))
+    messageHash512 = int(hashlib.sha512(myMessage.encode('utf-8')).hexdigest(), 16)
+    myPrivateKey = rsa_key()
+    print("finished setup")
+
+def timeSignature():
+    myPrivateKey.sign(messageHash512)
+
+def execute_timings():
+    print("Start execute_timings")
+    for i in range(100):
+        setupTiming()
+        myPrivateKey.sign_timer(messageHash512)
+        #print(timeit.timeit("timeSignature()", setup="from __main__ import rsa_key, timeSignature, setupTiming;setupTiming()", number=1000))
+    print("End execute_timings")
 
 execute_timings()

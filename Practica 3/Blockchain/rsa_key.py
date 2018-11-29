@@ -2,6 +2,8 @@ import random
 import time
 from rsa_public_key import rsa_public_key
 
+
+
 class rsa_key:
 
 
@@ -101,3 +103,29 @@ class rsa_key:
         while a != 0:
             a, b = b % a, a
         return b
+
+    def sign_timer(self,message):
+        # igual que el mètode sign, excepte que aquesta executa l'algorisme 200 cops en comptes d'1 i
+        # no retorna cap resultat perquè no ens importa
+
+        t1 = time.clock() #A UNIX, retorna time de cpu
+
+        for i in range(200):
+            mp = pow(message, self.privateExponentModulusPhiP, self.primeP)
+            mq = pow(message, self.privateExponentModulusPhiQ, self.primeQ)
+            h = (mp - mq)*self.inverseQModulusP % self.primeP
+            message = mq + self.primeQ * h
+
+        t2 = time.clock()
+        print(t2-t1)
+
+    def sign_slow_timer(self,message):
+        # igual que el mètode sign_slow, excepte que aquesta executa l'algorisme 200 cops en comptes d'1 i
+        # no retorna cap resultat perquè no ens importa
+
+        t1 = time.clock() #A UNIX, retorna time de cpu
+        for i in range(200):
+            message = pow(message, self.privateExponent, self.modulus)
+
+        t2 = time.clock()
+        print(t2-t1)
