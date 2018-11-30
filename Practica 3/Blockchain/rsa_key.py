@@ -8,7 +8,7 @@ class rsa_key:
 #SIGN   ->  "DESENCRIPTAR CON TU PROPIA CLAVE PRIVADA"
 #VERIFY ->  "ENCRIPTAR" CON LA CLAVE PUBLICA DE QUIEN LO HAYA FIRMADO
 
-    def __init__(self,bits_modulo = 2048,e = 2**16+1):
+    def __init__(self,bits_modulo = 4096,e = 2**16+1):
         # genera una clau RSA (de 2048 bits i amb exponent public 2**16+1 per defecte)
 
         self.primeP = 0
@@ -108,7 +108,7 @@ class rsa_key:
 
         t1 = time.clock() #A UNIX, retorna time de cpu
 
-        for i in range(200):
+        for i in range(20):
             mp = pow(message, self.privateExponentModulusPhiP, self.primeP)
             mq = pow(message, self.privateExponentModulusPhiQ, self.primeQ)
             h = (mp - mq)*self.inverseQModulusP % self.primeP
@@ -122,7 +122,7 @@ class rsa_key:
         # no retorna cap resultat perquè no ens importa
 
         t1 = time.clock() #A UNIX, retorna time de cpu
-        for i in range(200):
+        for i in range(20):
             message = pow(message, self.privateExponent, self.modulus)
 
         t2 = time.clock()

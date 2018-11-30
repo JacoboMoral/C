@@ -121,11 +121,6 @@ def execute_blockchains():
         print("Blockchain no valida")
     myBlockchain.writeFile("blockchain_100_xx_albert")
 
-
-myMessage = None
-messageHash512 = None
-myPrivateKey = None
-
 def setupTiming():
     global myMessage
     global myPrivateKey
@@ -144,10 +139,20 @@ def time_sign():
 
 def time_sign_slow():
     print("Comenzado temporizador de metodo Sign_slow")
+    setupTiming()
     for i in range(100):
-        setupTiming()
         myPrivateKey.sign_slow_timer(messageHash512)
     print("Terminado temporizador de metodo Sign_slow")
 
-time_sign()
-time_sign_slow()
+
+def main():
+    #creates blockchain and exports it
+    execute_blockchains()
+
+    #measure time of RSA signing with TXR
+    time_sign()
+
+    #measure time of RSA signing without TXR
+    time_sign_slow()
+
+main()
