@@ -1,0 +1,1 @@
+S'han exportat les blockchains utilitzant el codi proporcionat. A més, s'ha generat també una versió llegible (_readable.txt) de cadascuna.
