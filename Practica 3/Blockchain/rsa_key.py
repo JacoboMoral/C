@@ -8,7 +8,7 @@ class rsa_key:
 #SIGN   ->  "DESENCRIPTAR CON TU PROPIA CLAVE PRIVADA"
 #VERIFY ->  "ENCRIPTAR" CON LA CLAVE PUBLICA DE QUIEN LO HAYA FIRMADO
 
-    def __init__(self,bits_modulo = 4096,e = 2**16+1):
+    def __init__(self,bits_modulo = 2048,e = 2**16+1):
         # genera una clau RSA (de 2048 bits i amb exponent public 2**16+1 per defecte)
 
         self.primeP = 0
